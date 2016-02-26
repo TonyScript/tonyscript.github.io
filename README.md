@@ -1,7 +1,6 @@
-# TonyScript
+# BLOG
 
-TonyScript - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
-
+Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
 
 ### Features
@@ -27,15 +26,6 @@ TonyScript - a minimal, responsive theme for Jekyll based on the [Uno](https://g
 4. Start Jekyll server: `jekyll serve`
 
 Access via: [http://localhost:4000/jekyll-uno](http://localhost:4000/jekyll-uno)
-
----
-
-### Demo and Download
-
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
-
-![jekyll-uno - free Jekyll theme](/screenshot.png)
 
 ---
 

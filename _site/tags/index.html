@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Jekyll-Uno</title>
+  <title>Tags</title>
   <meta name="description" content="Jekyll-Uno - a minimal, responsive theme for Jekyll">
   <meta name="author" content="Josh Gerdes">
   <meta name="HandheldFriendly" content="True">
@@ -15,11 +15,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Jekyll-Uno">
+  <meta name="twitter:title" content="TonyScript">
   <meta name="twitter:description" content="Jekyll-Uno - a minimal, responsive theme for Jekyll">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Jekyll-Uno">
+  <meta property="og:title" content="TonyScript">
   <meta property="og:description" content="Jekyll-Uno - a minimal, responsive theme for Jekyll">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/jekyll-uno/images/favicons/apple-touch-icon-57x57.png">
@@ -43,8 +43,8 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="/jekyll-uno/css/main.css">
-  <link rel="canonical" href="http://joshgerdes.com/jekyll-uno/jekyll-uno//">
-  <link rel="alternate" type="application/rss+xml" title="Jekyll-Uno" href="/jekyll-uno/feed.xml">
+  <link rel="canonical" href="http://joshgerdes.com/jekyll-uno/jekyll-uno//tags/">
+  <link rel="alternate" type="application/rss+xml" title="TonyScript" href="/jekyll-uno/feed.xml">
 </head>
 
 
@@ -59,9 +59,9 @@
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-        <a href="/jekyll-uno/" title="link to home of Jekyll-Uno">
+        <a href="/jekyll-uno/" title="link to home of TonyScript">
           <img src="/jekyll-uno/images/profile.jpg" class="user-image" alt="My Profile Photo">
-          <h1 class="panel-cover__title panel-title">Jekyll-Uno</h1>
+          <h1 class="panel-cover__title panel-title">TonyScript</h1>
         </a>
         <hr class="panel-cover__divider">
         <p class="panel-cover__description">Jekyll-Uno - a minimal, responsive theme for Jekyll</p>
@@ -71,7 +71,7 @@
 
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="/jekyll-uno/#blog" title="link to Jekyll-Uno blog" class="blog-button">Blog</a></li>
+              <li class="navigation__item"><a href="/jekyll-uno/#blog" title="link to TonyScript blog" class="blog-button">Blog</a></li>
             </ul>
           </nav>
 
@@ -152,26 +152,32 @@
 
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
-        <div class="main-post-list">
-
-  <ol class="post-list">
-    
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="/jekyll-uno/2016/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h2>
-        <p class="excerpt">You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve --watch</code>, which launches a web server and auto-regenerates your site when a file is updated.
-
-&hellip;</p>
-        <div class="post-list__meta"><time datetime="8 Jan 2016" class="post-list__meta--date date">8 Jan 2016</time> &#8226; <span class="post-meta__tags">on <a href="/jekyll-uno/tags/#jekyll">jekyll</a> </span></div>
-        <hr class="post-list__divider">
-      </li>
-    
-  </ol>
-
-  <hr class="post-list__divider ">
-
-  
+        <h2>Tags:</h2>
+<div class="tags"> 
+ 
+  <a href="#jekyll">jekyll</a>
 
 </div>
+
+<!-- iterate through all tags on the site --> 
+ 
+  <!-- for each tag, create an anchor by using the tag name as an id --> 
+  <div id="jekyll">  
+    <h3> jekyll </h3>  <!-- for create a heading --> 
+
+    <ul> <!-- create the list of posts -->
+      <!-- iterate through all the posts on the site --> 
+       
+        <!-- list only those which contain the current tag --> 
+         
+            <li>
+              <a href="/2016/welcome-to-jekyll/">Welcome to Jekyll!</a>
+            </li>
+        
+      
+    </ul>
+  </div>
+
       </div>
 
       <footer class="footer">
