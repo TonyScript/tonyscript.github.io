@@ -1,8 +1,7 @@
 # Site settings
 title: TonyScript
 description: 'The people who are crazy enough, change the world.'
-url: 'http://tonyscript.top/jekyll-uno'
-baseurl: '/jekyll-uno/'
+url: 'http://tonyscript.top/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
