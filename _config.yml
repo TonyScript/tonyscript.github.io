@@ -2,7 +2,7 @@
 title: TonyScript
 description: 'Because the people who are crazy enough to think they can change the world, are the ones who do.'
 url: 'http://tonyscript.top/'
-baseurl: ‘/tonyscript.github.io/‘
+baseurl: tonyscript.github.io
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
