@@ -19,4 +19,5 @@ Maybe they have to be crazy. How else can you stare at an empty canvas and see a
 While some see them as the crazy ones, we see genius.Because the people who are crazy enough to think they can change the world, are the ones who do.
 
 Take care,
+
 John Appleseed
