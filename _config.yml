@@ -1,39 +1,52 @@
-# Site settings
+# Basic
 title: TonyScript
-description: '嗨，我是庞祥祥(@TonyScript)，一名iOS开发者。现居上海，就职于Homeinns。正在路上，去往更大的世界。'
-url: 'http://tonyscript.top/'
-baseurl: /
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+subtitle: 嗨，我是庞祥祥(@TonyScript)，一名iOS开发者。现居上海，就职于Homeinns。正在路上，去往更大的世界。
+#welcome_message: <a href="https://github.com/hexoishexo" target="_blank">Download the theme</a>
+description: 人生真是寂寞如雪啊。
+creator: <a href="https://www.github.com/TonyScript">@TonyScript</a>
 
-author:
-  name: TonyScript
-  email: tonyscript@gmail.com
-  twitter_username: tonyscript
-  facebook_username: tonyscript
-  github_username:  tonyscript
-  linkedin_username:  祥祥-庞-723b44103
+url: "https://github.com/TonyScript"
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+permalink: /:year/:month/:title/
 
-# Build settings
-destination: _site
+# Format
+highlighter: plain
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: red
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Projects, description: My Projects, url: 'https://github.com/TonyScript'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
 paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
+paginate_path: "page/:num/"
 
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo: 
+    
+# Social
+social:
+    weibo:  TonyScript
+    github:  TonyScript
+    twitter:  TonyScript
+    gplus:  TonyScript
+    mail: TonyScript@gmail.com
 
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
