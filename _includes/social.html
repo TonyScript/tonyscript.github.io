@@ -1,12 +1,12 @@
 <nav class="cover-navigation navigation--social">
   <ul class="navigation">
 
-  {% if site.social.weibo %}
-  <!-- Weibo -->
+  {% if site.social.facebook %}
+  <!-- Google Plus -->
   <li class="navigation__item">
-    <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}}的微博" target="_blank">
-      <i class='social fa fa-weibo'></i>
-      <span class="label">Weibo</span>
+    <a href="https://facebook.com/{{site.social.facebook}}" rel="author" title="{{site.social.facebook}}的Facebook" target="_blank">
+      <i class='social fa fa-facebook-square'></i>
+      <span class="label">Facebook</span>
     </a>
   </li>
   {% endif %}
@@ -17,6 +17,16 @@
     <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}}的Github" target="_blank">
       <i class='social fa fa-github'></i>
       <span class="label">Github</span>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.social.weibo %}
+  <!-- Weibo -->
+  <li class="navigation__item">
+    <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}}的微博" target="_blank">
+      <i class='social fa fa-weibo'></i>
+      <span class="label">Weibo</span>
     </a>
   </li>
   {% endif %}
@@ -31,15 +41,7 @@
   </li>
   {% endif %}
 
-  {% if site.social.facebook %}
-  <!-- Google Plus -->
-  <li class="navigation__item">
-    <a href="https://facebook.com/{{site.social.facebook}}" rel="author" title="{{site.social.facebook}}Facebook" target="_blank">
-      <i class='social fa fa-facebook-square'></i>
-      <span class="label">Facebook</span>
-    </a>
-  </li>
-  {% endif %}
+  
 
   <!-- RSS -->
   <li class="navigation__item">
