@@ -1,6 +1,6 @@
 # Basic
 title: TonyScript
-subtitle: 嗨，我是TonyScript，一名iOS开发者，现居上海。正在路上，去往更大的世界。
+subtitle: 嗨，我是@TonyScript，一名iOS开发者，现居上海。正在路上，去往更大的世界。
 #welcome_message: <a href="https://github.com/hexoishexo" target="_blank">Download the theme</a>
 description: 人生真是寂寞如雪啊。
 creator: <a href="https://www.github.com/TonyScript">@TonyScript</a>
@@ -43,7 +43,7 @@ social:
     weibo:  TonyScript
     github:  TonyScript
     twitter:  TonyScript
-    gplus:  100110144836688919667
+    facebook:  TonyScript
     mail: TonyScript@gmail.com
 
 # Google Analytics
