@@ -1,8 +1,3 @@
----
-layout: post
-title: Sketch常用快捷键
-date: 2017-02-24 11:44
----
 # Sketch常用快捷键
 #### 1.使用*Insert*快速插入
 ![](http://i1.piimg.com/567571/23bb85c2863029ed.png)
