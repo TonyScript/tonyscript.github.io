@@ -1,4 +1,9 @@
-# Xamarin.iOS 初步体验
+---
+layout: post
+title: Xamarin.iOS 初步体验
+date: 2017-03-03 20:59:42
+---
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Xamarin.iOS** 也写了一段时间了，文档看得头晕，Demo做了一些，发现这个东西还是不太靠谱。具体体现在以下几点：
 >1. *iOS Designer* 使用很不方便，拖拽或者修改都不如 Xcode 自带的 StoryBoard 灵活，总觉得肉肉的，而且经常卡死，出现打不开的情况；
 2. *Xamarin Studio* 软件本身也有很多槽点，不说跟 Xcode 比了，可靠性总得有保障吧，然而真实情况是有时候打开一个工程需要加载半天；
