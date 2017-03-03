@@ -3,7 +3,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人的命运啊，当然要靠自我奋斗，但有时有也要考虑历史的进程。在夜深人静的时候也会问自己，我一个 iOS 开发怎么就跑来写前端了？
 
 ### 起
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我作为一个`iOS`开发，在最近一年的时间里马不停蹄地学了`HTML`、`CSS`、`JavaScript`、`AngularJS` ，然后在此基础上才有足够的知识储备去学习 [Ionic](http://ionicframework.com/) 这个基于前端技术的混合开发框架。做了半年之后又发现公司项目的原生部分是基于 `C#` 写的，当时真是有日了动物园的感觉。后来不那么忙，就索性把 [Xamarin](https://www.xamarin.com/) 这个用 `C#` 写的混合开发解决方案也撸了一把 。当然，学习这个之前，还是要先去写了几天 `C#` 作为知识储备。所以这过去的一年，我基本上就跟混合开发卯上了。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我作为一个 iOS 开发，在最近一年的时间里马不停蹄地学了 `HTML`、`CSS`、`JavaScript`、`AngularJS` ，然后在此基础上才有足够的知识储备去学习 [Ionic](http://ionicframework.com/) 这个基于前端技术的混合开发框架。做了半年之后又发现公司项目的原生部分是基于 `C#` 写的，当时真是有日了动物园的感觉。后来不那么忙，就索性把 [Xamarin](https://www.xamarin.com/) 这个用 `C#` 写的混合开发解决方案也撸了一把 。当然，学习这个之前，还是要先去写了几天 `C#` 作为知识储备。所以这过去的一年，我基本上就跟混合开发卯上了。
 
 ###承
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前主流的混合开发解决方案我算是都有了解过，最有名的大概就是 `Facebook` 推出的 [React Native](https://facebook.github.io/react-native/) :
@@ -34,7 +34,7 @@
 
 >JSPatch 可以让你用 JavaScript 书写原生 iOS APP。只需在项目引入极小的引擎，就可以使用 JavaScript 调用任何 Objective-C 的原生接口，获得脚本语言的优势：为项目动态添加模块，或替换项目原生代码动态修复 bug。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;热更新是什么？它的概念类似于热插拔，让用户在不更新甚至不退出 App 的条件下，通过在后台更新代码达到修复 Bug 以及更新业务的目的。当然，这个也是通过 JS 完成的，不然也不叫 `JSPatch` 了。所以学好 JS 还是很有前途的，现在大概有几十种 JS 供你随心选择，是不是很感动？
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;热更新是什么？它的概念类似于热插拔，让用户在不更新甚至不退出 App 的条件下，通过在后台更新代码达到修复 Bug 以及更新业务的目的。当然，这个也是通过 JS 完成的，不然也不叫 `JSPatch` 了。所以学好 JS 还是很有前途的，现在大概有几十种 JS 供你随心选择，要啥有啥，是不是很感动？
 
 
 
