@@ -2,6 +2,7 @@
 layout: post
 title: Xamarin.iOS 初步体验
 date: 2017-03-03 20:59:42
+tag: Tutorial
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Xamarin.iOS** 也写了一段时间了，文档看得头晕，Demo做了一些，发现这个东西还是不太靠谱。具体体现在以下几点：
