@@ -1,8 +1,8 @@
 # Basic
 title: TonyScript
-subtitle: 嗨，我是@TonyScript，一名iOS开发者，现居上海。正在路上，去往更大的世界。
+subtitle: Hi，我是 @TonyScript，一名iOS开发者，现居上海。正在路上，去往更大的世界。
 #welcome_message: <a href="https://github.com/hexoishexo" target="_blank">Download the theme</a>
-description: 人生真是寂寞如雪啊。
+description: I've been told I'm a boring person.
 creator: <a href="https://www.github.com/TonyScript">@TonyScript</a>
 
 url: "https://github.com/TonyScript"
@@ -35,8 +35,8 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: vno-jekyll
-    # duoshuo: 
+    # disqus: vno-jekyll
+    duoshuo: 
     
 # Social
 social:
