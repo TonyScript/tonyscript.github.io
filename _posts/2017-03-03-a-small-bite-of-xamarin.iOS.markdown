@@ -17,6 +17,7 @@ tag: Tutorial
 ![Xamarin.iOS 官方文档目录](http://upload-images.jianshu.io/upload_images/1243365-73bb7a11a8382f0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 6. 安卓平台不是太清楚，但站在 iOS 开发的角度来说，苹果给开发者提供的开发环境包括整个生态实在是太完整了，让人完全没有理由转向其他途径。
 7. 除此之外，也有对微软的信心不足。微软推行的很多项目都是雷声大雨点小，自从微软收购 Xamarin 之后，这样的担心一直都在。
+8. 附一个我写的 Xamarin.iOS 入门上手 Demo，点 [这里](https://pan.baidu.com/s/1qY10Zd6) 下载，提取码 w3t9，在 Xamarin Studio 里可以直接运行。
 
 ###**所以，如果没有十分充足的理由最好不要踏入这个坑。**
 
