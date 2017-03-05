@@ -1,244 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TonyScript</title>
-    <description>I&#39;ve been told I&#39;m a boring person.</description>
-    <link>https://github.com/TonyScript/</link>
-    <atom:link href="https://github.com/TonyScript/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Mar 2017 22:42:20 +0800</pubDate>
-    <lastBuildDate>Fri, 03 Mar 2017 22:42:20 +0800</lastBuildDate>
-    <generator>Jekyll v3.1.1</generator>
+    <title>我的小本本</title>
+    <description>I've been told that I'm a boring guy.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 05 Mar 2017 23:45:21 +0800</pubDate>
+    <lastBuildDate>Sun, 05 Mar 2017 23:45:21 +0800</lastBuildDate>
+    <generator>Jekyll v3.4.1</generator>
     
       <item>
-        <title>Tech Path Of </title>
-        <description>&lt;h1&gt;2016年技术路径&lt;/h1&gt;
+        <title>中国人素质很低吗？</title>
+        <description>&lt;p&gt;最近因为乐天的事情，时不时地可以看到有人讨论起国民素质的话题。﻿&lt;/p&gt;
 
-&lt;h3&gt;引子&lt;/h3&gt;
+&lt;p&gt;有人说中国人素质低，举例在国内爱贪小便宜，不讲公德；去国外旅游随地吐痰，大声说话。谈到国民素质高，动辄言欧美日，竞相自惭形秽。﻿&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;人的命运啊，当然要靠自我奋斗，但有时有也要考虑历史的进程。在夜深人静的时候也会问自己，我一个 iOS 开发怎么就跑来写前端了？&lt;/p&gt;
+&lt;p&gt;在我看来，这些都是确确实实存在的现象，但也仅仅是现象而已。我从来不相信国民素质这种东西会仅仅因为国籍而有所差别。所谓的高素质，不过是由健全的法律体系对国民行为进行规范，长此以往，使国民形成了正所谓法贵时效，法贵公平，减刑溃法。如果法律可以得到严明地执行，真正做到法律面前，人人平等，执法必严，违法必究。如此，必然可以使国民从心底里树立起对法律的敬畏，同时主动对自己的行为进行约束，因为社会已经广泛形成共识：违法必究。﻿&lt;/p&gt;
 
-&lt;h3&gt;起&lt;/h3&gt;
+&lt;p&gt;然而，现实情况是人们相信法不责众。所以会出现高速公路上满载货物的运输车翻车，路旁村民哄抢洒落的东西；所以会出现，一群人打着横幅在合法营业的肯德基餐厅门口拦着自己的同胞不让进去吃饭。﻿&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;我作为一个 iOS 开发，在最近一年的时间里马不停蹄地学了 &lt;code&gt;HTML&lt;/code&gt;、&lt;code&gt;CSS&lt;/code&gt;、&lt;code&gt;JavaScript&lt;/code&gt;、&lt;code&gt;AngularJS&lt;/code&gt; ，然后在此基础上才有足够的知识储备去学习 &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt; 这个基于前端技术的混合开发框架。做了半年之后又发现公司项目的原生部分是基于 &lt;code&gt;C#&lt;/code&gt; 写的，当时真是有日了动物园的感觉。后来不那么忙，就索性把 &lt;a href=&quot;https://www.xamarin.com/&quot;&gt;Xamarin&lt;/a&gt; 这个用 &lt;code&gt;C#&lt;/code&gt; 写的混合开发解决方案也撸了一把 。当然，学习这个之前，还是要先去写了几天 &lt;code&gt;C#&lt;/code&gt; 作为知识储备。所以这过去的一年，我基本上就跟混合开发卯上了。&lt;/p&gt;
+&lt;p&gt;所以，我的结论是所谓国民素质低下不过是政府在维稳思想指导下懒政所导致的很多问题之一。然而，很多人揪着这个问题不放，每过一段时间就拿出来炒一炒，甚至解释为人种的优越性的傻逼高度，完全看不到理性客观的分析。﻿&lt;/p&gt;
 
-&lt;h3&gt;承&lt;/h3&gt;
+&lt;p&gt;最后再多说一点，我从来不相信依靠公民自觉和道德约束就能提高国民素质，所谓路不拾遗夜不闭户的天下大同不过是古人幻想的乌托邦罢了。君不见欧洲至今不愿提起的黑暗中世纪，君不见大航海时代的黑奴贸易，君不见昂格鲁萨克逊人茹毛饮血的日子，西方文明之所以在近代开始全面领先东方文明，最重要的原因就是西方发展出了完善而系统的法律体系，并通过无数的流血冲突建立了三权分立，所以西方近两百年的领先是有其深层次原因的，而跟他们是白人，他们人种高级没有什么关系，我们一定要认识到这点。﻿&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;目前主流的混合开发解决方案我算是都有了解过，最有名的大概就是 &lt;code&gt;Facebook&lt;/code&gt; 推出的 &lt;a href=&quot;https://facebook.github.io/react-native/&quot;&gt;React Native&lt;/a&gt; :
-&lt;img src=&quot;http://p1.bqimg.com/1949/b06b8bf8027fb9c5s.png&quot; alt=&quot;使用 RN 的应用&quot;&gt;&lt;/p&gt;
+&lt;p&gt;说了这么多，我想表达的就是我从来不相信所谓的仁政和德政，能够使国民懂礼，使社会兴盛，是国家富强。我只相信法制，相信人都是需要被约束的，相信一个健全公平的法律体系，是人民之幸，国家之福。&lt;/p&gt;
 
-&lt;p&gt;国内阿里推出过 &lt;a href=&quot;https://weex-project.io/cn/&quot;&gt;Weex&lt;/a&gt; ：
-&lt;img src=&quot;http://p1.bqimg.com/1949/50420cff9e4bf4b0s.png&quot; alt=&quot;Weex 使用的是 Vue&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;豆瓣也推出了自己的混合开发解决方案 &lt;a href=&quot;https://github.com/douban/rexxar-ios&quot;&gt;Rexxar&lt;/a&gt; ：
-&lt;img src=&quot;http://p1.bqimg.com/1949/6095e6e41bcd5448s.png&quot; alt=&quot;Rexxar 执行过程&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;可能还有其他的解决方案，后面提到的三个， &lt;code&gt;RN&lt;/code&gt; 、 &lt;code&gt;Weex&lt;/code&gt; 、 &lt;code&gt;Rexxar&lt;/code&gt; 原理都大同小异，在原生层的基础上嵌入 &lt;code&gt;UIWebView&lt;/code&gt;，通过各种 &lt;code&gt;JavaScript&lt;/code&gt; 的配合完成与原生层的交互。总的来说，是比较传统意义上的混合开发，以原生层为基础，在上面迭代开发。但是一开始说的两个，&lt;code&gt;Ionic&lt;/code&gt; 和 &lt;code&gt;Xamarin&lt;/code&gt; ，这两个是与上面提到的三个截然不同，属于两个极端。&lt;/p&gt;
-
-&lt;h3&gt;转&lt;/h3&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;code&gt;Ionic&lt;/code&gt; 作为一个完全基于前端技术的移动端跨平台解决方案，开发者几乎完全不需要写任何原生代码，表示层、业务逻辑层以及数据持久化层都是通过 &lt;code&gt;HTML&lt;/code&gt; 、&lt;code&gt;CSS&lt;/code&gt; 、&lt;code&gt;AngularJS&lt;/code&gt; 实现的，比较适合一些小型的、业务逻辑简单、对原生 API 依赖较少的项目。
-&lt;img src=&quot;http://p1.bqimg.com/1949/e2c8b9e049401cf0s.png&quot; alt=&quot;Ionic是一种标签语言&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;混合开发最让人担忧的可能就是性能问题了，上面提到的三种比较传统的混合开发在性能上虽然也不能与原生相匹敌，但是换取了更灵活的业务模式、更快速的开发效率、更多的代码复用、更便捷的 &lt;code&gt;Bug&lt;/code&gt; 修复方式。而 &lt;code&gt;Ionic&lt;/code&gt; 作为一个完全的异类，用于小型项目时性能可以匹敌原生的，但是 UI 确实跟原生差距很大，不过他们现在发布了二代，界面的效果应该有些提升，不过他们把 &lt;code&gt;AngularJS V1&lt;/code&gt; 换成了 &lt;code&gt;V2&lt;/code&gt;，而 &lt;code&gt;V2&lt;/code&gt; 版本，讲道理来说，相当于把 &lt;code&gt;V1&lt;/code&gt; 重写了。哈哈哈。所以又加大了学习成本。不过，话说 &lt;code&gt;AngularJS V2&lt;/code&gt; 版本长得更像 &lt;code&gt;React&lt;/code&gt; 和 &lt;code&gt;TypeScript&lt;/code&gt; 了。
-&lt;img src=&quot;http://p1.bpimg.com/1949/776297f8ddde5770s.png&quot; alt=&quot;AngularJS V1&quot;&gt;
-&lt;img src=&quot;http://p1.bpimg.com/1949/186f97acdbe16bf8s.png&quot; alt=&quot;AngularJS V2&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;code&gt;Xamarin&lt;/code&gt;作为一个完全基于 &lt;code&gt;C#&lt;/code&gt; 的移动端跨平台解决方案，通过 &lt;code&gt;Xamarin&lt;/code&gt; 你可以开发 iOS、Android、WP应用，同时可以复用大部分的代码。如果需要用到很多原生的 API，这个框架也可以满足，因为它丧心病狂地用 C# 重写了 iOS SDK 和 Android SDK 的全部代码！而且是所有在用版本！所以我觉得它的目标是另起炉找，取代 iOS 和 Android 原生开发，而不是像传统混合开发那样依附于原生的基础上存在。另外， &lt;code&gt;Xamarin&lt;/code&gt; 也可以用来开发 &lt;a href=&quot;https://blog.xamarin.com/building-your-first-macos-app/&quot;&gt;Mac&lt;/a&gt;  应用，所以它不但适用于移动端，同样适用于桌面端。
-&lt;img src=&quot;http://p1.bqimg.com/1949/c8f035ec9f9b68d8s.png&quot; alt=&quot;Xamarin&quot;&gt;&lt;/p&gt;
-
-&lt;h3&gt;合&lt;/h3&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;当然，除了求助于混合开发，也有人把目光转向了热更新，比如微信。微信 iOS 团队负责人 &lt;a href=&quot;https://github.com/bang590/&quot;&gt;bang&lt;/a&gt; 开源了自己写的用于 iOS 的热更新方案 &lt;a href=&quot;https://github.com/bang590/jspatch&quot;&gt;JSPatch&lt;/a&gt;,这个项目在 GitHub 上目前已经将近 9000 Star 了。
-&lt;img src=&quot;http://p1.bpimg.com/1949/fa191d62ea9dd333s.png&quot; alt=&quot;在使用 JSPatch 的应用&quot;&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;JSPatch 可以让你用 JavaScript 书写原生 iOS APP。只需在项目引入极小的引擎，就可以使用 JavaScript 调用任何 Objective-C 的原生接口，获得脚本语言的优势：为项目动态添加模块，或替换项目原生代码动态修复 bug。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;热更新是什么？它的概念类似于热插拔，让用户在不更新甚至不退出 App 的条件下，通过在后台更新代码达到修复 Bug 以及更新业务的目的。当然，这个也是通过 JS 完成的，不然也不叫 &lt;code&gt;JSPatch&lt;/code&gt; 了。所以学好 JS 还是很有前途的，现在大概有几十种 JS 供你随心选择，要啥有啥，是不是很感动？&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Mar 2017 00:00:00 +0800</pubDate>
-        <link>https://github.com/TonyScript/2017/03/tech-path-of-2016/</link>
-        <guid isPermaLink="true">https://github.com/TonyScript/2017/03/tech-path-of-2016/</guid>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/is-the-people-of-china-is-so-rude/</link>
+        <guid isPermaLink="true">http://localhost:4000/is-the-people-of-china-is-so-rude/</guid>
         
+        <category>扯淡集</category>
+        
+        
+        <category>谈笑风生又一年</category>
         
       </item>
     
       <item>
-        <title>Sketch Shortcuts</title>
-        <description>&lt;h1&gt;Sketch常用快捷键&lt;/h1&gt;
+        <title>看抗日神剧和震惊文的都是哪些人？</title>
+        <description>&lt;p&gt;经常在微博上看到很多人吐槽甚至谩骂抗日神剧和朋友圈震惊文，觉得它们要么不尊重史实要么标题党而且传播谣言，简直是对自己眼睛和智商的双重折磨。&lt;/p&gt;
 
-&lt;h4&gt;1.使用&lt;em&gt;Insert&lt;/em&gt;快速插入&lt;/h4&gt;
+&lt;p&gt;可是，为什么这样的内容能够大行其道呢？难道拍抗日神剧的人不知道剧情很雷人甚至弱智吗？难道写震惊文的不知道自己是标题党而且传播谣言吗？他们当然知道，他们又不傻，傻子才写不出那样的剧情和文章。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://i1.piimg.com/567571/23bb85c2863029ed.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;可是他们为什么这么做呢？我试着来回答一下。&lt;/p&gt;
 
-&lt;h4&gt;2.不同情形下的缩放组合键&lt;/h4&gt;
+&lt;p&gt;当然是因为有利可图。而且这其中利润之巨大，回报之丰厚到足以让他们顶着无数网友的批评和谩骂，坚持做着这样的事情。&lt;/p&gt;
 
+&lt;p&gt;当然是因为现在绝大部分人都喜欢看这样的东西。这些人就在你我身边，当然，我们有时候不太愿意相信中国的大部分网民竟然都是这样的人。&lt;/p&gt;
+
+&lt;p&gt;当然因为这些人的钱好赚。这跟骗子的有些手法很相似，他们经常用一些正常人很容易识破的伎俩去骗人，因为相信那些伎俩的人会更容易被骗到。我私下里猜想，这些人跟喜欢看抗日神剧的人，喜欢看朋友圈和今日头条震惊文的人，喜欢看 &lt;em&gt;三生三世十里桃花&lt;/em&gt; 的人，跟拿着U型锁砸汽车玻璃的人，跟在肯德基门口拦着不让自己同胞进去吃饭的人，跟在乐天厕所开着水龙头不关的人，大概是同一批人。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;中国有太多无聊且傻逼的人，你不要想着去教育他们，他们是扭转不过来的。你要想着去赚他们的钱，可能到最后他们还会反过来感激你。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;话虽如此，但我们总会时不时地在网上看到这类信息，我相信很多人都对这类东西深恶痛绝，但又无可奈何。但我们稍作思考便可以知道，如果越来越少的人去看抗日神剧和震惊文，越来越多的人主动抵制，那么创作这些东西便不会像现在这样赚钱，同时又如过街老鼠，人人喊打，我相信抗日神剧震惊文们便会失去它存在的土壤，最终消失殆尽。&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 04 Mar 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/who-is-watching-krsj-and-zjw/</link>
+        <guid isPermaLink="true">http://localhost:4000/who-is-watching-krsj-and-zjw/</guid>
+        
+        <category>扯淡集</category>
+        
+        
+        <category>谈笑风生又一年</category>
+        
+      </item>
+    
+      <item>
+        <title>Xamarin.iOS 初步体验</title>
+        <description>&lt;p&gt;       &lt;strong&gt;Xamarin.iOS&lt;/strong&gt; 也写了一段时间了，文档看得头晕，Demo做了一些，发现这个东西还是不太靠谱。具体体现在以下几点：&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;em&gt;iOS Designer&lt;/em&gt; 使用很不方便，拖拽或者修改都不如 Xcode 自带的 StoryBoard 灵活，总觉得肉肉的，而且经常卡死，出现打不开的情况；&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Xamarin Studio&lt;/em&gt; 软件本身也有很多槽点，不说跟 Xcode 比了，可靠性总得有保障吧，然而真实情况是有时候打开一个工程需要加载半天；&lt;/li&gt;
+    &lt;li&gt;iOS 开发过程中需要用到很多第三方库，这些库用 &lt;em&gt;C#&lt;/em&gt; 是没法直接调用的，虽然官方给出了转换的方法，但操作极其繁琐，而且有的库貌似还不支持；
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-b716c7c34f185344.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Xamarin.iOS 使用原生SDK教程&quot; /&gt;&lt;/li&gt;
+    &lt;li&gt;报错信息在网上搜索结果很少，大部分是官方博客或者论坛上的，链接到第三方网站的很少，在国外著名的技术问答社区 Stack Overflow 上搜索 &lt;em&gt;Xamarin.iOS&lt;/em&gt; 结果也是少得可怜，只有2W多条，相比之下 iOS 则有将近50W条，所以如果遇到奇葩的报错会让人不知所措的。
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-4323b511db538ca4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Xamarin.iOS 在 Stack Overflow 上的搜索结果&quot; /&gt;
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-f23349285da763a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;iOS 在 Stack Overflow 上的搜索结果&quot; /&gt;&lt;/li&gt;
+    &lt;li&gt;Xamarin 目前只有英文文档，这就意味着学习途径只有官网一条。在网上也不到中文文档，这也是在国内很少有人去学习的原因之一。话说 Vue.js 这两年势头很猛，与其官方中文文档的全面是有分不开的，而不是说真的比 AngularJS 高到哪里去；
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-73bb7a11a8382f0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Xamarin.iOS 官方文档目录&quot; /&gt;&lt;/li&gt;
+    &lt;li&gt;安卓平台不是太清楚，但站在 iOS 开发的角度来说，苹果给开发者提供的开发环境包括整个生态实在是太完整了，让人完全没有理由转向其他途径。&lt;/li&gt;
+    &lt;li&gt;除此之外，也有对微软的信心不足。微软推行的很多项目都是雷声大雨点小，自从微软收购 Xamarin 之后，这样的担心一直都在。&lt;/li&gt;
+    &lt;li&gt;附一个我写的 Xamarin.iOS 入门上手 Demo，点 &lt;a href=&quot;https://pan.baidu.com/s/1qY10Zd6&quot;&gt;这里&lt;/a&gt; 下载，提取码 w3t9，在 Xamarin Studio 里可以直接运行。&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;所以如果没有十分充足的理由最好不要踏入这个坑&quot;&gt;&lt;strong&gt;所以，如果没有十分充足的理由最好不要踏入这个坑。&lt;/strong&gt;&lt;/h3&gt;
+
+</description>
+        <pubDate>Thu, 02 Mar 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/a-small-bite-of-xamarin.iOS/</link>
+        <guid isPermaLink="true">http://localhost:4000/a-small-bite-of-xamarin.iOS/</guid>
+        
+        <category>造作集</category>
+        
+        
+        <category>人生苦短，先学为敬</category>
+        
+      </item>
+    
+      <item>
+        <title>2016年技术路径</title>
+        <description>&lt;h3 id=&quot;引子&quot;&gt;引子&lt;/h3&gt; &lt;p&gt;       人的命运啊，当然要靠自我奋斗，但有时有也要考虑历史的进程。在夜深人静的时候也会问自己，我一个 iOS 开发怎么就跑来写前端了？&lt;/p&gt; &lt;h3 id=&quot;起&quot;&gt;起&lt;/h3&gt; &lt;p&gt;       我作为一个 iOS 开发，在最近一年的时间里马不停蹄地学了 HTML、CSS、JavaScript、AngularJS ，然后在此基础上才有足够的知识储备去学习 &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt; 这个基于前端技术的混合开发框架。做了半年之后又发现公司项目的原生部分是基于 &lt;code class=&quot;highlighter-rouge&quot;&gt;C#&lt;/code&gt; 写的，当时真是有日了动物园的感觉。后来不那么忙，就索性把 &lt;a href=&quot;https://www.xamarin.com/&quot;&gt;Xamarin&lt;/a&gt; 这个混合开发解决方案也撸了一把 。当然，学习这个之前，还是先去写了几天 &lt;em&gt;C#&lt;/em&gt; 作为知识储备。所以这过去的一年，我基本上就跟混合开发卯上了。&lt;/p&gt; &lt;h3 id=&quot;承&quot;&gt;承&lt;/h3&gt; &lt;p&gt;       目前主流的混合开发解决方案我算是都有了解过，最有名的大概就是 &lt;code class=&quot;highlighter-rouge&quot;&gt;Facebook&lt;/code&gt; 推出的 &lt;a href=&quot;https://facebook.github.io/react-native/&quot;&gt;React Native&lt;/a&gt; : &lt;img src=&quot;http://ww1.sinaimg.cn/large/b5fd9ee1gy1fda3peashhj20o00jx41p&quot; alt=&quot;使用 RN 的应用&quot; /&gt;&lt;/p&gt; &lt;p&gt;国内阿里推出的 &lt;a href=&quot;https://weex-project.io/cn/&quot;&gt;Weex&lt;/a&gt; ： &lt;img src=&quot;http://ww1.sinaimg.cn/mw690/b5fd9ee1gy1fda3nx676fj20n50knacn&quot; alt=&quot;Weex 使用的是 Vue&quot; /&gt;&lt;/p&gt; &lt;p&gt;豆瓣也推出了自己的混合开发解决方案 &lt;a href=&quot;https://github.com/douban/rexxar-ios&quot;&gt;Rexxar&lt;/a&gt; ： &lt;img src=&quot;http://p1.bqimg.com/1949/6095e6e41bcd5448s.png&quot; alt=&quot;Rexxar 执行过程&quot; /&gt;&lt;/p&gt; &lt;p&gt;       可能还有其他的解决方案，不过后面提到的三个， &lt;code class=&quot;highlighter-rouge&quot;&gt;RN&lt;/code&gt; 、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Weex&lt;/code&gt; 、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Rexxar&lt;/code&gt; 原理都大同小异，在原生层的基础上嵌入 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIWebView&lt;/code&gt;，通过各种 &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt; 的配合完成与原生层的交互。总的来说，是比较传统意义上的混合开发，以原生层为基础，在上面迭代开发。但是一开始说的两个，&lt;code class=&quot;highlighter-rouge&quot;&gt;Ionic&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;Xamarin&lt;/code&gt; ，与上面提到的三个截然不同，属于两个极端。&lt;/p&gt; &lt;h3 id=&quot;转&quot;&gt;转&lt;/h3&gt; &lt;p&gt;       &lt;code class=&quot;highlighter-rouge&quot;&gt;Ionic&lt;/code&gt; 作为一个完全基于前端技术的移动端跨平台解决方案，开发者几乎完全不需要写任何原生代码，表示层、业务逻辑层以及数据持久化层都是通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; 、&lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt; 、&lt;code class=&quot;highlighter-rouge&quot;&gt;AngularJS&lt;/code&gt; 实现的，比较适合一些小型的、业务逻辑简单、对原生 API 依赖较少的项目。 &lt;img src=&quot;http://p1.bqimg.com/1949/e2c8b9e049401cf0s.png&quot; alt=&quot;Ionic是一种标签语言&quot; /&gt;&lt;/p&gt; &lt;p&gt;       混合开发最让人担忧的可能就是性能问题了，上面提到的三种比较传统的混合开发在性能上虽然也不能与原生相匹敌，但是换取了更灵活的业务模式、更快速的开发效率、更多的代码复用、更便捷的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Bug&lt;/code&gt;...</description>
+        <pubDate>Wed, 01 Mar 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/tech-path-of-2016/</link>
+        <guid isPermaLink="true">http://localhost:4000/tech-path-of-2016/</guid>
+        
+        <category>造作集</category>
+        
+        
+        <category>人生苦短，先学为敬</category>
+        
+      </item>
+    
+      <item>
+        <title>Sketch常用快捷键</title>
+        <description>&lt;h4 id=&quot;1使用insert快速插入&quot;&gt;1.使用&lt;em&gt;Insert&lt;/em&gt;快速插入&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://i1.piimg.com/567571/23bb85c2863029ed.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2不同情形下的缩放组合键&quot;&gt;2.不同情形下的缩放组合键&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;缩放到100%：CMD+0&lt;/li&gt;
-&lt;li&gt;查看&lt;em&gt;Artboard&lt;/em&gt;中所有的&lt;em&gt;page&lt;/em&gt;：CMD+1&lt;/li&gt;
-&lt;li&gt;缩放特定的对象：选择对象后按 CMD+2&lt;/li&gt;
-&lt;li&gt;选中要查看的图层，按住&lt;em&gt;CMD+3&lt;/em&gt;可以快速聚焦到改图层&lt;/li&gt;
+  &lt;li&gt;缩放到100%：CMD+0&lt;/li&gt;
+  &lt;li&gt;查看&lt;em&gt;Artboard&lt;/em&gt;中所有的&lt;em&gt;page&lt;/em&gt;：CMD+1&lt;/li&gt;
+  &lt;li&gt;缩放特定的对象：选择对象后按 CMD+2&lt;/li&gt;
+  &lt;li&gt;选中要查看的图层，按住&lt;em&gt;CMD+3&lt;/em&gt;可以快速聚焦到改图层&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4&gt;3.左右滚动&lt;/h4&gt;
-
+&lt;h4 id=&quot;3左右滚动&quot;&gt;3.左右滚动&lt;/h4&gt;
 &lt;p&gt;在没有触控板的情况下，使用&lt;em&gt;Shift+滚轮&lt;/em&gt;实现左右滚动&lt;/p&gt;
 
-&lt;h4&gt;4.隐藏/显示&lt;em&gt;图层列表&lt;/em&gt;和&lt;em&gt;检查器&lt;/em&gt;&lt;/h4&gt;
-
+&lt;h4 id=&quot;4隐藏显示图层列表和检查器&quot;&gt;4.隐藏/显示&lt;em&gt;图层列表&lt;/em&gt;和&lt;em&gt;检查器&lt;/em&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;CMD+option+1：隐藏/显示图层列表&lt;/li&gt;
-&lt;li&gt;CMD+option+2：隐藏/显示检查器&lt;/li&gt;
-&lt;li&gt;CMD+option+3：全部隐藏/显示&lt;/li&gt;
+  &lt;li&gt;CMD+option+1：隐藏/显示图层列表&lt;/li&gt;
+  &lt;li&gt;CMD+option+2：隐藏/显示检查器&lt;/li&gt;
+  &lt;li&gt;CMD+option+3：全部隐藏/显示&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4&gt;5.全屏模式（Presentation Mode）&lt;/h4&gt;
-
+&lt;h4 id=&quot;5全屏模式presentation-mode&quot;&gt;5.全屏模式（Presentation Mode）&lt;/h4&gt;
 &lt;p&gt;使用&lt;em&gt;CMD+.&lt;/em&gt;可以进入全屏模式，将画布中的作品全屏展示&lt;/p&gt;
 
-&lt;h4&gt;6.标尺&lt;/h4&gt;
-
+&lt;h4 id=&quot;6标尺&quot;&gt;6.标尺&lt;/h4&gt;
 &lt;p&gt;使用&lt;em&gt;Ctrl+R&lt;/em&gt;可以显示或隐藏标尺，在标尺上双击可以添加参考线，将参考线拖动到最左侧或者最右侧会将其删除&lt;/p&gt;
 
-&lt;h4&gt;7.&lt;span id=&quot;inde&quot;&gt;移动对象&lt;/span&gt;&lt;/h4&gt;
-
+&lt;h4 id=&quot;7移动对象&quot;&gt;7.&lt;span id=&quot;inde&quot;&gt;移动对象&lt;/span&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;按住&lt;em&gt;option&lt;/em&gt;键可以查看对象之间的&lt;em&gt;margin&lt;/em&gt;值&lt;/li&gt;
-&lt;li&gt;使用方向键可以移动选中的对象1px，如果同时按住&lt;em&gt;Shift&lt;/em&gt;则可以每次移动10px&lt;/li&gt;
+  &lt;li&gt;按住&lt;em&gt;option&lt;/em&gt;键可以查看对象之间的&lt;em&gt;margin&lt;/em&gt;值&lt;/li&gt;
+  &lt;li&gt;使用方向键可以移动选中的对象1px，如果同时按住&lt;em&gt;Shift&lt;/em&gt;则可以每次移动10px&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4&gt;8.在移动对象时查看&lt;em&gt;margin&lt;/em&gt;值&lt;/h4&gt;
-
+&lt;h4 id=&quot;8在移动对象时查看margin值&quot;&gt;8.在移动对象时查看&lt;em&gt;margin&lt;/em&gt;值&lt;/h4&gt;
 &lt;p&gt;在移动某一个对象的时候，按住&lt;em&gt;option&lt;/em&gt;即可查看对象的&lt;em&gt;margin&lt;/em&gt;值&lt;/p&gt;
 
-&lt;h4&gt;9.改变对象的尺寸&lt;/h4&gt;
-
+&lt;h4 id=&quot;9改变对象的尺寸&quot;&gt;9.改变对象的尺寸&lt;/h4&gt;
 &lt;p&gt;使用&lt;em&gt;CMD+方向键&lt;/em&gt;可以改变对象的尺寸1px，如果同时再按下&lt;em&gt;Shift&lt;/em&gt;键可以改变10px&lt;/p&gt;
 
-&lt;h4&gt;10.为对象分组和命名&lt;/h4&gt;
+&lt;h4 id=&quot;10为对象分组和命名&quot;&gt;10.为对象分组和命名&lt;/h4&gt;
+&lt;p&gt;当设计一个较大的项目时，给对象分组和命名会让文件目录结构更加清晰&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;选中&lt;em&gt;Artboard&lt;/em&gt;上的若干对象，按住&lt;em&gt;CMD+G&lt;/em&gt;即可成组&lt;/li&gt;
+  &lt;li&gt;在&lt;em&gt;图层列表&lt;/em&gt;中选中对象，按住&lt;em&gt;CMD+R&lt;/em&gt;即可给对象重命名&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;当设计一个较大的项目时，给对象分组和命名会让文件目录结构更加清晰
-* 选中&lt;em&gt;Artboard&lt;/em&gt;上的若干对象，按住&lt;em&gt;CMD+G&lt;/em&gt;即可成组
-* 在&lt;em&gt;图层列表&lt;/em&gt;中选中对象，按住&lt;em&gt;CMD+R&lt;/em&gt;即可给对象重命名&lt;/p&gt;
-
-&lt;h4&gt;11.资源&lt;/h4&gt;
-
+&lt;h4 id=&quot;11资源&quot;&gt;11.资源&lt;/h4&gt;
 &lt;p&gt;在&lt;a href=&quot;https://www.sketchappsources.com/&quot;&gt;SketchAppSources&lt;/a&gt;上可以找到很多有用的素材&lt;/p&gt;
 
-&lt;h4&gt;12.复制对象&lt;/h4&gt;
-
+&lt;h4 id=&quot;12复制对象&quot;&gt;12.复制对象&lt;/h4&gt;
 &lt;p&gt;使用&lt;em&gt;CMD+D&lt;/em&gt;可以一步到位完成对象的赋值，如果不希望复制的对象覆盖之前的对象，可以在偏好设置里面选中下图中框起来的选项。
-&lt;img src=&quot;http://p1.bpimg.com/567571/5a8c219c7dd401cd.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;http://p1.bpimg.com/567571/5a8c219c7dd401cd.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h4&gt;13.抓手工具&lt;/h4&gt;
-
+&lt;h4 id=&quot;13抓手工具&quot;&gt;13.抓手工具&lt;/h4&gt;
 &lt;p&gt;按住&lt;em&gt;空格&lt;/em&gt;键可以拖拽来移动画布&lt;/p&gt;
 
-&lt;h4&gt;14.多选图层&lt;/h4&gt;
-
+&lt;h4 id=&quot;14多选图层&quot;&gt;14.多选图层&lt;/h4&gt;
 &lt;p&gt;按住&lt;em&gt;Shift&lt;/em&gt;键可以多选图层&lt;/p&gt;
 
-&lt;h4&gt;15.从中心绘制图层&lt;/h4&gt;
-
+&lt;h4 id=&quot;15从中心绘制图层&quot;&gt;15.从中心绘制图层&lt;/h4&gt;
 &lt;p&gt;绘制图层的时候按住&lt;em&gt;option&lt;/em&gt;键可以从图层中心而不是左上角开始绘制&lt;/p&gt;
 
-&lt;h4&gt;16.移动图层&lt;/h4&gt;
-
+&lt;h4 id=&quot;16移动图层&quot;&gt;16.移动图层&lt;/h4&gt;
 &lt;p&gt;移动图层的时候按住&lt;em&gt;Shift&lt;/em&gt;键可以严格按照水平或垂直方向移动图层而不会产生偏移&lt;/p&gt;
 
-&lt;h4&gt;17.选择图层&lt;/h4&gt;
-
+&lt;h4 id=&quot;17选择图层&quot;&gt;17.选择图层&lt;/h4&gt;
 &lt;p&gt;单击组，整个组会被视为一个图层，双击才会进入组内选择具体的图层
 当组过多时，可以按住&lt;em&gt;CMD&lt;/em&gt;键直接选择某一个具体的图层，节约时间
 &lt;em&gt;Pick Layer&lt;/em&gt;这个功能是用来选择覆盖在其他图层底下的图层&lt;/p&gt;
 
-&lt;h4&gt;18.锚点&lt;/h4&gt;
-
+&lt;h4 id=&quot;18锚点&quot;&gt;18.锚点&lt;/h4&gt;
 &lt;p&gt;跳转到&lt;a href=&quot;#inde&quot;&gt;移动对象&lt;/a&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Fri, 24 Feb 2017 00:00:00 +0800</pubDate>
-        <link>https://github.com/TonyScript/2017/02/sketch-shortcuts/</link>
-        <guid isPermaLink="true">https://github.com/TonyScript/2017/02/sketch-shortcuts/</guid>
+        <link>http://localhost:4000/sketch-shortcuts/</link>
+        <guid isPermaLink="true">http://localhost:4000/sketch-shortcuts/</guid>
         
+        <category>造作集</category>
+        
+        
+        <category>人生苦短，先学为敬</category>
         
       </item>
     
       <item>
-        <title>La La Land</title>
-        <description>&lt;h1&gt;爱乐之城&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://p1.bqimg.com/567571/4330477133349416.jpg&quot; alt=&quot;La La Land&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;em&gt;爱乐之城&lt;/em&gt;借梦想的名义讲了个极度唯美的爱情故事。既然是爱情，便会有起承转合，有好的部分，也有不好的部分。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;code&gt;Seb&lt;/code&gt;和&lt;code&gt;Mia&lt;/code&gt;两人第一次相遇，是在开场歌舞之后的高速公路上，&lt;code&gt;Mia&lt;/code&gt;挡住了&lt;code&gt;Seb&lt;/code&gt;的路，&lt;code&gt;Seb&lt;/code&gt;长按这吵闹的喇叭责怪&lt;code&gt;Mia&lt;/code&gt;，两人不欢而散。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第二次相遇，是圣诞夜的晚上，在Seb被刻薄的酒吧老板炒鱿鱼之后，Mia受到音乐的感染，想要跟&lt;code&gt;Seb&lt;/code&gt;认识，不过话没说完便被Seb粗鲁地擦肩而过。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第三次相遇，是在一个夏天的Party上，两人总算有了初次的交流，&lt;code&gt;Seb&lt;/code&gt;知道&lt;code&gt;Mia&lt;/code&gt;是个演员，而&lt;code&gt;Mia&lt;/code&gt;得之&lt;code&gt;Seb&lt;/code&gt;是个弹钢琴的。转机在于晚上Party结束时，&lt;code&gt;Mia&lt;/code&gt;被一个编剧缠身，请&lt;code&gt;Seb&lt;/code&gt;帮忙拿车钥匙才得以脱身。顺理成章，两人在夜晚的山顶上有了一次深入地交谈。在音乐和舞蹈的烘托中，两人的相遇如同山下&lt;code&gt;LA&lt;/code&gt;五光十色的夜景，暧昧而又温馨。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第四次，&lt;code&gt;Seb&lt;/code&gt;故意溜进&lt;code&gt;Mia&lt;/code&gt;工作的片场咖啡店，假装偶遇&lt;code&gt;Mia&lt;/code&gt;，然后两人待了一整天，从早上到晚上，都对彼此的过去有了更加深入的了解。一个是对&lt;em&gt;Free Jazz&lt;/em&gt;有着近乎偏执喜爱的落魄音乐家，而另一个是试镜屡屡碰壁的无名小演员。相同的是，两人都对自己的梦想有着无限的热情和勇气。不然不会一个坚持了六年而没什么进展却不放弃，一个水电费都交不上了还敢违背刻薄老板的意思。毫无悬念地，两人都被对方身上那种对于梦想的热忱和坚持所吸引，欲罢不能。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第五次，是两人相约看&lt;em&gt;无因的反抗&lt;/em&gt;周一晚上。一边的&lt;code&gt;Seb&lt;/code&gt;在电影院左等右等，另一边的&lt;code&gt;Mia&lt;/code&gt;忍受着男朋友哥哥无聊的谈话，收到音乐的感召，&lt;code&gt;Mia&lt;/code&gt;决定抛弃身旁的男友，坚定地跑出餐厅，脸上带着解脱的笑容。电影院里的&lt;code&gt;Seb&lt;/code&gt;终于等到姗姗来迟的&lt;code&gt;Mia&lt;/code&gt;，那一刻，&lt;code&gt;Mia&lt;/code&gt;眼前的一切都那么美好，两人一边看着电影，一边十指相扣。接吻的瞬间，电影胶片烧了。&lt;code&gt;Mia&lt;/code&gt;突然起意和&lt;code&gt;Seb&lt;/code&gt;去&lt;em&gt;无因的反抗&lt;/em&gt;拍摄地点之一的天文博物馆。于是这里我们看到导演对于热恋中的情侣感情最经典的诠释：博物馆里舒缓的歌声中，两人仿佛飞了起来，在浩瀚的宇宙里，闪耀的群星中，尽情地载歌载舞，是那么地无拘无束、自由自在。热恋中的人啊，总是恨不能融为一体。然而更多的是，当初在一起时有多么热爱，分开后便会有多么厌恶。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;此后的两人，尽享热恋中的喜悦。不必说酒吧门口的恶作剧，也不必说和煦阳光下郎才女貌的两人，更不必说公交车上的相互拥吻，在这些面前，生活中的那些苟且仿佛都消失不见了，观众看到的，就是两个相互欣赏的灵魂，为梦想执着的感动。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;好的部分到此结束了，毕竟人总是要生活在现实世界中的。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;迫于生活，也是为了对&lt;code&gt;Mia&lt;/code&gt;负责，&lt;code&gt;Seb&lt;/code&gt;加入了&lt;code&gt;Keith&lt;/code&gt;组建的乐队，有了稳定的工作，也有了不错的收入。虽然弹的都是自己不喜欢的音乐，但&lt;code&gt;Seb&lt;/code&gt;妥协了。与此同时，&lt;code&gt;Mia&lt;/code&gt;在全力为自己的话剧准备着，。然而由于&lt;code&gt;Seb&lt;/code&gt;的巡回演出，两人之间见面的次数越来越少，对方都在这期间发生着转变。终于在一天晚上，在&lt;code&gt;Seb&lt;/code&gt;忙里偷闲回家做的晚餐上，两人关于这件事发生了激烈的争吵。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;code&gt;Mia&lt;/code&gt;认为&lt;code&gt;Seb&lt;/code&gt;因为现实妥协了自己一直敢于坚持的梦想，不再是自己曾经喜欢的那个毫不在意世人想法的倔强的音乐家。&lt;code&gt;Seb&lt;/code&gt;认为自己在做的事情也是为了&lt;code&gt;Mia&lt;/code&gt;好，况且梦想有什么重要的呢，现在大家都喜欢他弹的音乐，该是时候成熟了。这让&lt;code&gt;Mia&lt;/code&gt;失望透顶，眼前的男人已经不再是曾经那个敢于对世人说&lt;code&gt;Fuck Off&lt;/code&gt;的&lt;code&gt;Seb&lt;/code&gt;了，他变得开始在意别人的想法，而忘记了自己一直坚持的梦想。于是在&lt;code&gt;Seb&lt;/code&gt;去取烤糊了的披萨的时候，&lt;code&gt;Mia&lt;/code&gt;摔门而出。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;第二天晚上，便是&lt;code&gt;Mia&lt;/code&gt;精心准备了很久的独角戏话剧开始上演。与此同时，另一边的&lt;code&gt;Seb&lt;/code&gt;正被摄影师随意地指挥这摆出各种滑稽的姿势，仿佛影射着&lt;code&gt;Seb&lt;/code&gt;被现实各种蹂躏的姿势。另一边，谢幕之后的&lt;code&gt;Mia&lt;/code&gt;看到偌大的现场仅有数位观众，而且&lt;code&gt;Seb&lt;/code&gt;也不在其中。舞台上&lt;code&gt;Mia&lt;/code&gt;强忍住泪水，当回到后台听到门外路过的观众随意贬低着自己的表演的时候，再也忍不住的&lt;code&gt;Mia&lt;/code&gt;绝望地哭了起来。而姗姗来迟的&lt;code&gt;Seb&lt;/code&gt;在门口遇到了刚出来的&lt;code&gt;Mia&lt;/code&gt;,尽管拼命地道歉，然而备受打击的&lt;code&gt;Mia&lt;/code&gt;还是说出一切都结束了的话，回到了自己在内华达州的家乡，也放弃了坚持6年的梦想。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;分手之后的&lt;code&gt;Seb&lt;/code&gt;心灰意冷，也离开了乐队。然而世事难料，有一天躺在窗户桑的他接到了一个选角导演秘书的电话，请&lt;code&gt;Mia&lt;/code&gt;前去试镜。原来选角导演&lt;code&gt;Amy&lt;/code&gt;那天晚上去看了&lt;code&gt;Mia&lt;/code&gt;的话剧，并且印象深刻，于是在一部新电影开拍前想到了&lt;code&gt;Mia&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;喜出望外的&lt;code&gt;Seb&lt;/code&gt;驱车赶到内华达，使用长按喇叭的老方法找到了&lt;code&gt;Mia&lt;/code&gt;的家，并说服&lt;code&gt;Mia&lt;/code&gt;前去&lt;code&gt;LA&lt;/code&gt;试镜。所幸的是，这一次结果遂了人意。从电影剧情来看&lt;code&gt;Mia&lt;/code&gt;正是因为这一次试镜，才有了后来大红大紫的明星生涯。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;镜头来到五年后，一天晚上&lt;code&gt;Mia&lt;/code&gt;和丈夫因为高速公路堵车，就地找寻地方吃完饭。丈夫被酒吧的音乐所吸引，拉&lt;code&gt;Mia&lt;/code&gt;进去。正所谓这世界上有那么多的酒吧，你偏偏走进了这一家。让&lt;code&gt;Mia&lt;/code&gt;目瞪口呆的是墙上醒目的俱乐部名称&lt;code&gt;Seb&amp;#39;s&lt;/code&gt;，此时的&lt;code&gt;Mia&lt;/code&gt;什么都明白了。然而她还是选择走了进去。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;落座之后，一场演出结束，此时的俱乐部老板&lt;code&gt;Seb&lt;/code&gt;兴致勃勃地上台向观众介绍乐队成员。当目光扫到&lt;code&gt;Mia&lt;/code&gt;时，整个人便顿住了几秒钟，现场前后的气氛截然相反。随后，&lt;code&gt;Seb&lt;/code&gt;坐在了钢琴前，昔日的回忆都化作音符在琴键上跳跃、翻转，构成了&lt;code&gt;Seb&lt;/code&gt;想象中的另一个结局：当初的自己放弃了自己的梦想，转而全力支持&lt;code&gt;Mia&lt;/code&gt;的梦想，两人在一起经历了结婚、生子、&lt;code&gt;Mia&lt;/code&gt;成名等所有的事情，最后又回到了现在的俱乐部，只不过坐在&lt;code&gt;Mia&lt;/code&gt;旁边的不再是现在的男人，而是自己。坐在台上弹奏钢琴的也不再是自己，而换成了别人，有得必有失。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一曲结束，&lt;code&gt;Mia&lt;/code&gt;起身立场，走出门口时深情地回眸凝视，刚好和此刻的&lt;code&gt;Seb&lt;/code&gt;四目相对，两人相视一笑，那些年的欢乐和苦痛都化作了漫天的云彩，随风而去。&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;从彼此相互欣赏，到真心相爱，再到分道扬镳，所幸的是，最后两人都成就了自己的梦想。这大概是最好的结局了吧。&lt;/p&gt;
-</description>
+        <title>爱乐之城</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://p1.bqimg.com/567571/4330477133349416.jpg&quot; alt=&quot;La La Land&quot; /&gt;&lt;/p&gt; &lt;p&gt;       &lt;em&gt;爱乐之城&lt;/em&gt; 借梦想的名义讲了个极度唯美的爱情故事。既然是爱情，便会有起承转合，有好的部分，也有不好的部分。&lt;/p&gt; &lt;p&gt;        Seb 和 Mia 两人第一次相遇，是在开场歌舞之后的高速公路上，Mia 挡住了 Seb 的路， Seb 长按这吵闹的喇叭责怪 Mia ，两人不欢而散。&lt;/p&gt; &lt;p&gt;       第二次相遇，是圣诞夜的晚上，在 Seb 被刻薄的酒吧老板炒鱿鱼之后，Mia 受到音乐的感染，想要跟 Seb 认识，不过话没说完便被Seb粗鲁地擦肩而过。&lt;/p&gt; &lt;p&gt;       第三次相遇，是在一个夏天的Party上，两人总算有了初次的交流， Seb 知道 Mia 是个演员，而 Mia 得之 Seb 是个弹钢琴的。转机在于晚上Party结束时， Mia 被一个编剧缠身，请 Seb 帮忙拿车钥匙才得以脱身。顺理成章，两人在夜晚的山顶上有了一次深入地交谈。在音乐和舞蹈的烘托中，两人的相遇如同山下 LA 五光十色的夜景，暧昧而又温馨。&lt;/p&gt; &lt;p&gt;       第四次， Seb 故意溜进 Mia 工作的片场咖啡店，假装偶遇 Mia ，然后两人待了一整天，从早上到晚上，都对彼此的过去有了更加深入的了解。一个是对&lt;em&gt;Free Jazz&lt;/em&gt;有着近乎偏执喜爱的落魄音乐家，而另一个是试镜屡屡碰壁的无名小演员。相同的是，两人都对自己的梦想有着无限的热情和勇气。不然不会一个坚持了六年而没什么进展却不放弃，一个水电费都交不上了还敢违背刻薄老板的意思。毫无悬念地，两人都被对方身上那种对于梦想的热忱和坚持所吸引，欲罢不能。&lt;/p&gt; &lt;p&gt;       第五次，是两人相约看&lt;em&gt;无因的反抗&lt;/em&gt;周一晚上。一边的 Seb 在电影院左等右等，另一边的 Mia 忍受着男朋友哥哥无聊的谈话，收到音乐的感召， Mia 决定抛弃身旁的男友，坚定地跑出餐厅，脸上带着解脱的笑容。电影院里的 Seb 终于等到姗姗来迟的 Mia ，那一刻， Mia 眼前的一切都那么美好，两人一边看着电影，一边十指相扣。接吻的瞬间，电影胶片烧了。 Mia 突然起意和 Seb 去&lt;em&gt;无因的反抗&lt;/em&gt;拍摄地点之一的天文博物馆。于是这里我们看到导演对于热恋中的情侣感情最经典的诠释：博物馆里舒缓的歌声中，两人仿佛飞了起来，在浩瀚的宇宙里，闪耀的群星中，尽情地载歌载舞，是那么地无拘无束、自由自在。热恋中的人啊，总是恨不能融为一体。然而更多的是，当初在一起时有多么热爱，分开后便会有多么厌恶。&lt;/p&gt; &lt;p&gt;       此后的两人，尽享热恋中的喜悦。不必说酒吧门口的恶作剧，也不必说和煦阳光下郎才女貌的两人，更不必说公交车上的相互拥吻，在这些面前，生活中的那些苟且仿佛都消失不见了，观众看到的，就是两个相互欣赏的灵魂，为梦想执着的感动。&lt;/p&gt; &lt;p&gt;       好的部分到此结束了，毕竟人总是要生活在现实世界中的。&lt;/p&gt; &lt;p&gt;       迫于生活，也是为了对 Mia 负责， Seb 加入了 Keith 组建的乐队，有了稳定的工作，也有了不错的收入。虽然弹的都是自己不喜欢的音乐，但 Seb 妥协了。与此同时， Mia 在全力为自己的话剧准备着，。然而由于 Seb 的巡回演出，两人之间见面的次数越来越少，对方都在这期间发生着转变。终于在一天晚上，在 Seb 忙里偷闲回家做的晚餐上，两人关于这件事发生了激烈的争吵。&lt;/p&gt; &lt;p&gt;        Mia 认为 Seb 因为现实妥协了自己一直敢于坚持的梦想，不再是自己曾经喜欢的那个毫不在意世人想法的倔强的音乐家。 Seb 认为自己在做的事情也是为了 Mia 好，况且梦想有什么重要的呢，现在大家都喜欢他弹的音乐，该是时候成熟了。这让 Mia 失望透顶，眼前的男人已经不再是曾经那个敢于对世人说 Fuck Off 的 Seb 了，他变得开始在意别人的想法，而忘记了自己一直坚持的梦想。于是在 Seb...</description>
         <pubDate>Tue, 21 Feb 2017 00:00:00 +0800</pubDate>
-        <link>https://github.com/TonyScript/2017/02/la-la-land/</link>
-        <guid isPermaLink="true">https://github.com/TonyScript/2017/02/la-la-land/</guid>
+        <link>http://localhost:4000/la-la-land/</link>
+        <guid isPermaLink="true">http://localhost:4000/la-la-land/</guid>
+        
+        <category>影评集</category>
         
         
-      </item>
-    
-      <item>
-        <title>Three Basic Rules About Working With People</title>
-        <description>&lt;h1&gt;与人协作的三条基本原则&lt;/h1&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;闲来无事，总结了几条与人相处的几条基本原则。这几条原则几乎结合了我所有的社会经验，以及一些和与人相处的得失，虽然看似平淡无奇，但是真正做到实在太难。讲道理😁，我觉得这三条原则价值100W，今天免费送给有缘看到的各位，希望以后大家都能富贵相见。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;就事论事&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;按照已知的事实情况，结合自己已有的经验进行推论，而不是捕风捉影;&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;实事求是&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;按照实事求是的原则，就算对自己不利的情况，也要坚持实事求是，一便是一，二便是二，而不是按照感情的亲疏决定自己的立场；&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;讲道理&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;按照摆事实讲道理的方法，先站在别人的立场上阐述问题，然后站在自己的立场上表达观点，最后站在大家共同的利益上考虑问题，争取达到双赢的结果。&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Mon, 20 Feb 2017 00:00:00 +0800</pubDate>
-        <link>https://github.com/TonyScript/2017/02/three-basic-rules-about-working-with-people/</link>
-        <guid isPermaLink="true">https://github.com/TonyScript/2017/02/three-basic-rules-about-working-with-people/</guid>
-        
+        <category>谈笑风生又一年</category>
         
       </item>
     

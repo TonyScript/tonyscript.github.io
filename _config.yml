@@ -1,52 +1,52 @@
-# Basic
+# Site settings
 title: 我的小本本
-subtitle: Hi, 我是@TonyScript，一名iOS开发者，现居上海。正在路上，去往更大的世界。
-#welcome_message: <a href="https://github.com/hexoishexo" target="_blank">Download the theme</a>
-description: I've been told I'm a boring person.
-creator: <a href="https://www.github.com/TonyScript">@TonyScript</a>
+description: "I've been told that I'm a boring guy."
+baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+url: "http://tonyscript.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+# User settings
+username: tonyscript
+user_title: TonyScript - Developer
+email: TonyScript@gmail.com
+twitter_username: jimoruxue
+github_username:  TonyScript
+facebook_username:  jimoruxue
+gplus_username:  100110144836688919667
+disqus_username: tonyscript
 
-url: "https://github.com/TonyScript"
-
-permalink: /:year/:month/:title/
-
-# Format
+# Build settings
+markdown: kramdown
 highlighter: rouge
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
-
-# The blog button should not be removed.
-blog_button:
-    title: Blog
-    description: Visit blog
-
-# Navigation buttons in the front page.
-nav:
-    - {title: Projects, description: My Projects, url: 'https://github.com/TonyScript'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
-
-# Pagination
-gems: [jekyll-paginate]
-paginate: 10
-paginate_path: "page/:num/"
+permalink: /:title/
 
 # Comment
-comment:
-    # disqus: vno-jekyll
-    duoshuo: 
-    
-# Social
-social:
-    weibo:  TonyScript
-    github:  TonyScript
-    twitter:  jimoruxue
-    facebook:  jimoruxue
-    mail: TonyScript@gmail.com
+ # disqus: tonyscript
 
-# Google Analytics
-ga:
-    # id: your_ga_id
-    # host: your_host
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: tonyscript.github.io
+    url: https://github.com/TonyScript/tonyscript.github.io
+  - name: iOS-BasicAnimation
+    url: https://github.com/TonyScript/iOS-BasicAnimation
+  - name: AngularJS-Fundamentals
+    url: https://github.com/TonyScript/AngularJS-Fundamentals 
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
