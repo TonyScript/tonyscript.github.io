@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>我的小本本</title>
-    <description>I've been told that I'm a boring guy.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Mar 2017 23:45:21 +0800</pubDate>
-    <lastBuildDate>Sun, 05 Mar 2017 23:45:21 +0800</lastBuildDate>
-    <generator>Jekyll v3.4.1</generator>
+    <description>I&#39;ve been told that I&#39;m a boring guy.</description>
+    <link>http://tonyscript.github.io//</link>
+    <atom:link href="http://tonyscript.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 06 Mar 2017 00:29:59 +0800</pubDate>
+    <lastBuildDate>Mon, 06 Mar 2017 00:29:59 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
     
       <item>
         <title>中国人素质很低吗？</title>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Sun, 05 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/is-the-people-of-china-is-so-rude/</link>
-        <guid isPermaLink="true">http://localhost:4000/is-the-people-of-china-is-so-rude/</guid>
+        <link>http://tonyscript.github.io//is-the-people-of-china-is-so-rude/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//is-the-people-of-china-is-so-rude/</guid>
         
         <category>扯淡集</category>
         
@@ -59,8 +59,8 @@
 
 </description>
         <pubDate>Sat, 04 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/who-is-watching-krsj-and-zjw/</link>
-        <guid isPermaLink="true">http://localhost:4000/who-is-watching-krsj-and-zjw/</guid>
+        <link>http://tonyscript.github.io//who-is-watching-krsj-and-zjw/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//who-is-watching-krsj-and-zjw/</guid>
         
         <category>扯淡集</category>
         
@@ -71,30 +71,26 @@
     
       <item>
         <title>Xamarin.iOS 初步体验</title>
-        <description>&lt;p&gt;       &lt;strong&gt;Xamarin.iOS&lt;/strong&gt; 也写了一段时间了，文档看得头晕，Demo做了一些，发现这个东西还是不太靠谱。具体体现在以下几点：&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;&lt;em&gt;iOS Designer&lt;/em&gt; 使用很不方便，拖拽或者修改都不如 Xcode 自带的 StoryBoard 灵活，总觉得肉肉的，而且经常卡死，出现打不开的情况；&lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;Xamarin Studio&lt;/em&gt; 软件本身也有很多槽点，不说跟 Xcode 比了，可靠性总得有保障吧，然而真实情况是有时候打开一个工程需要加载半天；&lt;/li&gt;
-    &lt;li&gt;iOS 开发过程中需要用到很多第三方库，这些库用 &lt;em&gt;C#&lt;/em&gt; 是没法直接调用的，虽然官方给出了转换的方法，但操作极其繁琐，而且有的库貌似还不支持；
-&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-b716c7c34f185344.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Xamarin.iOS 使用原生SDK教程&quot; /&gt;&lt;/li&gt;
-    &lt;li&gt;报错信息在网上搜索结果很少，大部分是官方博客或者论坛上的，链接到第三方网站的很少，在国外著名的技术问答社区 Stack Overflow 上搜索 &lt;em&gt;Xamarin.iOS&lt;/em&gt; 结果也是少得可怜，只有2W多条，相比之下 iOS 则有将近50W条，所以如果遇到奇葩的报错会让人不知所措的。
+        <description>&lt;p&gt;       &lt;strong&gt;Xamarin.iOS&lt;/strong&gt; 也写了一段时间了，文档看得头晕，Demo做了一些，发现这个东西还是不太靠谱。具体体现在以下几点：
+&amp;gt;1. &lt;em&gt;iOS Designer&lt;/em&gt; 使用很不方便，拖拽或者修改都不如 Xcode 自带的 StoryBoard 灵活，总觉得肉肉的，而且经常卡死，出现打不开的情况；
+2. &lt;em&gt;Xamarin Studio&lt;/em&gt; 软件本身也有很多槽点，不说跟 Xcode 比了，可靠性总得有保障吧，然而真实情况是有时候打开一个工程需要加载半天；
+3. iOS 开发过程中需要用到很多第三方库，这些库用 &lt;em&gt;C#&lt;/em&gt; 是没法直接调用的，虽然官方给出了转换的方法，但操作极其繁琐，而且有的库貌似还不支持；
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-b716c7c34f185344.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Xamarin.iOS 使用原生SDK教程&quot; /&gt;
+4. 报错信息在网上搜索结果很少，大部分是官方博客或者论坛上的，链接到第三方网站的很少，在国外著名的技术问答社区 Stack Overflow 上搜索 &lt;em&gt;Xamarin.iOS&lt;/em&gt; 结果也是少得可怜，只有2W多条，相比之下 iOS 则有将近50W条，所以如果遇到奇葩的报错会让人不知所措的。
 &lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-4323b511db538ca4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Xamarin.iOS 在 Stack Overflow 上的搜索结果&quot; /&gt;
-&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-f23349285da763a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;iOS 在 Stack Overflow 上的搜索结果&quot; /&gt;&lt;/li&gt;
-    &lt;li&gt;Xamarin 目前只有英文文档，这就意味着学习途径只有官网一条。在网上也不到中文文档，这也是在国内很少有人去学习的原因之一。话说 Vue.js 这两年势头很猛，与其官方中文文档的全面是有分不开的，而不是说真的比 AngularJS 高到哪里去；
-&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-73bb7a11a8382f0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Xamarin.iOS 官方文档目录&quot; /&gt;&lt;/li&gt;
-    &lt;li&gt;安卓平台不是太清楚，但站在 iOS 开发的角度来说，苹果给开发者提供的开发环境包括整个生态实在是太完整了，让人完全没有理由转向其他途径。&lt;/li&gt;
-    &lt;li&gt;除此之外，也有对微软的信心不足。微软推行的很多项目都是雷声大雨点小，自从微软收购 Xamarin 之后，这样的担心一直都在。&lt;/li&gt;
-    &lt;li&gt;附一个我写的 Xamarin.iOS 入门上手 Demo，点 &lt;a href=&quot;https://pan.baidu.com/s/1qY10Zd6&quot;&gt;这里&lt;/a&gt; 下载，提取码 w3t9，在 Xamarin Studio 里可以直接运行。&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-f23349285da763a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;iOS 在 Stack Overflow 上的搜索结果&quot; /&gt;
+5. Xamarin 目前只有英文文档，这就意味着学习途径只有官网一条。在网上也不到中文文档，这也是在国内很少有人去学习的原因之一。话说 Vue.js 这两年势头很猛，与其官方中文文档的全面是有分不开的，而不是说真的比 AngularJS 高到哪里去；
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-73bb7a11a8382f0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Xamarin.iOS 官方文档目录&quot; /&gt;
+6. 安卓平台不是太清楚，但站在 iOS 开发的角度来说，苹果给开发者提供的开发环境包括整个生态实在是太完整了，让人完全没有理由转向其他途径。
+7. 除此之外，也有对微软的信心不足。微软推行的很多项目都是雷声大雨点小，自从微软收购 Xamarin 之后，这样的担心一直都在。
+8. 附一个我写的 Xamarin.iOS 入门上手 Demo，点 &lt;a href=&quot;https://pan.baidu.com/s/1qY10Zd6&quot;&gt;这里&lt;/a&gt; 下载，提取码 w3t9，在 Xamarin Studio 里可以直接运行。&lt;/p&gt;
 
-&lt;h3 id=&quot;所以如果没有十分充足的理由最好不要踏入这个坑&quot;&gt;&lt;strong&gt;所以，如果没有十分充足的理由最好不要踏入这个坑。&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;section&quot;&gt;&lt;strong&gt;所以，如果没有十分充足的理由最好不要踏入这个坑。&lt;/strong&gt;&lt;/h3&gt;
 
 </description>
         <pubDate>Thu, 02 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/a-small-bite-of-xamarin.iOS/</link>
-        <guid isPermaLink="true">http://localhost:4000/a-small-bite-of-xamarin.iOS/</guid>
+        <link>http://tonyscript.github.io//a-small-bite-of-xamarin.iOS/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//a-small-bite-of-xamarin.iOS/</guid>
         
         <category>造作集</category>
         
@@ -105,10 +101,10 @@
     
       <item>
         <title>2016年技术路径</title>
-        <description>&lt;h3 id=&quot;引子&quot;&gt;引子&lt;/h3&gt; &lt;p&gt;       人的命运啊，当然要靠自我奋斗，但有时有也要考虑历史的进程。在夜深人静的时候也会问自己，我一个 iOS 开发怎么就跑来写前端了？&lt;/p&gt; &lt;h3 id=&quot;起&quot;&gt;起&lt;/h3&gt; &lt;p&gt;       我作为一个 iOS 开发，在最近一年的时间里马不停蹄地学了 HTML、CSS、JavaScript、AngularJS ，然后在此基础上才有足够的知识储备去学习 &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt; 这个基于前端技术的混合开发框架。做了半年之后又发现公司项目的原生部分是基于 &lt;code class=&quot;highlighter-rouge&quot;&gt;C#&lt;/code&gt; 写的，当时真是有日了动物园的感觉。后来不那么忙，就索性把 &lt;a href=&quot;https://www.xamarin.com/&quot;&gt;Xamarin&lt;/a&gt; 这个混合开发解决方案也撸了一把 。当然，学习这个之前，还是先去写了几天 &lt;em&gt;C#&lt;/em&gt; 作为知识储备。所以这过去的一年，我基本上就跟混合开发卯上了。&lt;/p&gt; &lt;h3 id=&quot;承&quot;&gt;承&lt;/h3&gt; &lt;p&gt;       目前主流的混合开发解决方案我算是都有了解过，最有名的大概就是 &lt;code class=&quot;highlighter-rouge&quot;&gt;Facebook&lt;/code&gt; 推出的 &lt;a href=&quot;https://facebook.github.io/react-native/&quot;&gt;React Native&lt;/a&gt; : &lt;img src=&quot;http://ww1.sinaimg.cn/large/b5fd9ee1gy1fda3peashhj20o00jx41p&quot; alt=&quot;使用 RN 的应用&quot; /&gt;&lt;/p&gt; &lt;p&gt;国内阿里推出的 &lt;a href=&quot;https://weex-project.io/cn/&quot;&gt;Weex&lt;/a&gt; ： &lt;img src=&quot;http://ww1.sinaimg.cn/mw690/b5fd9ee1gy1fda3nx676fj20n50knacn&quot; alt=&quot;Weex 使用的是 Vue&quot; /&gt;&lt;/p&gt; &lt;p&gt;豆瓣也推出了自己的混合开发解决方案 &lt;a href=&quot;https://github.com/douban/rexxar-ios&quot;&gt;Rexxar&lt;/a&gt; ： &lt;img src=&quot;http://p1.bqimg.com/1949/6095e6e41bcd5448s.png&quot; alt=&quot;Rexxar 执行过程&quot; /&gt;&lt;/p&gt; &lt;p&gt;       可能还有其他的解决方案，不过后面提到的三个， &lt;code class=&quot;highlighter-rouge&quot;&gt;RN&lt;/code&gt; 、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Weex&lt;/code&gt; 、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Rexxar&lt;/code&gt; 原理都大同小异，在原生层的基础上嵌入 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIWebView&lt;/code&gt;，通过各种 &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt; 的配合完成与原生层的交互。总的来说，是比较传统意义上的混合开发，以原生层为基础，在上面迭代开发。但是一开始说的两个，&lt;code class=&quot;highlighter-rouge&quot;&gt;Ionic&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;Xamarin&lt;/code&gt; ，与上面提到的三个截然不同，属于两个极端。&lt;/p&gt; &lt;h3 id=&quot;转&quot;&gt;转&lt;/h3&gt; &lt;p&gt;       &lt;code class=&quot;highlighter-rouge&quot;&gt;Ionic&lt;/code&gt; 作为一个完全基于前端技术的移动端跨平台解决方案，开发者几乎完全不需要写任何原生代码，表示层、业务逻辑层以及数据持久化层都是通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; 、&lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt; 、&lt;code class=&quot;highlighter-rouge&quot;&gt;AngularJS&lt;/code&gt; 实现的，比较适合一些小型的、业务逻辑简单、对原生 API 依赖较少的项目。 &lt;img src=&quot;http://p1.bqimg.com/1949/e2c8b9e049401cf0s.png&quot; alt=&quot;Ionic是一种标签语言&quot; /&gt;&lt;/p&gt; &lt;p&gt;       混合开发最让人担忧的可能就是性能问题了，上面提到的三种比较传统的混合开发在性能上虽然也不能与原生相匹敌，但是换取了更灵活的业务模式、更快速的开发效率、更多的代码复用、更便捷的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Bug&lt;/code&gt;...</description>
+        <description>&lt;h3 id=&quot;section&quot;&gt;引子&lt;/h3&gt; &lt;p&gt;       人的命运啊，当然要靠自我奋斗，但有时有也要考虑历史的进程。在夜深人静的时候也会问自己，我一个 iOS 开发怎么就跑来写前端了？&lt;/p&gt; &lt;h3 id=&quot;section-1&quot;&gt;起&lt;/h3&gt; &lt;p&gt;       我作为一个 iOS 开发，在最近一年的时间里马不停蹄地学了 HTML、CSS、JavaScript、AngularJS ，然后在此基础上才有足够的知识储备去学习 &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt; 这个基于前端技术的混合开发框架。做了半年之后又发现公司项目的原生部分是基于 &lt;code class=&quot;highlighter-rouge&quot;&gt;C#&lt;/code&gt; 写的，当时真是有日了动物园的感觉。后来不那么忙，就索性把 &lt;a href=&quot;https://www.xamarin.com/&quot;&gt;Xamarin&lt;/a&gt; 这个混合开发解决方案也撸了一把 。当然，学习这个之前，还是先去写了几天 &lt;em&gt;C#&lt;/em&gt; 作为知识储备。所以这过去的一年，我基本上就跟混合开发卯上了。&lt;/p&gt; &lt;h3 id=&quot;section-2&quot;&gt;承&lt;/h3&gt; &lt;p&gt;       目前主流的混合开发解决方案我算是都有了解过，最有名的大概就是 &lt;code class=&quot;highlighter-rouge&quot;&gt;Facebook&lt;/code&gt; 推出的 &lt;a href=&quot;https://facebook.github.io/react-native/&quot;&gt;React Native&lt;/a&gt; : &lt;img src=&quot;http://ww1.sinaimg.cn/large/b5fd9ee1gy1fda3peashhj20o00jx41p&quot; alt=&quot;使用 RN 的应用&quot; /&gt;&lt;/p&gt; &lt;p&gt;国内阿里推出的 &lt;a href=&quot;https://weex-project.io/cn/&quot;&gt;Weex&lt;/a&gt; ： &lt;img src=&quot;http://ww1.sinaimg.cn/mw690/b5fd9ee1gy1fda3nx676fj20n50knacn&quot; alt=&quot;Weex 使用的是 Vue&quot; /&gt;&lt;/p&gt; &lt;p&gt;豆瓣也推出了自己的混合开发解决方案 &lt;a href=&quot;https://github.com/douban/rexxar-ios&quot;&gt;Rexxar&lt;/a&gt; ： &lt;img src=&quot;http://p1.bqimg.com/1949/6095e6e41bcd5448s.png&quot; alt=&quot;Rexxar 执行过程&quot; /&gt;&lt;/p&gt; &lt;p&gt;       可能还有其他的解决方案，不过后面提到的三个， &lt;code class=&quot;highlighter-rouge&quot;&gt;RN&lt;/code&gt; 、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Weex&lt;/code&gt; 、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Rexxar&lt;/code&gt; 原理都大同小异，在原生层的基础上嵌入 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIWebView&lt;/code&gt;，通过各种 &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt; 的配合完成与原生层的交互。总的来说，是比较传统意义上的混合开发，以原生层为基础，在上面迭代开发。但是一开始说的两个，&lt;code class=&quot;highlighter-rouge&quot;&gt;Ionic&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;Xamarin&lt;/code&gt; ，与上面提到的三个截然不同，属于两个极端。&lt;/p&gt; &lt;h3 id=&quot;section-3&quot;&gt;转&lt;/h3&gt; &lt;p&gt;       &lt;code class=&quot;highlighter-rouge&quot;&gt;Ionic&lt;/code&gt; 作为一个完全基于前端技术的移动端跨平台解决方案，开发者几乎完全不需要写任何原生代码，表示层、业务逻辑层以及数据持久化层都是通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; 、&lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt; 、&lt;code class=&quot;highlighter-rouge&quot;&gt;AngularJS&lt;/code&gt; 实现的，比较适合一些小型的、业务逻辑简单、对原生 API 依赖较少的项目。 &lt;img src=&quot;http://p1.bqimg.com/1949/e2c8b9e049401cf0s.png&quot; alt=&quot;Ionic是一种标签语言&quot; /&gt;&lt;/p&gt; &lt;p&gt;       混合开发最让人担忧的可能就是性能问题了，上面提到的三种比较传统的混合开发在性能上虽然也不能与原生相匹敌，但是换取了更灵活的业务模式、更快速的开发效率、更多的代码复用、更便捷的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Bug&lt;/code&gt;...</description>
         <pubDate>Wed, 01 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/tech-path-of-2016/</link>
-        <guid isPermaLink="true">http://localhost:4000/tech-path-of-2016/</guid>
+        <link>http://tonyscript.github.io//tech-path-of-2016/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//tech-path-of-2016/</guid>
         
         <category>造作集</category>
         
@@ -119,10 +115,10 @@
     
       <item>
         <title>Sketch常用快捷键</title>
-        <description>&lt;h4 id=&quot;1使用insert快速插入&quot;&gt;1.使用&lt;em&gt;Insert&lt;/em&gt;快速插入&lt;/h4&gt;
+        <description>&lt;h4 id=&quot;insert&quot;&gt;1.使用&lt;em&gt;Insert&lt;/em&gt;快速插入&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;http://i1.piimg.com/567571/23bb85c2863029ed.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;2不同情形下的缩放组合键&quot;&gt;2.不同情形下的缩放组合键&lt;/h4&gt;
+&lt;h4 id=&quot;section&quot;&gt;2.不同情形下的缩放组合键&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;缩放到100%：CMD+0&lt;/li&gt;
   &lt;li&gt;查看&lt;em&gt;Artboard&lt;/em&gt;中所有的&lt;em&gt;page&lt;/em&gt;：CMD+1&lt;/li&gt;
@@ -130,72 +126,70 @@
   &lt;li&gt;选中要查看的图层，按住&lt;em&gt;CMD+3&lt;/em&gt;可以快速聚焦到改图层&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;3左右滚动&quot;&gt;3.左右滚动&lt;/h4&gt;
+&lt;h4 id=&quot;section-1&quot;&gt;3.左右滚动&lt;/h4&gt;
 &lt;p&gt;在没有触控板的情况下，使用&lt;em&gt;Shift+滚轮&lt;/em&gt;实现左右滚动&lt;/p&gt;
 
-&lt;h4 id=&quot;4隐藏显示图层列表和检查器&quot;&gt;4.隐藏/显示&lt;em&gt;图层列表&lt;/em&gt;和&lt;em&gt;检查器&lt;/em&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;section-2&quot;&gt;4.隐藏/显示&lt;em&gt;图层列表&lt;/em&gt;和&lt;em&gt;检查器&lt;/em&gt;&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;CMD+option+1：隐藏/显示图层列表&lt;/li&gt;
   &lt;li&gt;CMD+option+2：隐藏/显示检查器&lt;/li&gt;
   &lt;li&gt;CMD+option+3：全部隐藏/显示&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;5全屏模式presentation-mode&quot;&gt;5.全屏模式（Presentation Mode）&lt;/h4&gt;
+&lt;h4 id=&quot;presentation-mode&quot;&gt;5.全屏模式（Presentation Mode）&lt;/h4&gt;
 &lt;p&gt;使用&lt;em&gt;CMD+.&lt;/em&gt;可以进入全屏模式，将画布中的作品全屏展示&lt;/p&gt;
 
-&lt;h4 id=&quot;6标尺&quot;&gt;6.标尺&lt;/h4&gt;
+&lt;h4 id=&quot;section-3&quot;&gt;6.标尺&lt;/h4&gt;
 &lt;p&gt;使用&lt;em&gt;Ctrl+R&lt;/em&gt;可以显示或隐藏标尺，在标尺上双击可以添加参考线，将参考线拖动到最左侧或者最右侧会将其删除&lt;/p&gt;
 
-&lt;h4 id=&quot;7移动对象&quot;&gt;7.&lt;span id=&quot;inde&quot;&gt;移动对象&lt;/span&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;span-idindespan&quot;&gt;7.&lt;span id=&quot;inde&quot;&gt;移动对象&lt;/span&gt;&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;按住&lt;em&gt;option&lt;/em&gt;键可以查看对象之间的&lt;em&gt;margin&lt;/em&gt;值&lt;/li&gt;
   &lt;li&gt;使用方向键可以移动选中的对象1px，如果同时按住&lt;em&gt;Shift&lt;/em&gt;则可以每次移动10px&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;8在移动对象时查看margin值&quot;&gt;8.在移动对象时查看&lt;em&gt;margin&lt;/em&gt;值&lt;/h4&gt;
+&lt;h4 id=&quot;margin&quot;&gt;8.在移动对象时查看&lt;em&gt;margin&lt;/em&gt;值&lt;/h4&gt;
 &lt;p&gt;在移动某一个对象的时候，按住&lt;em&gt;option&lt;/em&gt;即可查看对象的&lt;em&gt;margin&lt;/em&gt;值&lt;/p&gt;
 
-&lt;h4 id=&quot;9改变对象的尺寸&quot;&gt;9.改变对象的尺寸&lt;/h4&gt;
+&lt;h4 id=&quot;section-4&quot;&gt;9.改变对象的尺寸&lt;/h4&gt;
 &lt;p&gt;使用&lt;em&gt;CMD+方向键&lt;/em&gt;可以改变对象的尺寸1px，如果同时再按下&lt;em&gt;Shift&lt;/em&gt;键可以改变10px&lt;/p&gt;
 
-&lt;h4 id=&quot;10为对象分组和命名&quot;&gt;10.为对象分组和命名&lt;/h4&gt;
-&lt;p&gt;当设计一个较大的项目时，给对象分组和命名会让文件目录结构更加清晰&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;选中&lt;em&gt;Artboard&lt;/em&gt;上的若干对象，按住&lt;em&gt;CMD+G&lt;/em&gt;即可成组&lt;/li&gt;
-  &lt;li&gt;在&lt;em&gt;图层列表&lt;/em&gt;中选中对象，按住&lt;em&gt;CMD+R&lt;/em&gt;即可给对象重命名&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h4 id=&quot;section-5&quot;&gt;10.为对象分组和命名&lt;/h4&gt;
+&lt;p&gt;当设计一个较大的项目时，给对象分组和命名会让文件目录结构更加清晰
+* 选中&lt;em&gt;Artboard&lt;/em&gt;上的若干对象，按住&lt;em&gt;CMD+G&lt;/em&gt;即可成组
+* 在&lt;em&gt;图层列表&lt;/em&gt;中选中对象，按住&lt;em&gt;CMD+R&lt;/em&gt;即可给对象重命名&lt;/p&gt;
 
-&lt;h4 id=&quot;11资源&quot;&gt;11.资源&lt;/h4&gt;
+&lt;h4 id=&quot;section-6&quot;&gt;11.资源&lt;/h4&gt;
 &lt;p&gt;在&lt;a href=&quot;https://www.sketchappsources.com/&quot;&gt;SketchAppSources&lt;/a&gt;上可以找到很多有用的素材&lt;/p&gt;
 
-&lt;h4 id=&quot;12复制对象&quot;&gt;12.复制对象&lt;/h4&gt;
+&lt;h4 id=&quot;section-7&quot;&gt;12.复制对象&lt;/h4&gt;
 &lt;p&gt;使用&lt;em&gt;CMD+D&lt;/em&gt;可以一步到位完成对象的赋值，如果不希望复制的对象覆盖之前的对象，可以在偏好设置里面选中下图中框起来的选项。
 &lt;img src=&quot;http://p1.bpimg.com/567571/5a8c219c7dd401cd.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;13抓手工具&quot;&gt;13.抓手工具&lt;/h4&gt;
+&lt;h4 id=&quot;section-8&quot;&gt;13.抓手工具&lt;/h4&gt;
 &lt;p&gt;按住&lt;em&gt;空格&lt;/em&gt;键可以拖拽来移动画布&lt;/p&gt;
 
-&lt;h4 id=&quot;14多选图层&quot;&gt;14.多选图层&lt;/h4&gt;
+&lt;h4 id=&quot;section-9&quot;&gt;14.多选图层&lt;/h4&gt;
 &lt;p&gt;按住&lt;em&gt;Shift&lt;/em&gt;键可以多选图层&lt;/p&gt;
 
-&lt;h4 id=&quot;15从中心绘制图层&quot;&gt;15.从中心绘制图层&lt;/h4&gt;
+&lt;h4 id=&quot;section-10&quot;&gt;15.从中心绘制图层&lt;/h4&gt;
 &lt;p&gt;绘制图层的时候按住&lt;em&gt;option&lt;/em&gt;键可以从图层中心而不是左上角开始绘制&lt;/p&gt;
 
-&lt;h4 id=&quot;16移动图层&quot;&gt;16.移动图层&lt;/h4&gt;
+&lt;h4 id=&quot;section-11&quot;&gt;16.移动图层&lt;/h4&gt;
 &lt;p&gt;移动图层的时候按住&lt;em&gt;Shift&lt;/em&gt;键可以严格按照水平或垂直方向移动图层而不会产生偏移&lt;/p&gt;
 
-&lt;h4 id=&quot;17选择图层&quot;&gt;17.选择图层&lt;/h4&gt;
+&lt;h4 id=&quot;section-12&quot;&gt;17.选择图层&lt;/h4&gt;
 &lt;p&gt;单击组，整个组会被视为一个图层，双击才会进入组内选择具体的图层
 当组过多时，可以按住&lt;em&gt;CMD&lt;/em&gt;键直接选择某一个具体的图层，节约时间
 &lt;em&gt;Pick Layer&lt;/em&gt;这个功能是用来选择覆盖在其他图层底下的图层&lt;/p&gt;
 
-&lt;h4 id=&quot;18锚点&quot;&gt;18.锚点&lt;/h4&gt;
+&lt;h4 id=&quot;section-13&quot;&gt;18.锚点&lt;/h4&gt;
 &lt;p&gt;跳转到&lt;a href=&quot;#inde&quot;&gt;移动对象&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 24 Feb 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/sketch-shortcuts/</link>
-        <guid isPermaLink="true">http://localhost:4000/sketch-shortcuts/</guid>
+        <link>http://tonyscript.github.io//sketch-shortcuts/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//sketch-shortcuts/</guid>
         
         <category>造作集</category>
         
@@ -208,8 +202,8 @@
         <title>爱乐之城</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://p1.bqimg.com/567571/4330477133349416.jpg&quot; alt=&quot;La La Land&quot; /&gt;&lt;/p&gt; &lt;p&gt;       &lt;em&gt;爱乐之城&lt;/em&gt; 借梦想的名义讲了个极度唯美的爱情故事。既然是爱情，便会有起承转合，有好的部分，也有不好的部分。&lt;/p&gt; &lt;p&gt;        Seb 和 Mia 两人第一次相遇，是在开场歌舞之后的高速公路上，Mia 挡住了 Seb 的路， Seb 长按这吵闹的喇叭责怪 Mia ，两人不欢而散。&lt;/p&gt; &lt;p&gt;       第二次相遇，是圣诞夜的晚上，在 Seb 被刻薄的酒吧老板炒鱿鱼之后，Mia 受到音乐的感染，想要跟 Seb 认识，不过话没说完便被Seb粗鲁地擦肩而过。&lt;/p&gt; &lt;p&gt;       第三次相遇，是在一个夏天的Party上，两人总算有了初次的交流， Seb 知道 Mia 是个演员，而 Mia 得之 Seb 是个弹钢琴的。转机在于晚上Party结束时， Mia 被一个编剧缠身，请 Seb 帮忙拿车钥匙才得以脱身。顺理成章，两人在夜晚的山顶上有了一次深入地交谈。在音乐和舞蹈的烘托中，两人的相遇如同山下 LA 五光十色的夜景，暧昧而又温馨。&lt;/p&gt; &lt;p&gt;       第四次， Seb 故意溜进 Mia 工作的片场咖啡店，假装偶遇 Mia ，然后两人待了一整天，从早上到晚上，都对彼此的过去有了更加深入的了解。一个是对&lt;em&gt;Free Jazz&lt;/em&gt;有着近乎偏执喜爱的落魄音乐家，而另一个是试镜屡屡碰壁的无名小演员。相同的是，两人都对自己的梦想有着无限的热情和勇气。不然不会一个坚持了六年而没什么进展却不放弃，一个水电费都交不上了还敢违背刻薄老板的意思。毫无悬念地，两人都被对方身上那种对于梦想的热忱和坚持所吸引，欲罢不能。&lt;/p&gt; &lt;p&gt;       第五次，是两人相约看&lt;em&gt;无因的反抗&lt;/em&gt;周一晚上。一边的 Seb 在电影院左等右等，另一边的 Mia 忍受着男朋友哥哥无聊的谈话，收到音乐的感召， Mia 决定抛弃身旁的男友，坚定地跑出餐厅，脸上带着解脱的笑容。电影院里的 Seb 终于等到姗姗来迟的 Mia ，那一刻， Mia 眼前的一切都那么美好，两人一边看着电影，一边十指相扣。接吻的瞬间，电影胶片烧了。 Mia 突然起意和 Seb 去&lt;em&gt;无因的反抗&lt;/em&gt;拍摄地点之一的天文博物馆。于是这里我们看到导演对于热恋中的情侣感情最经典的诠释：博物馆里舒缓的歌声中，两人仿佛飞了起来，在浩瀚的宇宙里，闪耀的群星中，尽情地载歌载舞，是那么地无拘无束、自由自在。热恋中的人啊，总是恨不能融为一体。然而更多的是，当初在一起时有多么热爱，分开后便会有多么厌恶。&lt;/p&gt; &lt;p&gt;       此后的两人，尽享热恋中的喜悦。不必说酒吧门口的恶作剧，也不必说和煦阳光下郎才女貌的两人，更不必说公交车上的相互拥吻，在这些面前，生活中的那些苟且仿佛都消失不见了，观众看到的，就是两个相互欣赏的灵魂，为梦想执着的感动。&lt;/p&gt; &lt;p&gt;       好的部分到此结束了，毕竟人总是要生活在现实世界中的。&lt;/p&gt; &lt;p&gt;       迫于生活，也是为了对 Mia 负责， Seb 加入了 Keith 组建的乐队，有了稳定的工作，也有了不错的收入。虽然弹的都是自己不喜欢的音乐，但 Seb 妥协了。与此同时， Mia 在全力为自己的话剧准备着，。然而由于 Seb 的巡回演出，两人之间见面的次数越来越少，对方都在这期间发生着转变。终于在一天晚上，在 Seb 忙里偷闲回家做的晚餐上，两人关于这件事发生了激烈的争吵。&lt;/p&gt; &lt;p&gt;        Mia 认为 Seb 因为现实妥协了自己一直敢于坚持的梦想，不再是自己曾经喜欢的那个毫不在意世人想法的倔强的音乐家。 Seb 认为自己在做的事情也是为了 Mia 好，况且梦想有什么重要的呢，现在大家都喜欢他弹的音乐，该是时候成熟了。这让 Mia 失望透顶，眼前的男人已经不再是曾经那个敢于对世人说 Fuck Off 的 Seb 了，他变得开始在意别人的想法，而忘记了自己一直坚持的梦想。于是在 Seb...</description>
         <pubDate>Tue, 21 Feb 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/la-la-land/</link>
-        <guid isPermaLink="true">http://localhost:4000/la-la-land/</guid>
+        <link>http://tonyscript.github.io//la-la-land/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//la-la-land/</guid>
         
         <category>影评集</category>
         
