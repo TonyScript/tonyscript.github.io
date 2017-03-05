@@ -19,14 +19,14 @@
     <meta name="twitter:description" content="">
 
     
-    <meta property="twitter:image:src" content="http://tonyscript.github.io/">
+    <meta property="twitter:image:src" content="http://localhost:4000">
     
 
     <!-- Social Facebook/Open Graph -->
-    <meta property="og:url" content="http://tonyscript.github.io//a-small-bite-of-xamarin.iOS/">
+    <meta property="og:url" content="http://localhost:4000/a-small-bite-of-xamarin.iOS/">
     <meta property="og:title" content="Xamarin.iOS 初步体验">
     
-    <meta property="og:image" content="http://tonyscript.github.io/">
+    <meta property="og:image" content="http://localhost:4000">
     
     <meta property="og:description" content="">
     <meta property="og:site_name" content="我的小本本">
@@ -34,7 +34,7 @@
     <!-- Social Google+/Schema.org  -->
     <meta itemprop="name" content="Xamarin.iOS 初步体验"/>
     <meta itemprop="description" content="">
-    <meta itemprop="image" content="http://tonyscript.github.io//assets/img/blog-image.png"/>
+    <meta itemprop="image" content="http://localhost:4000/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/img/icons/favicon.ico" type="image/x-icon" />
@@ -62,8 +62,8 @@
     <meta name="theme-color" content="#5d4d7a">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://tonyscript.github.io//a-small-bite-of-xamarin.iOS/">
-    <link rel="alternate" type="application/rss+xml" title="我的小本本" href="http://tonyscript.github.io//feed.xml" />
+    <link rel="canonical" href="http://localhost:4000/a-small-bite-of-xamarin.iOS/">
+    <link rel="alternate" type="application/rss+xml" title="我的小本本" href="http://localhost:4000/feed.xml" />
 </head>
 
     <body>
@@ -114,7 +114,7 @@
         <li>
           <span class="counter-menu">1</span>
           <svg viewBox="0 0 50 50" class="icon-arrow-menu"><use xlink:href="#icon-right-arrow"></use></svg>
-          <a href="http://tonyscript.github.io//"> home</a>
+          <a href="http://localhost:4000/"> home</a>
         </li>
       
 
@@ -124,7 +124,7 @@
         <li>
           <span class="counter-menu">2</span>
           <svg viewBox="0 0 50 50" class="icon-arrow-menu"><use xlink:href="#icon-right-arrow"></use></svg>
-          <a href="http://tonyscript.github.io//posts"> my posts</a>
+          <a href="http://localhost:4000/posts"> my posts</a>
         </li>
       
 
@@ -134,7 +134,7 @@
         <li>
           <span class="counter-menu">3</span>
           <svg viewBox="0 0 50 50" class="icon-arrow-menu"><use xlink:href="#icon-right-arrow"></use></svg>
-          <a href="http://tonyscript.github.io//series"> series</a>
+          <a href="http://localhost:4000/series"> series</a>
         </li>
       
 
@@ -144,7 +144,7 @@
         <li>
           <span class="counter-menu">4</span>
           <svg viewBox="0 0 50 50" class="icon-arrow-menu"><use xlink:href="#icon-right-arrow"></use></svg>
-          <a href="http://tonyscript.github.io//tags"> tags</a>
+          <a href="http://localhost:4000/tags"> tags</a>
         </li>
       
 
@@ -154,7 +154,7 @@
         <li>
           <span class="counter-menu">5</span>
           <svg viewBox="0 0 50 50" class="icon-arrow-menu"><use xlink:href="#icon-right-arrow"></use></svg>
-          <a href="http://tonyscript.github.io//about"> about me</a>
+          <a href="http://localhost:4000/about"> about me</a>
         </li>
       
 
@@ -253,21 +253,25 @@
             <h1 class="post-title" itemprop="name">Xamarin.iOS 初步体验</h1>
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>       <strong>Xamarin.iOS</strong> 也写了一段时间了，文档看得头晕，Demo做了一些，发现这个东西还是不太靠谱。具体体现在以下几点：
-&gt;1. <em>iOS Designer</em> 使用很不方便，拖拽或者修改都不如 Xcode 自带的 StoryBoard 灵活，总觉得肉肉的，而且经常卡死，出现打不开的情况；
-2. <em>Xamarin Studio</em> 软件本身也有很多槽点，不说跟 Xcode 比了，可靠性总得有保障吧，然而真实情况是有时候打开一个工程需要加载半天；
-3. iOS 开发过程中需要用到很多第三方库，这些库用 <em>C#</em> 是没法直接调用的，虽然官方给出了转换的方法，但操作极其繁琐，而且有的库貌似还不支持；
-<img src="http://upload-images.jianshu.io/upload_images/1243365-b716c7c34f185344.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Xamarin.iOS 使用原生SDK教程" />
-4. 报错信息在网上搜索结果很少，大部分是官方博客或者论坛上的，链接到第三方网站的很少，在国外著名的技术问答社区 Stack Overflow 上搜索 <em>Xamarin.iOS</em> 结果也是少得可怜，只有2W多条，相比之下 iOS 则有将近50W条，所以如果遇到奇葩的报错会让人不知所措的。
+                <p>       <strong>Xamarin.iOS</strong> 也写了一段时间了，文档看得头晕，Demo做了一些，发现这个东西还是不太靠谱。具体体现在以下几点：</p>
+<blockquote>
+  <ol>
+    <li><em>iOS Designer</em> 使用很不方便，拖拽或者修改都不如 Xcode 自带的 StoryBoard 灵活，总觉得肉肉的，而且经常卡死，出现打不开的情况；</li>
+    <li><em>Xamarin Studio</em> 软件本身也有很多槽点，不说跟 Xcode 比了，可靠性总得有保障吧，然而真实情况是有时候打开一个工程需要加载半天；</li>
+    <li>iOS 开发过程中需要用到很多第三方库，这些库用 <em>C#</em> 是没法直接调用的，虽然官方给出了转换的方法，但操作极其繁琐，而且有的库貌似还不支持；
+<img src="http://upload-images.jianshu.io/upload_images/1243365-b716c7c34f185344.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Xamarin.iOS 使用原生SDK教程" /></li>
+    <li>报错信息在网上搜索结果很少，大部分是官方博客或者论坛上的，链接到第三方网站的很少，在国外著名的技术问答社区 Stack Overflow 上搜索 <em>Xamarin.iOS</em> 结果也是少得可怜，只有2W多条，相比之下 iOS 则有将近50W条，所以如果遇到奇葩的报错会让人不知所措的。
 <img src="http://upload-images.jianshu.io/upload_images/1243365-4323b511db538ca4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Xamarin.iOS 在 Stack Overflow 上的搜索结果" />
-<img src="http://upload-images.jianshu.io/upload_images/1243365-f23349285da763a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="iOS 在 Stack Overflow 上的搜索结果" />
-5. Xamarin 目前只有英文文档，这就意味着学习途径只有官网一条。在网上也不到中文文档，这也是在国内很少有人去学习的原因之一。话说 Vue.js 这两年势头很猛，与其官方中文文档的全面是有分不开的，而不是说真的比 AngularJS 高到哪里去；
-<img src="http://upload-images.jianshu.io/upload_images/1243365-73bb7a11a8382f0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Xamarin.iOS 官方文档目录" />
-6. 安卓平台不是太清楚，但站在 iOS 开发的角度来说，苹果给开发者提供的开发环境包括整个生态实在是太完整了，让人完全没有理由转向其他途径。
-7. 除此之外，也有对微软的信心不足。微软推行的很多项目都是雷声大雨点小，自从微软收购 Xamarin 之后，这样的担心一直都在。
-8. 附一个我写的 Xamarin.iOS 入门上手 Demo，点 <a href="https://pan.baidu.com/s/1qY10Zd6">这里</a> 下载，提取码 w3t9，在 Xamarin Studio 里可以直接运行。</p>
+<img src="http://upload-images.jianshu.io/upload_images/1243365-f23349285da763a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="iOS 在 Stack Overflow 上的搜索结果" /></li>
+    <li>Xamarin 目前只有英文文档，这就意味着学习途径只有官网一条。在网上也不到中文文档，这也是在国内很少有人去学习的原因之一。话说 Vue.js 这两年势头很猛，与其官方中文文档的全面是有分不开的，而不是说真的比 AngularJS 高到哪里去；
+<img src="http://upload-images.jianshu.io/upload_images/1243365-73bb7a11a8382f0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Xamarin.iOS 官方文档目录" /></li>
+    <li>安卓平台不是太清楚，但站在 iOS 开发的角度来说，苹果给开发者提供的开发环境包括整个生态实在是太完整了，让人完全没有理由转向其他途径。</li>
+    <li>除此之外，也有对微软的信心不足。微软推行的很多项目都是雷声大雨点小，自从微软收购 Xamarin 之后，这样的担心一直都在。</li>
+    <li>附一个我写的 Xamarin.iOS 入门上手 Demo，点 <a href="https://pan.baidu.com/s/1qY10Zd6">这里</a> 下载，提取码 w3t9，在 Xamarin Studio 里可以直接运行。</li>
+  </ol>
+</blockquote>
 
-<h3 id="section"><strong>所以，如果没有十分充足的理由最好不要踏入这个坑。</strong></h3>
+<h3 id="所以如果没有十分充足的理由最好不要踏入这个坑"><strong>所以，如果没有十分充足的理由最好不要踏入这个坑。</strong></h3>
 
 
             </article>
@@ -276,17 +280,17 @@
 
     <h3>Share</h3>
 
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://tonyscript.github.io//a-small-bite-of-xamarin.iOS/%20via%20&#64;jimoruxue&hashtags=造作集,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://localhost:4000/a-small-bite-of-xamarin.iOS/%20via%20&#64;jimoruxue&hashtags=造作集,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
 
-    <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://tonyscript.github.io//a-small-bite-of-xamarin.iOS/"
+    <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/a-small-bite-of-xamarin.iOS/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
 
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://tonyscript.github.io//a-small-bite-of-xamarin.iOS/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://localhost:4000/a-small-bite-of-xamarin.iOS/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
