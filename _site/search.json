@@ -1,19 +1,27 @@
 [
   
     {
-      "title"    : "中国人素质很低吗？",
-      "category" : "谈笑风生又一年",
-      "tags"     : "扯淡集",
-      "url"      : "/is-the-people-of-china-is-so-rude/",
-      "date"     : "05 Mar 2017"
+      "title"    : "写给iOS程序员的Xamarin入门教程",
+      "category" : "人生苦短，先学为敬",
+      "tags"     : "造作集",
+      "url"      : "/Xamarin.iOS-Getting-Started/",
+      "date"     : "22 Mar 2017"
     } ,
   
     {
-      "title"    : "看抗日神剧和震惊文的都是哪些人？",
-      "category" : "谈笑风生又一年",
-      "tags"     : "扯淡集",
-      "url"      : "/who-is-watching-krsj-and-zjw/",
-      "date"     : "04 Mar 2017"
+      "title"    : "写给iOS程序员的ionic入门教程",
+      "category" : "人生苦短，先学为敬",
+      "tags"     : "造作集",
+      "url"      : "/ionic-getting-started/",
+      "date"     : "16 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "Xamarin.iOS 集成第三方库",
+      "category" : "人生苦短，先学为敬",
+      "tags"     : "造作集",
+      "url"      : "/Xamarin.iOS-Binding-Project/",
+      "date"     : "14 Mar 2017"
     } ,
   
     {

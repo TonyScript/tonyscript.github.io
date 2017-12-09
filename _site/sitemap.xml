@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>http://localhost:4000/is-the-people-of-china-is-so-rude/</loc>
+		<loc>http://localhost:4000/Xamarin.iOS-Getting-Started/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/who-is-watching-krsj-and-zjw/</loc>
+		<loc>http://localhost:4000/ionic-getting-started/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/Xamarin.iOS-Binding-Project/</loc>
 	  </url>
 	
 	  <url>
