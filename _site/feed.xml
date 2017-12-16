@@ -3,18 +3,18 @@
   <channel>
     <title>我的小本本</title>
     <description>I've been told that I'm a boring guy.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Dec 2017 21:39:23 +0800</pubDate>
-    <lastBuildDate>Sat, 16 Dec 2017 21:39:23 +0800</lastBuildDate>
+    <link>http://tonyscript.github.io//</link>
+    <atom:link href="http://tonyscript.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 16 Dec 2017 21:50:54 +0800</pubDate>
+    <lastBuildDate>Sat, 16 Dec 2017 21:50:54 +0800</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
         <title>写给iOS程序员的Xamarin入门教程</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdy9cq46rbj21w80uqnis.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;今天要写的内容，是在我之前的一篇文章 &lt;a href=&quot;http://pangxiangxiang.com/tech-path-of-2016/&quot;&gt;2016 年技术路径&lt;/a&gt; 里已经提到的内容，今天来详细写下对于一个 iOS 程序员来说，如何更快地入门 Xamarin.iOS 并进行实际开发。&lt;/p&gt; &lt;h3 id=&quot;一xamarin-是什么&quot;&gt;一、Xamarin 是什么&lt;/h3&gt; &lt;p&gt;有时候官方对自己的介绍可能是最准确的，但不一定是最容易让人明白的。比如 Xamarin 官方对自己的介绍：&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Deliver native Android, iOS, and Windows apps, using existing skills, teams, and code. Build native apps for multiple platforms on a shared C# codebase. Use the same IDE, language, and APIs everywhere.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;其实就一句话，Xamarin 可以让你用 C# 开发跨平台的手机 APP。&lt;/p&gt; &lt;p&gt;它的原理是 Xamarin 团队用 C# 语言重写了 iOS 和 Android 原生 API，使得开发者可以通过相应的 C# 代码去调用原生平台的 API，然后将 C# 代码封装之后直接编译为二进制文件，因此执行效率也很高。而 C# 代码之所以能够在 Mac 上运行，则离不开 &lt;a href=&quot;http://www.mono-project.com/&quot;&gt;Mono&lt;/a&gt;，这是一个开源的 .NET framework 跨平台软件，其具体实现原理我们今天不管，只需要知道安装了 Mono 之后，C# 就可以在 Mac 上编译运行起来。&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdy0adtaxuj20r308l0tg.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;另外，虽然官方宣称他们重写了 iOS 和 Android 的所有 API，任何 Objective-C 和 Java...</description>
         <pubDate>Wed, 22 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/Xamarin.iOS-Getting-Started/</link>
-        <guid isPermaLink="true">http://localhost:4000/Xamarin.iOS-Getting-Started/</guid>
+        <link>http://tonyscript.github.io//Xamarin.iOS-Getting-Started/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//Xamarin.iOS-Getting-Started/</guid>
         
         <category>造作集</category>
         
@@ -27,8 +27,8 @@
         <title>写给iOS程序员的ionic入门教程</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-09a841926c1c8498?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;自从 iOS 开发和 Android 开发诞生以来，使用一套代码部署到两个平台，就成为很多开发者奋斗的目标。然而前几年由于各种因素，这种想法并为成为现实，起码没有一个普遍被开发者接受的解决方案。随着这几年移动平台硬件性能的快速提升，加之HTML5、CSS3、ES6的出现和流行，出现了一些比较优秀的以前端技术为基础的混合开发框架，ionic便是其中之一。&lt;/p&gt; &lt;h2 id=&quot;一&quot;&gt;一&lt;/h2&gt; &lt;p&gt;学习一门技术，最好的方式就是去官网撸官方文档。ionic &lt;a href=&quot;http://ionicframework.com/&quot;&gt;官网&lt;/a&gt; 对自己的介绍如下：&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;The top open source framework for building amazing mobile apps.&lt;br /&gt;Ionic is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;官方给自己定位很清楚，开源免费的移动平台开发框架。不过这个自封的「顶级」，会不会给人一种钦定的感觉？话说回来，ionic 作为一个纯粹基于前端技术的框架，写写页面和逻辑还行，一旦涉及到有关 Native 的一些操作，基本就只能沉默以对了。这时候便轮到 Cordova 华丽出场了。&lt;/p&gt; &lt;h2 id=&quot;二&quot;&gt;二&lt;/h2&gt; &lt;p&gt;&lt;a href=&quot;https://cordova.apache.org/&quot;&gt;Cordova&lt;/a&gt; 与 ionic 一样，也是一个开源的移动开发框架，不过属于 Apache 旗下的开源项目。它的出现，使得开发者可以仅仅使用前端技术开发跨平台的移动项目。说到这你可能要问了，既然也是基于前端技术的混合开发框架，那它跟 ionic 有毛区别？&lt;/p&gt; &lt;p&gt;区别就在于，Cordova 完成了混合开发最重要的一环：打通了前端与 Native 层的各种交互。通过 Cordova 的各种 &lt;a href=&quot;https://cordova.apache.org/plugins/?platforms=cordova-ios&quot;&gt;插件&lt;/a&gt;，你可以像原生开发一样，调用各种系统功能，比如打电话、拍照、访问扬声器、定位、甚至使用 TouchID 等本来原生代码才可以调用的功能。而 ionic 做的工作，就是把本来需要用前端代码写的原生控件和方法，做了一个还不错的风格统一和逻辑封装。也即是说，Cordova 完成了与 Native 层的交互和通信，ionic 完成了移动端页面的布局和互动。不得不说，前端的小伙伴们真是太有福了，只管拿过来写就行了。下图是 Cordova 的架构。&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1243365-06c42f47b918e1c1?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Cordova 的架构&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;三&quot;&gt;三&lt;/h2&gt; &lt;p&gt;通过前面铺垫的内容，我们终于可以真正进入到 ionic 的开发中来。首先，我们需要在 Mac 上安装 ionic，在终端输入如下命令：&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;npm install -g cordova ionic&lt;/p&gt;...</description>
         <pubDate>Thu, 16 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/ionic-getting-started/</link>
-        <guid isPermaLink="true">http://localhost:4000/ionic-getting-started/</guid>
+        <link>http://tonyscript.github.io//ionic-getting-started/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//ionic-getting-started/</guid>
         
         <category>造作集</category>
         
@@ -41,8 +41,8 @@
         <title>Xamarin.iOS 集成第三方库</title>
         <description>&lt;p&gt;最近公司用 Xamarin 开发的项目里需要集成一个第三方 SDK，名字叫做听云，一个应用性能监控平台。听云提供的 SDK 是用 OC 写的，而 Xamarin 要用的话需要先转成它可以使用的形式，所以花了几天时间研究这个东西。坑很多，我先踏为敬。&lt;/p&gt; &lt;h2 id=&quot;一&quot;&gt;一&lt;/h2&gt; &lt;p&gt;iOS 第三方库一般分为静态库和动态库，前者通常以 &lt;strong&gt;.a&lt;/strong&gt; 为后缀，后者以 &lt;strong&gt;.framework&lt;/strong&gt; 为后缀。两者的区别如下：&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;静态库(&lt;em&gt;Static Library&lt;/em&gt;) — 源代码编译形成目标文件的合集，本质上是源代码的实现所对应的二进制实现。配合上一起提供的 &lt;strong&gt;.h&lt;/strong&gt; 文件,可以获取到静态库中暴露的属性和方法。&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;p&gt;动态库(&lt;em&gt;Dynamic Framework&lt;/em&gt;) — 相当于一个随时可调用包，比如 iOS SDK 的 UIKit 之类的系统库就是动态库。相比静态库来说，动态库不需要 &lt;strong&gt;.h&lt;/strong&gt; 文件就可以直接调用，而且只需要加载一次，对程序的执行效率相对于静态库有所提高。&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;动态库相比静态库有许多优点，可以控制加载时机，这意味着通过服务端下发动态库可以对 App 实现热更新，包括但不局限与修复 bug，同时也可以动态更新 App 界面布局和业务逻辑，也就意味着可以像前端一样，抛弃版本的概念，所有用户每次进入应用获取的都是最新版。&lt;/p&gt; &lt;p&gt;但遗憾的是，Apple 不允许第三方框架使用动态库，只有系统框架可以通过动态方式加载。不然广大开发者又何必费尽心思搞出各种 patch，各种混合开发框架又怎会大行其道，一声叹息啊。&lt;/p&gt; &lt;h2 id=&quot;二&quot;&gt;二&lt;/h2&gt; &lt;p&gt;下面以一个最近做的例子，听云 SDK 的集成，来具体说明下如何将 OC 原生动态库转换成 Xamarin.iOS 能够使用的 dll 动态链接库。&lt;/p&gt; &lt;p&gt;下载下来的 SDK 目录如下所示：&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmliqlrsvj21jw08cac9&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;首先将图中用红框圈起来的文件 tingyunApp 名称改为 tingyunApp.a，然后需要用到 Sharpie 这个 Xamarin 官方提供的命令行工具，可以在官方网站下载安装。安装完成之后，在终端 cd 到 &lt;em&gt;Headers&lt;/em&gt; 的上一级，键入下面的命令：&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;sharpie bind –output=tingyunApp.iOS –namespace=tingyunApp.iOS –sdk=iphoneos10.2 /Users/xxpang/Desktop/tingyun/tingyunApp.framework/Versions/A/Headers/NBSAppAgent.h /Users/xxpang/Desktop/tingyun/tingyunApp.framework/Versions/A/Headers/NBSGCDOverrider.h&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;如果路径没错的话，在终端可以看到如下界面：&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmls2gk2yj213g0ug0zi&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;然后在 Finder 用户文件夹下可以看到生成的 tingyunApp.iOS 文件夹，里面有刚才生成的 ApiDefinitions.cs 和 StructsAndEnums.cs...</description>
         <pubDate>Tue, 14 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/Xamarin.iOS-Binding-Project/</link>
-        <guid isPermaLink="true">http://localhost:4000/Xamarin.iOS-Binding-Project/</guid>
+        <link>http://tonyscript.github.io//Xamarin.iOS-Binding-Project/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//Xamarin.iOS-Binding-Project/</guid>
         
         <category>造作集</category>
         
@@ -75,8 +75,8 @@
 
 </description>
         <pubDate>Thu, 02 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/a-small-bite-of-xamarin.iOS/</link>
-        <guid isPermaLink="true">http://localhost:4000/a-small-bite-of-xamarin.iOS/</guid>
+        <link>http://tonyscript.github.io//a-small-bite-of-xamarin.iOS/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//a-small-bite-of-xamarin.iOS/</guid>
         
         <category>造作集</category>
         
@@ -89,8 +89,8 @@
         <title>2016年技术路径</title>
         <description>&lt;h3 id=&quot;引子&quot;&gt;引子&lt;/h3&gt; &lt;p&gt;       人的命运啊，当然要靠自我奋斗，但有时有也要考虑历史的进程。在夜深人静的时候也会问自己，我一个 iOS 开发怎么就跑来写前端了？&lt;/p&gt; &lt;h3 id=&quot;起&quot;&gt;起&lt;/h3&gt; &lt;p&gt;       我作为一个 iOS 开发，在最近一年的时间里马不停蹄地学了 HTML、CSS、JavaScript、AngularJS ，然后在此基础上才有足够的知识储备去学习 &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt; 这个基于前端技术的混合开发框架。做了半年之后又发现公司项目的原生部分是基于 &lt;code class=&quot;highlighter-rouge&quot;&gt;C#&lt;/code&gt; 写的，当时真是有日了动物园的感觉。后来不那么忙，就索性把 &lt;a href=&quot;https://www.xamarin.com/&quot;&gt;Xamarin&lt;/a&gt; 这个混合开发解决方案也撸了一把 。当然，学习这个之前，还是先去写了几天 &lt;em&gt;C#&lt;/em&gt; 作为知识储备。所以这过去的一年，我基本上就跟混合开发卯上了。&lt;/p&gt; &lt;h3 id=&quot;承&quot;&gt;承&lt;/h3&gt; &lt;p&gt;       目前主流的混合开发解决方案我算是都有了解过，最有名的大概就是 &lt;code class=&quot;highlighter-rouge&quot;&gt;Facebook&lt;/code&gt; 推出的 &lt;a href=&quot;https://facebook.github.io/react-native/&quot;&gt;React Native&lt;/a&gt; : &lt;img src=&quot;http://ww1.sinaimg.cn/large/b5fd9ee1gy1fda3peashhj20o00jx41p&quot; alt=&quot;使用 RN 的应用&quot; /&gt;&lt;/p&gt; &lt;p&gt;国内阿里推出的 &lt;a href=&quot;https://weex-project.io/cn/&quot;&gt;Weex&lt;/a&gt; ： &lt;img src=&quot;http://ww1.sinaimg.cn/mw690/b5fd9ee1gy1fda3nx676fj20n50knacn&quot; alt=&quot;Weex 使用的是 Vue&quot; /&gt;&lt;/p&gt; &lt;p&gt;豆瓣也推出了自己的混合开发解决方案 &lt;a href=&quot;https://github.com/douban/rexxar-ios&quot;&gt;Rexxar&lt;/a&gt; ： &lt;img src=&quot;http://p1.bqimg.com/1949/6095e6e41bcd5448s.png&quot; alt=&quot;Rexxar 执行过程&quot; /&gt;&lt;/p&gt; &lt;p&gt;       可能还有其他的解决方案，不过后面提到的三个， &lt;code class=&quot;highlighter-rouge&quot;&gt;RN&lt;/code&gt; 、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Weex&lt;/code&gt; 、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Rexxar&lt;/code&gt; 原理都大同小异，在原生层的基础上嵌入 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIWebView&lt;/code&gt;，通过各种 &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt; 的配合完成与原生层的交互。总的来说，是比较传统意义上的混合开发，以原生层为基础，在上面迭代开发。但是一开始说的两个，&lt;code class=&quot;highlighter-rouge&quot;&gt;Ionic&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;Xamarin&lt;/code&gt; ，与上面提到的三个截然不同，属于两个极端。&lt;/p&gt; &lt;h3 id=&quot;转&quot;&gt;转&lt;/h3&gt; &lt;p&gt;       &lt;code class=&quot;highlighter-rouge&quot;&gt;Ionic&lt;/code&gt; 作为一个完全基于前端技术的移动端跨平台解决方案，开发者几乎完全不需要写任何原生代码，表示层、业务逻辑层以及数据持久化层都是通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; 、&lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt; 、&lt;code class=&quot;highlighter-rouge&quot;&gt;AngularJS&lt;/code&gt; 实现的，比较适合一些小型的、业务逻辑简单、对原生 API 依赖较少的项目。 &lt;img src=&quot;http://p1.bqimg.com/1949/e2c8b9e049401cf0s.png&quot; alt=&quot;Ionic是一种标签语言&quot; /&gt;&lt;/p&gt; &lt;p&gt;       混合开发最让人担忧的可能就是性能问题了，上面提到的三种比较传统的混合开发在性能上虽然也不能与原生相匹敌，但是换取了更灵活的业务模式、更快速的开发效率、更多的代码复用、更便捷的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Bug&lt;/code&gt;...</description>
         <pubDate>Wed, 01 Mar 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/tech-path-of-2016/</link>
-        <guid isPermaLink="true">http://localhost:4000/tech-path-of-2016/</guid>
+        <link>http://tonyscript.github.io//tech-path-of-2016/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//tech-path-of-2016/</guid>
         
         <category>造作集</category>
         
@@ -176,8 +176,8 @@
 
 </description>
         <pubDate>Fri, 24 Feb 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/sketch-shortcuts/</link>
-        <guid isPermaLink="true">http://localhost:4000/sketch-shortcuts/</guid>
+        <link>http://tonyscript.github.io//sketch-shortcuts/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//sketch-shortcuts/</guid>
         
         <category>造作集</category>
         
@@ -190,8 +190,8 @@
         <title>爱乐之城</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://p1.bqimg.com/567571/4330477133349416.jpg&quot; alt=&quot;La La Land&quot; /&gt;&lt;/p&gt; &lt;p&gt;       &lt;em&gt;爱乐之城&lt;/em&gt; 借梦想的名义讲了个极度唯美的爱情故事。既然是爱情，便会有起承转合，有好的部分，也有不好的部分。&lt;/p&gt; &lt;p&gt;        Seb 和 Mia 两人第一次相遇，是在开场歌舞之后的高速公路上，Mia 挡住了 Seb 的路， Seb 长按这吵闹的喇叭责怪 Mia ，两人不欢而散。&lt;/p&gt; &lt;p&gt;       第二次相遇，是圣诞夜的晚上，在 Seb 被刻薄的酒吧老板炒鱿鱼之后，Mia 受到音乐的感染，想要跟 Seb 认识，不过话没说完便被Seb粗鲁地擦肩而过。&lt;/p&gt; &lt;p&gt;       第三次相遇，是在一个夏天的Party上，两人总算有了初次的交流， Seb 知道 Mia 是个演员，而 Mia 得之 Seb 是个弹钢琴的。转机在于晚上Party结束时， Mia 被一个编剧缠身，请 Seb 帮忙拿车钥匙才得以脱身。顺理成章，两人在夜晚的山顶上有了一次深入地交谈。在音乐和舞蹈的烘托中，两人的相遇如同山下 LA 五光十色的夜景，暧昧而又温馨。&lt;/p&gt; &lt;p&gt;       第四次， Seb 故意溜进 Mia 工作的片场咖啡店，假装偶遇 Mia ，然后两人待了一整天，从早上到晚上，都对彼此的过去有了更加深入的了解。一个是对&lt;em&gt;Free Jazz&lt;/em&gt;有着近乎偏执喜爱的落魄音乐家，而另一个是试镜屡屡碰壁的无名小演员。相同的是，两人都对自己的梦想有着无限的热情和勇气。不然不会一个坚持了六年而没什么进展却不放弃，一个水电费都交不上了还敢违背刻薄老板的意思。毫无悬念地，两人都被对方身上那种对于梦想的热忱和坚持所吸引，欲罢不能。&lt;/p&gt; &lt;p&gt;       第五次，是两人相约看&lt;em&gt;无因的反抗&lt;/em&gt;周一晚上。一边的 Seb 在电影院左等右等，另一边的 Mia 忍受着男朋友哥哥无聊的谈话，收到音乐的感召， Mia 决定抛弃身旁的男友，坚定地跑出餐厅，脸上带着解脱的笑容。电影院里的 Seb 终于等到姗姗来迟的 Mia ，那一刻， Mia 眼前的一切都那么美好，两人一边看着电影，一边十指相扣。接吻的瞬间，电影胶片烧了。 Mia 突然起意和 Seb 去&lt;em&gt;无因的反抗&lt;/em&gt;拍摄地点之一的天文博物馆。于是这里我们看到导演对于热恋中的情侣感情最经典的诠释：博物馆里舒缓的歌声中，两人仿佛飞了起来，在浩瀚的宇宙里，闪耀的群星中，尽情地载歌载舞，是那么地无拘无束、自由自在。热恋中的人啊，总是恨不能融为一体。然而更多的是，当初在一起时有多么热爱，分开后便会有多么厌恶。&lt;/p&gt; &lt;p&gt;       此后的两人，尽享热恋中的喜悦。不必说酒吧门口的恶作剧，也不必说和煦阳光下郎才女貌的两人，更不必说公交车上的相互拥吻，在这些面前，生活中的那些苟且仿佛都消失不见了，观众看到的，就是两个相互欣赏的灵魂，为梦想执着的感动。&lt;/p&gt; &lt;p&gt;       好的部分到此结束了，毕竟人总是要生活在现实世界中的。&lt;/p&gt; &lt;p&gt;       迫于生活，也是为了对 Mia 负责， Seb 加入了 Keith 组建的乐队，有了稳定的工作，也有了不错的收入。虽然弹的都是自己不喜欢的音乐，但 Seb 妥协了。与此同时， Mia 在全力为自己的话剧准备着，。然而由于 Seb 的巡回演出，两人之间见面的次数越来越少，对方都在这期间发生着转变。终于在一天晚上，在 Seb 忙里偷闲回家做的晚餐上，两人关于这件事发生了激烈的争吵。&lt;/p&gt; &lt;p&gt;        Mia 认为 Seb 因为现实妥协了自己一直敢于坚持的梦想，不再是自己曾经喜欢的那个毫不在意世人想法的倔强的音乐家。 Seb 认为自己在做的事情也是为了 Mia 好，况且梦想有什么重要的呢，现在大家都喜欢他弹的音乐，该是时候成熟了。这让 Mia 失望透顶，眼前的男人已经不再是曾经那个敢于对世人说 Fuck Off 的 Seb 了，他变得开始在意别人的想法，而忘记了自己一直坚持的梦想。于是在 Seb...</description>
         <pubDate>Tue, 21 Feb 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/la-la-land/</link>
-        <guid isPermaLink="true">http://localhost:4000/la-la-land/</guid>
+        <link>http://tonyscript.github.io//la-la-land/</link>
+        <guid isPermaLink="true">http://tonyscript.github.io//la-la-land/</guid>
         
         <category>影评集</category>
         

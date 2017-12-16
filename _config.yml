@@ -44,9 +44,9 @@ links:
 projects:
   - name: tonyscript.github.io
     url: https://github.com/TonyScript/tonyscript.github.io
-  - name: iOS-BasicAnimation
-    url: https://github.com/TonyScript/iOS-BasicAnimation
-  - name: AngularJS-Fundamentals
-    url: https://github.com/TonyScript/AngularJS-Fundamentals 
+  - name: A bite of Django
+    url: https://github.com/TonyScript/DjangoSample
+  - name: A xamarin tabs template
+    url: https://github.com/TonyScript/Xamarin_Tabs
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
