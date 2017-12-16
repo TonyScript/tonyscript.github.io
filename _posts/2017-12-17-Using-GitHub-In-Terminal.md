@@ -45,6 +45,7 @@ ssh -T git@github.com
 
 ![WX20171216-211829@2x.png](https://i.loli.net/2017/12/16/5a351d2f8e1c9.png)
 ![WX20171216-210417@2x.png](https://i.loli.net/2017/12/16/5a351be71d372.png)![WX20171216-210402@2x.png](https://i.loli.net/2017/12/16/5a351be71e869.png)
+
 7. 如果同一台电脑有2个 GitHub 账号怎么办？取消全局设置，给每个仓库单独设置用户名和密码：取消global;设置每个repo自己的user.email
 
 ```
