@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "用 VSCode 写 Python",
+      "category" : "人生苦短，先学为敬",
+      "tags"     : "造作集",
+      "url"      : "/Writing-Python-With-VSCode/",
+      "date"     : "17 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "在 Mac 上使用终端配置 GitHub 账号",
+      "category" : "人生苦短，先学为敬",
+      "tags"     : "造作集",
+      "url"      : "/Using-GitHub-In-Terminal/",
+      "date"     : "17 Dec 2017"
+    } ,
+  
+    {
       "title"    : "写给iOS程序员的Xamarin入门教程",
       "category" : "人生苦短，先学为敬",
       "tags"     : "造作集",
