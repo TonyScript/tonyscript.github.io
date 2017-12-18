@@ -42,7 +42,7 @@ VSCode 默认按 `F5` 后需要再按一次F5程序才会运行，如果要按F5
 
 其他的插件可以在 [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?term=Python&target=VSCode&category=All%20categories&sortBy=Downloads) 找到
 
-自定义快捷键修改
+自定义快捷键修改(在快捷键设置里搜锁)
 
 Run：`Command + R`
 
@@ -62,4 +62,6 @@ Debug：`Command + D`
 
 复制当前行：`option + shift + ↓`
 
+光标移至行位：`Command + →`
 
+选中光标后面的内容：`Command + shift + →`
