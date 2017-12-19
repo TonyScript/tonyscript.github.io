@@ -35,9 +35,9 @@ ssh-keygen -t rsa -C "GitHub 邮箱地址"
 pbcopy < ~/.ssh/testgit.pub
 ```
 
-5.打开 `GitHub` 设置里的 `SSH and GPG Keys`页面，然后新建一个 `SSH Key`， Title 一般取设备名称，然后将刚在复制的公钥粘贴到 Key 下面：
+5. 打开 `GitHub` 设置里的 `SSH and GPG Keys`页面，然后新建一个 `SSH Key`， Title 一般取设备名称，然后将刚在复制的公钥粘贴到 Key 下面：
 ![WX20171216-210129@2x.png](https://i.loli.net/2017/12/16/5a351abd8bbd9.png)
-6.至此，我们新增的 Key 还是灰色的，接着执行下面的命令用于测试你的账号是否已经与 GitHub 连接，然后回到 GitHub 刚才添加 `SSH Key`的界面刷新，可以发现钥匙变绿了，说明我们的添加已经生效了，可以在终端里愉快地使用 Git 了：
+6. 至此，我们新增的 Key 还是灰色的，接着执行下面的命令用于测试你的账号是否已经与 GitHub 连接，然后回到 GitHub 刚才添加 `SSH Key`的界面刷新，可以发现钥匙变绿了，说明我们的添加已经生效了，可以在终端里愉快地使用 Git 了：
 
 ```
 ssh -T git@github.com
@@ -46,7 +46,11 @@ ssh -T git@github.com
 ![WX20171216-211829@2x.png](https://i.loli.net/2017/12/16/5a351d2f8e1c9.png)
 ![WX20171216-210417@2x.png](https://i.loli.net/2017/12/16/5a351be71d372.png)![WX20171216-210402@2x.png](https://i.loli.net/2017/12/16/5a351be71e869.png)
 
-7. 如果同一台电脑有2个 GitHub 账号怎么办？取消全局设置，给每个仓库单独设置用户名和密码：取消global;设置每个repo自己的user.email
+7. 如果在本地文件夹 init 了一个 repo， 怎么连接到 GitHub 上呢：
+[![本地仓库与远程仓库合并.png](https://i.loli.net/2017/12/19/5a38becbae631.png)](https://i.loli.net/2017/12/19/5a38becbae631.png)
+
+
+8. 如果同一台电脑有2个 GitHub 账号怎么办？取消全局设置，给每个仓库单独设置用户名和密码：取消global;设置每个repo自己的user.email
 
 ```
 git config --global --unset user.name
