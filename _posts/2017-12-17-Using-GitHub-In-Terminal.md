@@ -13,6 +13,8 @@ categories:
 ![Git-Logo-1788C.png](https://i.loli.net/2017/12/16/5a341f103d027.png)
 人生不能重来，但 Git 可以。
 Git 是目前最流行和最好用的版本控制系统，尤其以强大的[分支](https://blog.coding.net/blog/about-git)功能著称。在 Mac 上使用 Git 也非常方便，只须在`终端`稍做配置即可。
+
+
 1.打开终端，执行下面命令进入到 `.ssh` 文件夹目录下：
 
 ```
