@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>天空之城</title>
+  
+  <subtitle>天空之城</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://tonyscript.github.io/"/>
+  <updated>2019-08-04T11:29:47.342Z</updated>
+  <id>https://tonyscript.github.io/</id>
+  
+  <author>
+    <name>TonyScript</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IFTTT - 让互联网为你工作</title>
+    <link href="https://tonyscript.github.io/2017/12/22/2017-12-22-Introducing-IFTTT/"/>
+    <id>https://tonyscript.github.io/2017/12/22/2017-12-22-Introducing-IFTTT/</id>
+    <published>2017-12-21T16:00:00.000Z</published>
+    <updated>2019-08-04T11:29:47.342Z</updated>
+    
+    <summary type="html">
+    
+      智能化生活系列教程之（一）
+    
+    </summary>
+    
+      <category term="啊，生活！" scheme="https://tonyscript.github.io/categories/%E5%95%8A%EF%BC%8C%E7%94%9F%E6%B4%BB%EF%BC%81/"/>
+    
+    
+      <category term="扯淡集" scheme="https://tonyscript.github.io/tags/%E6%89%AF%E6%B7%A1%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在 Mac 上使用终端配置 GitHub 账号</title>
+    <link href="https://tonyscript.github.io/2017/12/17/2017-12-17-Using-GitHub-In-Terminal/"/>
+    <id>https://tonyscript.github.io/2017/12/17/2017-12-17-Using-GitHub-In-Terminal/</id>
+    <published>2017-12-16T16:00:00.000Z</published>
+    <updated>2019-08-04T11:29:47.341Z</updated>
+    
+    <summary type="html">
+    
+      备忘录
+    
+    </summary>
+    
+      <category term="人生苦短，先学为敬" scheme="https://tonyscript.github.io/categories/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%85%88%E5%AD%A6%E4%B8%BA%E6%95%AC/"/>
+    
+    
+      <category term="造作集" scheme="https://tonyscript.github.io/tags/%E9%80%A0%E4%BD%9C%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用 VSCode 写 Python</title>
+    <link href="https://tonyscript.github.io/2017/12/17/2017-12-17-Writing-Python-With-VSCode/"/>
+    <id>https://tonyscript.github.io/2017/12/17/2017-12-17-Writing-Python-With-VSCode/</id>
+    <published>2017-12-16T16:00:00.000Z</published>
+    <updated>2019-08-04T11:29:47.342Z</updated>
+    
+    <summary type="html">
+    
+      备忘录
+    
+    </summary>
+    
+      <category term="人生苦短，先学为敬" scheme="https://tonyscript.github.io/categories/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%85%88%E5%AD%A6%E4%B8%BA%E6%95%AC/"/>
+    
+    
+      <category term="造作集" scheme="https://tonyscript.github.io/tags/%E9%80%A0%E4%BD%9C%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写给iOS程序员的Xamarin入门教程</title>
+    <link href="https://tonyscript.github.io/2017/03/22/2017-03-22-Xamarin.iOS-Getting-Started/"/>
+    <id>https://tonyscript.github.io/2017/03/22/2017-03-22-Xamarin.iOS-Getting-Started/</id>
+    <published>2017-03-21T16:00:00.000Z</published>
+    <updated>2019-08-04T11:29:47.341Z</updated>
+    
+    <summary type="html">
+    
+      写给iOS程序员的系列教程之（二）
+    
+    </summary>
+    
+      <category term="人生苦短，先学为敬" scheme="https://tonyscript.github.io/categories/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%85%88%E5%AD%A6%E4%B8%BA%E6%95%AC/"/>
+    
+    
+      <category term="造作集" scheme="https://tonyscript.github.io/tags/%E9%80%A0%E4%BD%9C%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写给iOS程序员的ionic入门教程</title>
+    <link href="https://tonyscript.github.io/2017/03/16/2017-03-16-ionic-getting-started/"/>
+    <id>https://tonyscript.github.io/2017/03/16/2017-03-16-ionic-getting-started/</id>
+    <published>2017-03-15T16:00:00.000Z</published>
+    <updated>2019-08-04T11:29:47.341Z</updated>
+    
+    <summary type="html">
+    
+      写给iOS程序员的系列教程之（一）
+    
+    </summary>
+    
+      <category term="人生苦短，先学为敬" scheme="https://tonyscript.github.io/categories/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%85%88%E5%AD%A6%E4%B8%BA%E6%95%AC/"/>
+    
+    
+      <category term="造作集" scheme="https://tonyscript.github.io/tags/%E9%80%A0%E4%BD%9C%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Xamarin.iOS 集成第三方库</title>
+    <link href="https://tonyscript.github.io/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/"/>
+    <id>https://tonyscript.github.io/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/</id>
+    <published>2017-03-13T16:00:00.000Z</published>
+    <updated>2019-08-04T11:29:47.340Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近公司用 Xamarin 开发的项目里需要集成一个第三方 SDK，名字叫做听云，一个应用性能监控平台。听云提供的 SDK 是用 OC 写的，而 Xamarin 要用的话需要先转成它可以使用的形式，所以花了几天时间研究这个东西。坑很多，我先踏为敬。&lt;/p&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="人生苦短，先学为敬" scheme="https://tonyscript.github.io/categories/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%85%88%E5%AD%A6%E4%B8%BA%E6%95%AC/"/>
+    
+    
+      <category term="造作集" scheme="https://tonyscript.github.io/tags/%E9%80%A0%E4%BD%9C%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Xamarin.iOS 初步体验</title>
+    <link href="https://tonyscript.github.io/2017/03/02/2017-03-03-a-small-bite-of-xamarin.iOS/"/>
+    <id>https://tonyscript.github.io/2017/03/02/2017-03-03-a-small-bite-of-xamarin.iOS/</id>
+    <published>2017-03-01T16:00:00.000Z</published>
+    <updated>2019-08-04T11:29:47.340Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;Xamarin.iOS&lt;/strong&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="人生苦短，先学为敬" scheme="https://tonyscript.github.io/categories/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%85%88%E5%AD%A6%E4%B8%BA%E6%95%AC/"/>
+    
+    
+      <category term="造作集" scheme="https://tonyscript.github.io/tags/%E9%80%A0%E4%BD%9C%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2016年技术路径</title>
+    <link href="https://tonyscript.github.io/2017/03/01/2017-03-01-tech-path-of-2016/"/>
+    <id>https://tonyscript.github.io/2017/03/01/2017-03-01-tech-path-of-2016/</id>
+    <published>2017-02-28T16:00:00.000Z</published>
+    <updated>2019-08-04T11:29:47.340Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;引子&quot;&gt;&lt;a href=&quot;#引子&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="人生苦短，先学为敬" scheme="https://tonyscript.github.io/categories/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%85%88%E5%AD%A6%E4%B8%BA%E6%95%AC/"/>
+    
+    
+      <category term="造作集" scheme="https://tonyscript.github.io/tags/%E9%80%A0%E4%BD%9C%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sketch常用快捷键</title>
+    <link href="https://tonyscript.github.io/2017/02/24/2017-02-24-sketch-shortcuts/"/>
+    <id>https://tonyscript.github.io/2017/02/24/2017-02-24-sketch-shortcuts/</id>
+    <published>2017-02-23T16:00:00.000Z</published>
+    <updated>2019-08-04T11:29:47.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;1-使用Insert快速插入&quot;&gt;&lt;a href=&quot;#1-使用Insert快速插入&quot; class=&quot;headerlink&quot; title=&quot;1.使用Insert快速插入&quot;&gt;&lt;/a&gt;1.使用&lt;em&gt;Insert&lt;/em&gt;快速插入&lt;/h4&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="人生苦短，先学为敬" scheme="https://tonyscript.github.io/categories/%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%EF%BC%8C%E5%85%88%E5%AD%A6%E4%B8%BA%E6%95%AC/"/>
+    
+    
+      <category term="造作集" scheme="https://tonyscript.github.io/tags/%E9%80%A0%E4%BD%9C%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>爱乐之城</title>
+    <link href="https://tonyscript.github.io/2017/02/21/2017-02-21-la-la-land/"/>
+    <id>https://tonyscript.github.io/2017/02/21/2017-02-21-la-la-land/</id>
+    <published>2017-02-20T16:00:00.000Z</published>
+    <updated>2019-08-04T11:29:47.339Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/08/04/tyA7MSgnqar6l5H.png&quot; alt=&quot;La La
+        
+      
+    
+    </summary>
+    
+      <category term="谈笑风生又一年" scheme="https://tonyscript.github.io/categories/%E8%B0%88%E7%AC%91%E9%A3%8E%E7%94%9F%E5%8F%88%E4%B8%80%E5%B9%B4/"/>
+    
+    
+      <category term="影评集" scheme="https://tonyscript.github.io/tags/%E5%BD%B1%E8%AF%84%E9%9B%86/"/>
+    
+  </entry>
+  
+</feed>
