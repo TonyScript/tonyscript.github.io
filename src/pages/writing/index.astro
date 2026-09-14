@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { legacyArticles } from "../../data/site";
+import "../../styles/article.css";
 ---
 
 <BaseLayout
@@ -10,7 +11,7 @@ import { legacyArticles } from "../../data/site";
   <header class="page-intro">
     <div>
       <p class="identity-line">Writing / Public archive</p>
-      <h1>旧文章保留原样，新判断从现在开始。</h1>
+      <h1>旧内容保留，阅读体验向前。</h1>
     </div>
     <p class="lede">
       这里首先恢复 2017 年的十篇历史文章。原日期、标题和 URL 不变；未来内容将继续围绕 AI、产品、ITOM 与软件工程积累。
@@ -20,7 +21,7 @@ import { legacyArticles } from "../../data/site";
   <section class="content-section" aria-labelledby="archive-title">
     <div class="section-heading">
       <h2 id="archive-title">2017 archive</h2>
-      <p>历史文章使用旧版阅读页面，以避免改变已经公开多年的正文。</p>
+      <p>历史文章保留原始正文、图片、发布日期和 URL，并统一使用当前网站的阅读界面。</p>
       <a class="text-link" href="/rss.xml">订阅 RSS →</a>
     </div>
     <ol class="index-list">
