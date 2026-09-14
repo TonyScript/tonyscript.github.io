@@ -1,0 +1,19 @@
+---
+import { site } from "../data/site";
+---
+
+<footer class="site-footer">
+  <div class="site-shell footer-copy">
+    <p>
+      {site.name} / Product Manager / ITOM / AIOps / AI / {site.location}. This site is a public index of product work, writing and professional context.
+    </p>
+    <nav class="footer-links" aria-label="页脚导航">
+      <a href={`mailto:${site.email}`}>Email</a>
+      <a href={site.github} rel="me">GitHub</a>
+      <a href="/resume.md">Resume.md</a>
+      <a href="/ai/profile.json">Profile.json</a>
+      <a href="/rss.xml">RSS</a>
+    </nav>
+    <p>© 2026 {site.name}. Historical writing remains available at its original URLs.</p>
+  </div>
+</footer>

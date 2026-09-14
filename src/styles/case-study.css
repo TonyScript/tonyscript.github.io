@@ -1,0 +1,242 @@
+/* Hallmark · genre: editorial case study · macrostructure: Long Document · theme: Almanac · enrichment: none · nav: N6 + in-page index · footer: Ft4 · audience: recruiters/hiring-managers/peers/agents · use: assess-enterprise-agent-product-judgment · tone: technical-editorial
+ * pre-emit critique: P5 H5 E5 S5 R5 V5 · contrast: pass (40–41) · slop: pass (1–58) · honest: pass (46) · chrome: pass (47) · tokens: pass (48) · responsive: pass (49) · icons: pass (30) · mobile: pass (34, 49, 50–57) */
+
+.case-study {
+  width: min(100%, 72rem);
+  margin-inline: auto;
+}
+
+.case-header {
+  display: grid;
+  gap: var(--space-lg);
+  padding-block-end: var(--space-2xl);
+}
+
+.case-header h1 {
+  max-width: 14ch;
+}
+
+.case-summary {
+  max-width: 46ch;
+  color: var(--color-muted);
+  font-size: var(--text-md);
+}
+
+.case-facts {
+  display: grid;
+  margin: 0;
+  border-block: var(--rule-hair) solid var(--color-ink);
+}
+
+.case-facts div {
+  display: grid;
+  gap: var(--space-2xs);
+  padding-block: var(--space-md);
+}
+
+.case-facts div + div {
+  border-block-start: var(--rule-hair) solid var(--color-rule);
+}
+
+.case-facts dt {
+  font-family: var(--font-mono);
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+  letter-spacing: 0.035em;
+}
+
+.case-facts dd {
+  margin: 0;
+  font-weight: 700;
+}
+
+.case-disclosure {
+  max-width: var(--measure);
+  padding-block: var(--space-md);
+  border-block: var(--rule-hair) solid var(--color-rule);
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+}
+
+.case-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs) var(--space-lg);
+  padding-block: var(--space-md);
+  border-block: var(--rule-hair) solid var(--color-ink);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+}
+
+.case-jump a {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.case-section {
+  display: grid;
+  gap: var(--space-lg);
+  padding-block: var(--space-2xl);
+  border-block-end: var(--rule-hair) solid var(--color-ink);
+  scroll-margin-block-start: var(--space-lg);
+}
+
+.case-section h2 {
+  max-width: 16ch;
+  font-size: clamp(var(--text-xl), 4vw, var(--text-2xl));
+}
+
+.case-prose {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.case-prose p,
+.case-section-intro {
+  max-width: var(--measure);
+}
+
+.case-list {
+  display: grid;
+  gap: var(--space-md);
+  max-width: var(--measure);
+  margin: 0;
+  padding-inline-start: var(--space-lg);
+}
+
+.case-list li::marker {
+  color: var(--color-accent-dark);
+}
+
+.case-decisions,
+.case-evidence {
+  margin: 0;
+  border-block-start: var(--rule-hair) solid var(--color-rule);
+}
+
+.case-decisions div,
+.case-evidence div {
+  display: grid;
+  gap: var(--space-sm);
+  padding-block: var(--space-lg);
+  border-block-end: var(--rule-hair) solid var(--color-rule);
+}
+
+.case-decisions dt,
+.case-evidence dt {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.case-decisions dd,
+.case-evidence dd {
+  max-width: var(--measure);
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.case-flow {
+  margin: 0;
+  padding: 0;
+  border-block-start: var(--rule-hair) solid var(--color-rule);
+  list-style: none;
+  counter-reset: case-step;
+}
+
+.case-flow li {
+  position: relative;
+  display: grid;
+  gap: var(--space-xs);
+  min-width: 0;
+  padding: var(--space-lg) 0 var(--space-lg) var(--space-xl);
+  border-block-end: var(--rule-hair) solid var(--color-rule);
+  counter-increment: case-step;
+}
+
+.case-flow li::before {
+  position: absolute;
+  inset-block-start: var(--space-lg);
+  inset-inline-start: 0;
+  content: counter(case-step, decimal-leading-zero);
+  font-family: var(--font-mono);
+  color: var(--color-accent-dark);
+  font-size: var(--text-xs);
+  font-variant-numeric: tabular-nums;
+}
+
+.case-flow h3 {
+  font-size: var(--text-md);
+}
+
+.case-flow p {
+  color: var(--color-muted);
+}
+
+.case-end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-md) var(--space-xl);
+  padding-block-start: var(--space-2xl);
+}
+
+@media (min-width: 40rem) {
+  .case-facts {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .case-facts div {
+    padding-inline: var(--space-lg);
+  }
+
+  .case-facts div:first-child {
+    padding-inline-start: 0;
+  }
+
+  .case-facts div + div {
+    border-block-start: 0;
+    border-inline-start: var(--rule-hair) solid var(--color-rule);
+  }
+
+  .case-decisions div,
+  .case-evidence div {
+    grid-template-columns: minmax(12rem, 0.8fr) minmax(0, 1.6fr);
+    gap: var(--space-xl);
+  }
+
+  .case-flow li {
+    grid-template-columns: minmax(9rem, 0.5fr) minmax(0, 1.5fr);
+    align-items: baseline;
+    gap: var(--space-xl);
+  }
+}
+
+@media (min-width: 60rem) {
+  .case-section {
+    grid-template-columns: minmax(14rem, 0.65fr) minmax(0, 1.7fr);
+    column-gap: var(--space-3xl);
+  }
+
+  .case-section > h2 {
+    grid-row: 1 / span 3;
+  }
+
+  .case-section > :not(h2) {
+    grid-column: 2;
+  }
+}
+
+@media print {
+  .case-jump,
+  .case-end {
+    display: none;
+  }
+
+  .case-section {
+    break-inside: auto;
+  }
+}

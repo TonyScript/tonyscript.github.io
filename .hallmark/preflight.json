@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-14",
+  "framework": "Generated Hexo 3.9.0 output; no source project present",
+  "fontStack": "Roboto local files in the legacy output",
+  "palette": "Matery theme with green accents",
+  "motion": "AOS and animate.css in the legacy output",
+  "spacing": "No reusable token system detected",
+  "decision": "Preserve legacy URLs and content; introduce a new source-controlled static generation layer"
+}

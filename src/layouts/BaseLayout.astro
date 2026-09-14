@@ -1,0 +1,93 @@
+---
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import { site } from "../data/site";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonicalPath?: string;
+  pageType?: "WebPage" | "ProfilePage";
+  noindex?: boolean;
+}
+
+const {
+  title = site.name,
+  description = site.description,
+  canonicalPath = Astro.url.pathname,
+  pageType = "WebPage",
+  noindex = false,
+} = Astro.props;
+
+const canonical = new URL(canonicalPath, Astro.site ?? site.website).toString();
+const fullTitle = title === site.name ? `${site.name} — ${site.headline}` : `${title} — ${site.name}`;
+const personId = `${site.website}/#person`;
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": personId,
+    name: site.name,
+    alternateName: site.handle,
+    url: site.website,
+    jobTitle: "Product Manager",
+    description: site.description,
+    homeLocation: {
+      "@type": "Place",
+      name: site.location,
+    },
+    sameAs: [site.github],
+    knowsAbout: [
+      "IT Operations Management",
+      "IT Service Management",
+      "AIOps",
+      "AI Agents",
+      "Enterprise Software",
+      "CMDB",
+      "Monitoring and Observability",
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": pageType,
+    "@id": `${canonical}#page`,
+    url: canonical,
+    name: fullTitle,
+    description,
+    mainEntity: pageType === "ProfilePage" ? { "@id": personId } : undefined,
+  },
+];
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title={`${site.name} RSS`} href="/rss.xml" />
+    <link rel="alternate" type="text/markdown" href="/resume.md" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={site.handle} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  </head>
+  <body>
+    <SiteHeader currentPath={Astro.url.pathname} />
+    <main id="content" class="site-shell">
+      <slot />
+    </main>
+    <SiteFooter />
+  </body>
+</html>

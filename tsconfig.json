@@ -1,0 +1,17 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": [
+    "dist",
+    "public",
+    "2017",
+    "archives",
+    "categories",
+    "tags",
+    "friends",
+    "libs",
+    "css",
+    "js",
+    "medias"
+  ]
+}

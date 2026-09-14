@@ -1,0 +1,135 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import {
+  caseStudyDisclosure,
+  getCaseStudyHref,
+  type CaseStudy,
+} from "../data/caseStudies";
+import "../styles/case-study.css";
+
+interface Props {
+  study: CaseStudy;
+}
+
+const { study } = Astro.props;
+---
+
+<BaseLayout
+  title={study.shortTitle}
+  description={study.summary}
+  canonicalPath={getCaseStudyHref(study)}
+>
+  <article class="case-study">
+    <header class="case-header">
+      <p class="identity-line">Selected product work / Anonymized case study</p>
+      <h1>{study.title}</h1>
+      <p class="case-summary">{study.summary}</p>
+      <dl class="case-facts" aria-label="案例范围">
+        <div><dt>Status</dt><dd>{study.status}</dd></div>
+        <div><dt>Scope</dt><dd>{study.scope}</dd></div>
+        <div><dt>Topics</dt><dd>{study.tags.join(" · ")}</dd></div>
+      </dl>
+      <p class="case-disclosure">{caseStudyDisclosure}</p>
+    </header>
+
+    <nav class="case-jump" aria-label="案例章节">
+      <a href="#problem">Problem</a>
+      <a href="#decisions">Decisions</a>
+      <a href="#system">System</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#status">Status</a>
+    </nav>
+
+    <section class="case-section" aria-labelledby="context-title">
+      <h2 id="context-title">背景</h2>
+      <div class="case-prose">
+        {study.context.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+    </section>
+
+    <section class="case-section" id="problem" aria-labelledby="problem-title">
+      <h2 id="problem-title">需要解决的问题</h2>
+      <div class="case-prose">
+        {study.problem.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+    </section>
+
+    <section class="case-section" aria-labelledby="contribution-title">
+      <h2 id="contribution-title">本案例呈现的工作</h2>
+      <ul class="case-list">
+        {study.contribution.map((item) => <li>{item}</li>)}
+      </ul>
+    </section>
+
+    <section class="case-section" aria-labelledby="constraints-title">
+      <h2 id="constraints-title">约束</h2>
+      <ul class="case-list">
+        {study.constraints.map((item) => <li>{item}</li>)}
+      </ul>
+    </section>
+
+    <section class="case-section" id="decisions" aria-labelledby="decisions-title">
+      <h2 id="decisions-title">关键产品决策</h2>
+      <dl class="case-decisions">
+        {study.decisions.map((decision) => (
+          <div>
+            <dt>{decision.title}</dt>
+            <dd>{decision.description}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+
+    <section class="case-section" id="system" aria-labelledby="system-title">
+      <h2 id="system-title">系统模型</h2>
+      <ol class="case-flow">
+        {study.flow.map((step) => (
+          <li>
+            <h3>{step.title}</h3>
+            <p>{step.description}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <section class="case-section" aria-labelledby="rejected-title">
+      <h2 id="rejected-title">明确舍弃的方案</h2>
+      <dl class="case-decisions">
+        {study.rejected.map((item) => (
+          <div>
+            <dt>{item.title}</dt>
+            <dd>{item.description}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+
+    <section class="case-section" id="evidence" aria-labelledby="evidence-title">
+      <h2 id="evidence-title">证据类型</h2>
+      <p class="case-section-intro">
+        原始材料位于非公开产品仓库。这里列出用于形成判断的产物类型，不提供内部文件、截图或链接。
+      </p>
+      <dl class="case-evidence">
+        {study.artifacts.map((artifact) => (
+          <div>
+            <dt>{artifact.title}</dt>
+            <dd>{artifact.description}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+
+    <section class="case-section" id="status" aria-labelledby="status-title">
+      <h2 id="status-title">当前公开状态</h2>
+      <div class="case-prose">
+        {study.currentStatus.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+      <p class="case-disclosure">{caseStudyDisclosure}</p>
+    </section>
+
+    <nav class="case-end" aria-label="案例后续导航">
+      <a class="text-link" href="/projects/">返回全部工作 ←</a>
+      <a class="text-link" href="/contact/">讨论相关问题 →</a>
+    </nav>
+  </article>
+</BaseLayout>

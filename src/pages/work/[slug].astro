@@ -1,0 +1,15 @@
+---
+import CaseStudyLayout from "../../layouts/CaseStudyLayout.astro";
+import { caseStudies } from "../../data/caseStudies";
+
+export function getStaticPaths() {
+  return caseStudies.map((study) => ({
+    params: { slug: study.slug },
+    props: { study },
+  }));
+}
+
+const { study } = Astro.props;
+---
+
+<CaseStudyLayout study={study} />

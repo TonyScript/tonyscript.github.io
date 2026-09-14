@@ -1,0 +1,37 @@
+---
+import { primaryNav, site } from "../data/site";
+
+const { currentPath = "/" } = Astro.props;
+const isCurrent = (href: string) =>
+  href === "/" ? currentPath === href : currentPath.startsWith(href);
+---
+
+<a class="skip-link" href="#content">跳到正文</a>
+<header class="site-header site-shell">
+  <p class="mast-line">Shanghai · Product &amp; systems · Updated 2026</p>
+  <a class="mast-name" href="/" aria-label={`${site.name} 首页`}>{site.handle}</a>
+  <nav class="desktop-nav" aria-label="主要导航">
+    <ul>
+      {primaryNav.map((item) => (
+        <li>
+          <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>
+            {item.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+  <details class="mobile-nav">
+    <summary>Menu</summary>
+    <ul>
+      {primaryNav.map((item) => (
+        <li>
+          <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>
+            {item.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </details>
+  <hr class="mast-rule" aria-hidden="true" />
+</header>
