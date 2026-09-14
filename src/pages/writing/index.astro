@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { legacyArticles } from "../../data/site";
+---
+
+<BaseLayout
+  title="Writing"
+  description="TonyScript 从 2017 年开始保留的技术、产品与个人写作档案。"
+>
+  <header class="page-intro">
+    <div>
+      <p class="identity-line">Writing / Public archive</p>
+      <h1>旧文章保留原样，新判断从现在开始。</h1>
+    </div>
+    <p class="lede">
+      这里首先恢复 2017 年的十篇历史文章。原日期、标题和 URL 不变；未来内容将继续围绕 AI、产品、ITOM 与软件工程积累。
+    </p>
+  </header>
+
+  <section class="content-section" aria-labelledby="archive-title">
+    <div class="section-heading">
+      <h2 id="archive-title">2017 archive</h2>
+      <p>历史文章使用旧版阅读页面，以避免改变已经公开多年的正文。</p>
+      <a class="text-link" href="/rss.xml">订阅 RSS →</a>
+    </div>
+    <ol class="index-list">
+      {legacyArticles.map((article) => (
+        <li class="index-item">
+          <a class="index-link" href={article.href}>{article.title} <span aria-hidden="true">↗</span></a>
+          <p class="index-description">原发表于 {article.date}。</p>
+          <time class="index-meta" datetime={article.date}>{article.category}</time>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="content-section" aria-labelledby="topics-title">
+    <div class="section-heading">
+      <h2 id="topics-title">接下来写什么</h2>
+    </div>
+    <ul class="tag-list">
+      <li>AI</li><li>Product</li><li>ITOM</li><li>AIOps</li><li>Engineering</li><li>Career</li>
+    </ul>
+  </section>
+</BaseLayout>

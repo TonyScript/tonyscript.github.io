@@ -1,0 +1,72 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="About"
+  description="Tony Pang 的职业路径、工作方式与个人网站公开边界。"
+  pageType="ProfilePage"
+>
+  <header class="page-intro">
+    <div>
+      <p class="identity-line">About / Narrative profile</p>
+      <h1>从工程走向产品，继续处理复杂系统。</h1>
+    </div>
+    <p class="lede">
+      我的工作一直围绕同一类问题展开：理解技术系统，把复杂状态组织成可被团队、客户和软件共同使用的产品。
+    </p>
+  </header>
+
+  <section class="content-section" aria-labelledby="who-title">
+    <div class="section-heading">
+      <h2 id="who-title">我是谁</h2>
+    </div>
+    <div class="prose">
+      <p>
+        我最初从软件工程进入行业，做过 iOS、Xamarin、Python 与 Web 相关实践，后来转向产品管理。工程经历让我习惯追问数据如何流动、状态如何变化、失败发生在哪里，以及产品决策最终会给研发和客户带来什么。
+      </p>
+      <p>
+        过去约十年，我的关注点逐渐转向企业软件与 IT 运维，包括 ITOM、ITSM、ITAM、CMDB、监控、告警管理与 AIOps。现在，我也持续研究 AI Agent 如何进入企业工作流，以及工具、权限和上下文为什么比单纯的模型能力更难。
+      </p>
+    </div>
+  </section>
+
+  <section class="content-section" aria-labelledby="approach-title">
+    <div class="section-heading">
+      <h2 id="approach-title">我如何工作</h2>
+      <p>产品判断不是把需求写进模板，而是把事实、假设、约束和证据分开。</p>
+    </div>
+    <ul class="index-list">
+      <li class="index-item">
+        <h3>理解系统</h3>
+        <p class="index-description">从角色、业务目标和真实运行状态开始，而不是从界面控件开始。</p>
+        <span class="index-meta">Context</span>
+      </li>
+      <li class="index-item">
+        <h3>建立模型</h3>
+        <p class="index-description">把对象、关系、状态、权限和异常路径组织成能够讨论的结构。</p>
+        <span class="index-meta">Model</span>
+      </li>
+      <li class="index-item">
+        <h3>留下证据</h3>
+        <p class="index-description">用原型、文档、决策记录与公开实现说明做过什么，以及为什么这样做。</p>
+        <span class="index-meta">Evidence</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="boundary-title">
+    <div class="section-heading">
+      <h2 id="boundary-title">公开边界</h2>
+    </div>
+    <div class="prose">
+      <p>
+        本站只发布可以公开说明的材料。企业产品案例会被脱敏和抽象化；涉及雇主、客户、内部架构、商业数据或未公开路线的内容会被省略。
+      </p>
+      <p class="note">
+        TonyScript 是长期使用的公开网络标识；Tony Pang 是本站采用的个人姓名。当前已确认的外部身份链接只有 GitHub，其他平台会在本人核对后加入。
+      </p>
+      <a class="text-link" href="/contact/">联系 Tony →</a>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,86 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { caseStudies, caseStudyDisclosure, getCaseStudyHref } from "../../data/caseStudies";
+import { experiments, focusAreas, site } from "../../data/site";
+---
+
+<BaseLayout
+  title="AI-readable profile"
+  description="面向搜索与招聘 Agent 的 Tony Pang 高密度、低噪声公开身份资料。"
+  pageType="ProfilePage"
+>
+  <header class="page-intro">
+    <div>
+      <p class="identity-line">AI-readable profile / Human-readable too</p>
+      <h1>{site.name}</h1>
+    </div>
+    <p class="lede">{site.headline}. {site.description}</p>
+  </header>
+
+  <section class="content-section" aria-labelledby="identity-title">
+    <div class="section-heading"><h2 id="identity-title">Identity</h2></div>
+    <dl class="definition-list">
+      <div class="definition-row"><dt>Name</dt><dd>{site.name}</dd></div>
+      <div class="definition-row"><dt>Public handle</dt><dd>{site.handle}</dd></div>
+      <div class="definition-row"><dt>Role</dt><dd>Product Manager</dd></div>
+      <div class="definition-row"><dt>Location</dt><dd>{site.location}</dd></div>
+      <div class="definition-row"><dt>Background</dt><dd>Software engineering → product management → enterprise IT operations → AI</dd></div>
+      <div class="definition-row"><dt>Experience</dt><dd>Approximately 10 years in the software industry</dd></div>
+    </dl>
+  </section>
+
+  <section class="content-section" aria-labelledby="domains-title">
+    <div class="section-heading"><h2 id="domains-title">Domain expertise</h2></div>
+    <dl class="definition-list">
+      {focusAreas.map((area) => (
+        <div class="definition-row"><dt>{area.name}</dt><dd>{area.description}</dd></div>
+      ))}
+    </dl>
+  </section>
+
+  <section class="content-section" aria-labelledby="evidence-title">
+    <div class="section-heading">
+      <h2 id="evidence-title">Selected product work</h2>
+      <p>Enterprise product case studies take precedence over public coding experiments.</p>
+    </div>
+    <ul class="index-list">
+      {caseStudies.map((study) => (
+        <li class="index-item">
+          <a class="index-link" href={getCaseStudyHref(study)}>{study.shortTitle} <span aria-hidden="true">↗</span></a>
+          <p class="index-description">{study.machineSummary}</p>
+          <span class="index-meta">{study.status}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="note">{caseStudyDisclosure}</p>
+  </section>
+
+  <section class="content-section" aria-labelledby="experiments-title">
+    <div class="section-heading">
+      <h2 id="experiments-title">Experiments</h2>
+      <p>Public repositories retained for transparency, not presented as professional product evidence.</p>
+    </div>
+    <ul class="index-list">
+      {experiments.map((project) => (
+        <li class="index-item">
+          <a class="index-link" href={project.href}>{project.name} <span aria-hidden="true">↗</span></a>
+          <p class="index-description">{project.description}</p>
+          <span class="index-meta">{project.meta}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="formats-title">
+    <div class="section-heading">
+      <h2 id="formats-title">Alternate formats</h2>
+      <p>这些端点与本页使用同一组事实。</p>
+    </div>
+    <ul class="machine-links">
+      <li><a href="/ai/profile.json"><code>/ai/profile.json</code><span>Structured JSON profile</span></a></li>
+      <li><a href="/resume.md"><code>/resume.md</code><span>Plain Markdown résumé</span></a></li>
+      <li><a href="/llms.txt"><code>/llms.txt</code><span>Site index for compatible agents</span></a></li>
+      <li><a href="/sitemap.xml"><code>/sitemap.xml</code><span>Canonical public URL inventory</span></a></li>
+    </ul>
+  </section>
+</BaseLayout>

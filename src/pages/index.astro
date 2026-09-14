@@ -1,0 +1,131 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { caseStudies, getCaseStudyHref } from "../data/caseStudies";
+import { focusAreas, legacyArticles, site } from "../data/site";
+
+const latestArticles = legacyArticles.slice(0, 4);
+---
+
+<BaseLayout>
+  <section class="intro" aria-labelledby="intro-title">
+    <div>
+      <p class="identity-line">{site.name} / {site.headline}</p>
+      <h1 id="intro-title">做企业 IT 运维产品，也研究 AI 如何改变软件与运维。</h1>
+    </div>
+    <div class="intro-copy">
+      <p>
+        我从软件工程走向产品管理，关注复杂基础设施、企业软件，以及技术能力如何转化为可交付的产品判断。
+      </p>
+      <p><strong>这里不是一份在线简历，而是一份可以逐项核验的工作与思考索引。</strong></p>
+    </div>
+  </section>
+
+  <dl class="fact-strip" aria-label="职业概览">
+    <div class="fact">
+      <dt>Experience</dt>
+      <dd>约 10 年软件行业</dd>
+    </div>
+    <div class="fact">
+      <dt>Background</dt>
+      <dd>Engineering → Product</dd>
+    </div>
+    <div class="fact">
+      <dt>Current focus</dt>
+      <dd>ITOM · AIOps · Agents</dd>
+    </div>
+  </dl>
+
+  <section class="content-section" aria-labelledby="site-index-title">
+    <div class="section-heading">
+      <p class="section-kicker">Start here</p>
+      <h2 id="site-index-title">理解我正在做什么</h2>
+      <p>从能力、证据、经历或机器可读资料进入。</p>
+    </div>
+    <ul class="index-list">
+      <li class="index-item">
+        <a class="index-link" href="/projects/">Work <span aria-hidden="true">↗</span></a>
+        <p class="index-description">脱敏的企业产品案例与独立公开实验。</p>
+        <span class="index-meta">Case studies</span>
+      </li>
+      <li class="index-item">
+        <a class="index-link" href="/writing/">Writing <span aria-hidden="true">↗</span></a>
+        <p class="index-description">从 2017 年技术文章开始保留的公开思考记录。</p>
+        <span class="index-meta">10 archived</span>
+      </li>
+      <li class="index-item">
+        <a class="index-link" href="/experience/">Experience <span aria-hidden="true">↗</span></a>
+        <p class="index-description">工程、产品、企业软件与 AI 方向的结构化经历。</p>
+        <span class="index-meta">Career</span>
+      </li>
+      <li class="index-item">
+        <a class="index-link" href="/ai/">AI profile <span aria-hidden="true">↗</span></a>
+        <p class="index-description">低噪声、可抓取的身份与专业领域说明。</p>
+        <span class="index-meta">HTML · JSON · MD</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="focus-title">
+    <div class="section-heading">
+      <p class="section-kicker">Current focus</p>
+      <h2 id="focus-title">长期关注的系统问题</h2>
+      <p>这些不是孤立关键词，而是互相连接的产品边界。</p>
+    </div>
+    <ul class="index-list">
+      {focusAreas.map((area) => (
+        <li class="index-item">
+          <h3>{area.name}</h3>
+          <p class="index-description">{area.description}</p>
+          <span class="index-meta">Domain</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="projects-title">
+    <div class="section-heading">
+      <p class="section-kicker">Selected product work</p>
+      <h2 id="projects-title">企业产品与 Agent 案例</h2>
+      <p>基于真实产品设计工作脱敏重构；不公开客户、公司、实施与商业细节。</p>
+      <a class="text-link" href="/projects/">查看全部工作 →</a>
+    </div>
+    <ul class="index-list">
+      {caseStudies.map((study) => (
+        <li class="index-item">
+          <a class="index-link" href={getCaseStudyHref(study)}>{study.shortTitle} <span aria-hidden="true">↗</span></a>
+          <p class="index-description">{study.summary}</p>
+          <span class="index-meta">{study.status}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="writing-title">
+    <div class="section-heading">
+      <p class="section-kicker">From the archive</p>
+      <h2 id="writing-title">旧文章仍然是证据</h2>
+      <p>保留原始发布日期和 URL，不把过去重新包装成现在。</p>
+      <a class="text-link" href="/writing/">浏览全部文章 →</a>
+    </div>
+    <ul class="index-list">
+      {latestArticles.map((article) => (
+        <li class="index-item">
+          <a class="index-link" href={article.href}>{article.title} <span aria-hidden="true">↗</span></a>
+          <p class="index-description">原发表于 {article.date}。</p>
+          <time class="index-meta" datetime={article.date}>{article.category}</time>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="contact-title">
+    <div class="section-heading">
+      <p class="section-kicker">Contact</p>
+      <h2 id="contact-title">从具体问题开始</h2>
+    </div>
+    <div>
+      <p>如果你正在做企业软件、IT 运维产品或 AI Agent，可以从正在解决的问题、产品阶段和希望讨论的范围开始。</p>
+      <a class="text-link" href="/contact/">查看联系方式 →</a>
+    </div>
+  </section>
+</BaseLayout>

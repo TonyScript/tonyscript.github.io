@@ -1,0 +1,35 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { site } from "../../data/site";
+---
+
+<BaseLayout title="Contact" description="联系 Tony Pang，讨论企业软件、IT 运维产品、AIOps 与 AI Agent。">
+  <header class="page-intro">
+    <div>
+      <p class="identity-line">Contact / Public channels</p>
+      <h1>从具体问题开始。</h1>
+    </div>
+    <p class="lede">请说明正在解决的问题、产品所处阶段，以及希望讨论或合作的范围。</p>
+  </header>
+
+  <section class="content-section" aria-labelledby="channels-title">
+    <div class="section-heading"><h2 id="channels-title">联系渠道</h2></div>
+    <div>
+      <div class="contact-method">
+        <p class="meta">Email</p>
+        <a href={`mailto:${site.email}`}>{site.email}</a>
+        <p>适合职位、合作、产品交流与较完整的背景说明。</p>
+      </div>
+      <div class="contact-method">
+        <p class="meta">GitHub</p>
+        <a href={site.github}>github.com/TonyScript</a>
+        <p>适合从独立实验、公开代码或仓库 Issue 开始；企业产品案例请优先通过邮件讨论。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section" aria-labelledby="privacy-title">
+    <div class="section-heading"><h2 id="privacy-title">隐私说明</h2></div>
+    <p>本站不公开手机号、家庭地址、私人账号，也不会通过公开页面收集访客个人信息。</p>
+  </section>
+</BaseLayout>

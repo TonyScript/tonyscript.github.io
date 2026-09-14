@@ -1,0 +1,53 @@
+:root {
+  --color-paper: oklch(97% 0.012 82);
+  --color-paper-raised: oklch(94% 0.015 82);
+  --color-paper-deep: oklch(90% 0.018 82);
+  --color-rule: oklch(78% 0.018 78);
+  --color-neutral: oklch(55% 0.018 72);
+  --color-muted: oklch(40% 0.02 68);
+  --color-ink: oklch(19% 0.018 62);
+  --color-accent: oklch(54% 0.17 38);
+  --color-accent-dark: oklch(42% 0.14 38);
+  --color-focus: oklch(54% 0.17 38);
+
+  --font-display: "Newsreader", "Songti SC", serif;
+  --font-body: "IBM Plex Sans", "PingFang SC", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.953rem;
+  --text-2xl: 2.441rem;
+  --text-3xl: 3.052rem;
+  --text-display: clamp(2.5rem, 7vw, 5.25rem);
+
+  --dur-micro: 120ms;
+  --dur-short: 180ms;
+  --dur-long: 420ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --rule-hair: 1px;
+  --rule-heavy: 2px;
+  --radius-sm: 0.2rem;
+  --page-gutter: clamp(1rem, 4vw, 4rem);
+  --page-max: 76rem;
+  --measure: 65ch;
+  --z-base: 1;
+  --z-sticky: 200;
+}

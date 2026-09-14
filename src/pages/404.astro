@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Page not found" description="没有找到请求的页面。" canonicalPath="/404.html" noindex>
+  <section class="not-found">
+    <p class="code">HTTP 404</p>
+    <h1>这个地址没有对应页面。</h1>
+    <p>如果你在寻找旧文章，可以从写作档案或 2017 年归档继续。</p>
+    <div>
+      <a class="text-link" href="/writing/">打开 Writing →</a><br />
+      <a class="text-link" href="/archives/">打开 2017 Archive →</a>
+    </div>
+  </section>
+</BaseLayout>

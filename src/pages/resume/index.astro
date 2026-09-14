@@ -1,0 +1,69 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { caseStudies, caseStudyDisclosure, getCaseStudyHref } from "../../data/caseStudies";
+import { site } from "../../data/site";
+---
+
+<BaseLayout
+  title="Resume"
+  description="Tony Pang 的公开 HTML 简历：工程背景、企业软件产品经验与 ITOM、AIOps、AI Agent 方向。"
+  pageType="ProfilePage"
+>
+  <header class="resume-header">
+    <p class="identity-line">Public résumé</p>
+    <h1>{site.name}</h1>
+    <p class="lede">{site.headline}</p>
+    <nav class="resume-contact" aria-label="简历联系信息">
+      <a href={`mailto:${site.email}`}>{site.email}</a>
+      <a href={site.github}>GitHub</a>
+      <a href="/resume.md">Markdown version</a>
+    </nav>
+  </header>
+
+  <section class="content-section" aria-labelledby="summary-title">
+    <div class="section-heading"><h2 id="summary-title">Summary</h2></div>
+    <div class="prose">
+      <p>具有软件工程背景的企业软件产品经理，约十年软件行业经历，长期关注 ITOM、AIOps、AI Agent 与复杂基础设施产品。</p>
+      <p>能够在业务场景、产品模型与技术实现之间建立共同语言，并通过原型、文档和可验证产物明确产品边界。</p>
+    </div>
+  </section>
+
+  <section class="content-section" aria-labelledby="capabilities-title">
+    <div class="section-heading"><h2 id="capabilities-title">Capabilities</h2></div>
+    <dl class="definition-list">
+      <div class="definition-row"><dt>Product</dt><dd>产品设计、需求分析、用户场景、交互原型、研发协作、客户与交付沟通</dd></div>
+      <div class="definition-row"><dt>Domains</dt><dd>ITOM、ITSM、ITAM、AIOps、CMDB、Monitoring、Alert Management</dd></div>
+      <div class="definition-row"><dt>Technical</dt><dd>软件工程背景；iOS、Objective‑C、Xamarin、Python 与 Web 实践</dd></div>
+      <div class="definition-row"><dt>Current interests</dt><dd>AI-native enterprise software、Agentic IT Operations、AI-assisted software development</dd></div>
+    </dl>
+  </section>
+
+  <section class="content-section" aria-labelledby="history-title">
+    <div class="section-heading">
+      <h2 id="history-title">Career history</h2>
+      <p>当前版本只列已确认的阶段；公司与精确任职时间待本人核对。</p>
+    </div>
+    <ol class="timeline-list">
+      <li class="timeline-item"><span class="timeline-label">Engineering</span><div class="timeline-body"><h3>Software Engineer</h3><p>移动端、跨平台与 Web 技术实践。</p></div></li>
+      <li class="timeline-item"><span class="timeline-label">Product</span><div class="timeline-body"><h3>Product Manager</h3><p>产品定义、需求、原型、研发与客户协作。</p></div></li>
+      <li class="timeline-item"><span class="timeline-label">Enterprise</span><div class="timeline-body"><h3>IT Operations Products</h3><p>ITOM、ITSM、ITAM、CMDB、监控、告警与 AIOps。</p></div></li>
+    </ol>
+  </section>
+
+  <section class="content-section" aria-labelledby="public-work-title">
+    <div class="section-heading">
+      <h2 id="public-work-title">Selected product work</h2>
+      <p>脱敏案例；状态统一标注为产品设计与已验证原型，不主张生产上线结果。</p>
+    </div>
+    <ul class="index-list">
+      {caseStudies.map((study) => (
+        <li class="index-item">
+          <a class="index-link" href={getCaseStudyHref(study)}>{study.shortTitle} <span aria-hidden="true">↗</span></a>
+          <p class="index-description">{study.summary}</p>
+          <span class="index-meta">{study.status}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="note">{caseStudyDisclosure}</p>
+  </section>
+</BaseLayout>

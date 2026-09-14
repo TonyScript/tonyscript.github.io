@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>IFTTT - 让互联网为你工作</title>
+      <link href="/2017/12/22/2017-12-22-Introducing-IFTTT/"/>
+      <url>/2017/12/22/2017-12-22-Introducing-IFTTT/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.loli.net/2017/12/22/5a3ca0dc76caa.png" alt="IFTTT"></p><h3 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h3><p>说起来比较神奇。</p><p>我从去年才真正开始接触到<code>财富自由</code>的概念，意思就是你不用再为生活而忍受不喜欢的工作，你的财富已经足够你即使不工作也能够生活得很好。不得不说，这里描绘了一个很诱人的场景。</p><p>那怎样才能达到这个目标呢？据说主要的诀窍是增加你的被动收入，因为通常我们的收入来源是通过时间转化而来，比如说你在办公室做 8 小时你老板就发你一天工资，如果你不坐就没有收入，这个就是主动收入。被动收入是类似于利息这种，比如你放余额宝里，现在 1w 块钱可能一天 1 块钱的样子。所以利息通常是不够生活的，因此就要增加其他被动收入，比如版税、软件收入、公众号打赏等等。</p><p>当我了解这个想法之后，立刻就想到了 <code>IFTTT</code>， 因为两者的理念实在是太像了。<code>IFTTT</code> 的口号是 <code>让互联网为你工作</code>，是个上线于 2013 年的网站，后来出了 iOS 和 安卓的 APP，完全免费。致力于打破碎片化，将不同的 APP 和服务通过 <code>IFTTT</code> 提供的服务连接起来，并且让所有连接起来的服务都 <code>自动化</code> 起来，亲手打造自己的智能生活。<br><img src="https://i.loli.net/2017/12/22/5a3ca76583f13.png" alt="IFTTT"></p><h3 id="什么是-IFTTT"><a href="#什么是-IFTTT" class="headerlink" title="什么是 IFTTT"></a>什么是 IFTTT</h3><p><code>IFTTT</code> 的全称是 <code>If this then that</code>, 简单来说就是如果发生 <code>A事件</code> 那么自动触发 <code>B事件</code>，比如下雨天自动发短信提醒你带伞，Gmail 加星标邮件自动保存到印象笔记，通讯录新增联系人自动同步到谷歌联系人，当你发微博的时候自动同步到你的 Twitter，当你从办公室回到家的时候自动取消手机静音，每次到家都自动发一条定位微博广而告之，自动保存 NASA 的 <code>The picture of the day</code> 到你的 iPhone 相册，手机每次截屏都都自动同步到印象笔记，甚至当国际空间站经过你家的时候自动给你发邮件。。。<br><img src="https://i.loli.net/2017/12/22/5a3caa21c2f98.jpg" alt="IFTTT"></p><h3 id="IFTTT-的使用流程"><a href="#IFTTT-的使用流程" class="headerlink" title="IFTTT 的使用流程"></a>IFTTT 的使用流程</h3><p>总而言之言而总之，<code>IFTTT</code> 能够将两件原本不相干的事情神奇地连接起来并且实现各种各样魔幻的功能，并且就算你睡着了它也能持续为你运作，我们要做的只是设置好 <code>Trigger</code> 和 <code>Action</code>，然后它便会自行运转。那么怎么使用呢？首先下载 APP，然后注册账号，即可在首页发现很多好玩的服务，点击添加然后授权相应的服务权限即可。下面的图片展示了新建一个 <code>Recipte</code> 的步骤：<br><img src="https://i.loli.net/2017/12/22/5a3cb8d8ec6bc.png" alt="Snip20171222_5.png"><br><img src="https://i.loli.net/2017/12/22/5a3cb8d91e6d5.png" alt="Snip20171222_7.png"><br>以及别人创建的和目前很受欢迎的一些 <code>Recipte</code>：<br><img src="https://i.loli.net/2017/12/22/5a3cc030879e6.png" alt="Connect-YouTube-to-anything-IFTTT.png"></p><p><img src="https://i.loli.net/2017/12/22/5a3cc030b0456.png" alt="social-media-automation-ifttt.png"></p><h3 id="IFTTT-的-APP-介绍"><a href="#IFTTT-的-APP-介绍" class="headerlink" title="IFTTT 的 APP 介绍"></a>IFTTT 的 APP 介绍</h3><p><code>IFTTT</code> 目前已经登录到 iOS 和安卓两大平台，在 APP Store 中获得 <code>编辑精选</code> 推荐， 在 Google Play 中获得 <code>最佳应用</code> 奖，其应用的设计语言倾向于简约与活泼化，UI 元素大部分是卡片化，而且其操作逻辑也非常符合用户习惯，基本感觉不到学习成本，所以不论是看起来还是用起来都非常舒服。</p><p><img src="https://i.loli.net/2017/12/22/5a3cbd63bc8c4.png" alt="IMG_1030.PNG"></p><p><img src="https://i.loli.net/2017/12/22/5a3cbd632eb28.png" alt="IMG_1031.PNG"></p><p><img src="https://i.loli.net/2017/12/22/5a3cbf8bab1cd.png" alt="IMG_1042.PNG"></p><p><img src="https://i.loli.net/2017/12/22/5a3cbf8ba97d8.png" alt="IMG_1044.PNG"></p><h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>需要说明的是 <code>IFTTT</code> 是个非常非常神奇的东西，今天介绍的只是它的冰山一角。如果你是个比较有想法或者有创造欲望的人， 那么你有可能用 <code>IFTTT</code> 创造出别人从未想到过的打开方式！除此之外它还能够帮助我们完成一些繁琐的劳动，而且是不间断。善加利用的话不仅能提高工作和生活的效率，也能节省很多时间和精力。</p><p>另外一点，比较遗憾的是， <code>IFTTT</code> 目前对国内的应用支持地还不够好，从上面的介绍也可以看到，比较流行的一些服务可能都需要科学上网才能使用，不过现在已经上线了很多关于微博的 <code>Recipte</code> ，可见也在努力探索在中国的发展，希望国内的网络服务也能给力了。</p><p>请开始你的创作吧！<br><img src="https://i.loli.net/2017/12/22/5a3cc2ad6467d.png" alt="ifttt-homepage.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 啊，生活！ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 扯淡集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在 Mac 上使用终端配置 GitHub 账号</title>
+      <link href="/2017/12/17/2017-12-17-Using-GitHub-In-Terminal/"/>
+      <url>/2017/12/17/2017-12-17-Using-GitHub-In-Terminal/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.loli.net/2017/12/16/5a341f103d027.png" alt="Git-Logo-1788C.png"><br>人生不能重来，但 Git 可以。<br>Git 是目前最流行和最好用的版本控制系统，尤其以强大的<a href="https://blog.coding.net/blog/about-git" target="_blank" rel="noopener">分支</a>功能著称。在 Mac 上使用 Git 也非常方便，只须在<code>终端</code>稍做配置即可。</p><p>1.打开终端，执行下面命令进入到 <code>.ssh</code> 文件夹目录下：</p><pre><code>cd .ssh</code></pre><p><img src="https://i.loli.net/2017/12/16/5a35170a6c2ca.png" alt="WX20171216-203150@2x.png"><br>2.在 <code>.ssh</code> 目录下执行下面代码, 生成 <code>SSH</code> 公钥，可以一直回车直到结束，也可以输入密码，一般留空：</p><pre><code>ssh-keygen -t rsa -C &quot;GitHub 邮箱地址&quot;</code></pre><p><img src="https://i.loli.net/2017/12/16/5a35170b7a752.png" alt="WX20171216-205130@2x.png"><br>3.进入 <code>.ssh</code> 目录查看刚才生成的<code>testgit</code>和<code>testgit.pub</code>应该已经存在：<br><img src="https://i.loli.net/2017/12/16/5a351804a9176.png" alt="WX20171216-205626@2x.png"><br>4.既然公钥已经存在，下一步就是把公钥放到服务器上，执行下面的命令，将公钥复制到剪贴板：</p><pre><code>pbcopy &lt; ~/.ssh/testgit.pub</code></pre><p>5.打开 <code>GitHub</code> 设置里的 <code>SSH and GPG Keys</code>页面，然后新建一个 <code>SSH Key</code>， Title 一般取设备名称，然后将刚在复制的公钥粘贴到 Key 下面：<br><img src="https://i.loli.net/2017/12/16/5a351abd8bbd9.png" alt="WX20171216-210129@2x.png"></p><p>6.至此，我们新增的 Key 还是灰色的，接着执行下面的命令用于测试你的账号是否已经与 GitHub 连接，然后回到 GitHub 刚才添加 <code>SSH Key</code>的界面刷新，可以发现钥匙变绿了，说明我们的添加已经生效了，可以在终端里愉快地使用 Git 了：</p><pre><code>ssh -T git@github.com</code></pre><p><img src="https://i.loli.net/2017/12/16/5a351d2f8e1c9.png" alt="WX20171216-211829@2x.png"><br><img src="https://i.loli.net/2017/12/16/5a351be71d372.png" alt="WX20171216-210417@2x.png"><img src="https://i.loli.net/2017/12/16/5a351be71e869.png" alt="WX20171216-210402@2x.png"></p><p>7.如果在本地文件夹 init 了一个 repo， 怎么连接到 GitHub 呢，执行下面的命令即可：<br><a href="https://i.loli.net/2017/12/19/5a38becbae631.png" target="_blank" rel="noopener"><img src="https://i.loli.net/2017/12/19/5a38becbae631.png" alt="本地仓库与远程仓库合并.png"></a></p><p>8.如果同一台电脑有2个 GitHub 账号怎么办？取消全局设置，给每个仓库单独设置用户名和密码：取消global;设置每个repo自己的user.email</p><pre><code>git config --global --unset user.namegit config --global --unset user.email</code></pre><pre><code>git config  user.email &quot;xyz@xyz.com&quot;git config  user.name &quot;xyz&quot;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生苦短，先学为敬 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 造作集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>用 VSCode 写 Python</title>
+      <link href="/2017/12/17/2017-12-17-Writing-Python-With-VSCode/"/>
+      <url>/2017/12/17/2017-12-17-Writing-Python-With-VSCode/</url>
+      
+        <content type="html"><![CDATA[<p>安装</p><p>打开 Python 的工程或者文件</p><p>VSCode 自动识别为 Python</p><p>在左下角调整 Python 版本，右下角选择文件编码以及语言模式</p><p><code>Command + ,</code> 打开偏好设置文件，从左侧复制到右侧即可<br>首选项里可打开快捷键偏好设置文件，可直接修改</p><p>VSCode 默认按 <code>F5</code> 后需要再按一次F5程序才会运行，如果要按F5立即运行代码需要将 <code>launch.json</code> (调试 - 打开配置)文件的 <code>&quot;stopOnEntry&quot;: true,</code> 改为 <code>&quot;stopOnEntry&quot;: false,</code></p><p>重头戏是插件，毕竟也是冲这个来的：</p><p><code>Pylint</code>：VSCode 默认的语法检查工具是 <code>Pylint</code>，在终端用 <code>pip3 install -U Pylint</code> 安装好即可使用。除此之外还有官方出的 <code>flake8</code> 也是语法检查工具，<code>pip3 install flake8</code>，然后在偏好设置文件右边加上 <code>&quot;python.linting.flake8Enabled&quot;: true,</code> 即可</p><p><code>Python</code>： V0.9.0 微软出的 Python 的语法检查、自动补全、自动缩进、代码格式化、调试、运行等等，必备</p><p><code>Code Runner</code>：VSCode 默认执行 Python 代码的快捷键是 F5，而且要连按两下（可以在设置里修改）。。。安装了这个之后，工具栏上方出现一个执行按钮，也可以用快捷键 Ctrl + optin + N 执行，而且支持自定义，😁快捷键都在系统的快捷键设置里，直接改为 Command + R 回车就OK了！</p><p><code>Python Docstring</code>： 自动生成注释文档，因为烦人的 Pylint 检查才装的。。。使用方法是<code>&quot;&quot;&quot;</code>回车,不过好像会自动在空行之间补充一些空格，然后被<code>Pylint</code>报一堆缩进错误。。。宛若zz。。。</p><p><code>Python Extended</code>：自动补全方方法名称和参数，而且可以用 Tab 切换输入，跟 Xcode 自带的差不多</p><p><code>Python for VSCode</code> ：语法高亮、代码块及语法检查，跟微软出的相比好像有点多余了。。。</p><p><code>Python-autopep8</code>：终端里 <code>pip3 install --upgrade autopep8</code>，然后在 VSCode 里 <code>Command + shift + P</code> ，回车。除了这个还有 <code>yapf，pip3 install yapf</code>，然后在设置里加入<code>&quot;python.formatting.provider&quot;: &quot;yapf&quot;</code></p><p><code>vscode-icons</code>：能根据文件格式自动补全文件 <code>icon</code>，美观</p><p>其他的插件可以在 <a href="https://marketplace.visualstudio.com/search?term=Python&target=VSCode&category=All%20categories&sortBy=Downloads" target="_blank" rel="noopener">Visual Studio Marketplace</a> 找到</p><p>自定义快捷键修改(在快捷键设置里搜锁)</p><p>Run：<code>Command + R</code></p><p>Debug：<code>Command + D</code></p><p>显示隐藏控制台：<code>Command + G</code></p><p>显示隐藏活动栏：<code>Command + E</code></p><p>显示隐藏侧边栏：<code>Command + B</code></p><p>从当前行中间切换到下一行：<code>Command + return</code></p><p>直接删除某一行：<code>Command + Shift + K</code></p><p>自动生成 HTML 文档结构：先输入 <code>!</code> 然后 <code>Tab</code></p><p>复制当前行：<code>option + shift + ↓</code></p><p>光标移至行位：<code>Command + →</code></p><p>选中光标后面的内容：<code>Command + shift + →</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生苦短，先学为敬 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 造作集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>写给iOS程序员的Xamarin入门教程</title>
+      <link href="/2017/03/22/2017-03-22-Xamarin.iOS-Getting-Started/"/>
+      <url>/2017/03/22/2017-03-22-Xamarin.iOS-Getting-Started/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdy9cq46rbj21w80uqnis.jpg" alt></p><p>今天要写的内容，是在我之前的一篇文章 <a href="http://pangxiangxiang.com/tech-path-of-2016/" target="_blank" rel="noopener">2016 年技术路径</a> 里已经提到的内容，今天来详细写下对于一个 iOS 程序员来说，如何更快地入门 Xamarin.iOS 并进行实际开发。</p><h3 id="一、Xamarin-是什么"><a href="#一、Xamarin-是什么" class="headerlink" title="一、Xamarin 是什么"></a>一、Xamarin 是什么</h3><p>有时候官方对自己的介绍可能是最准确的，但不一定是最容易让人明白的。比如 Xamarin 官方对自己的介绍：</p><blockquote><p>Deliver native Android, iOS, and Windows apps, using existing skills, teams, and code.<br>Build native apps for multiple platforms on a shared C# codebase. Use the same IDE, language, and APIs everywhere.</p></blockquote><p>其实就一句话，Xamarin 可以让你用 C# 开发跨平台的手机 APP。</p><p>它的原理是 Xamarin 团队用 C# 语言重写了 iOS 和 Android 原生 API，使得开发者可以通过相应的 C# 代码去调用原生平台的 API，然后将 C# 代码封装之后直接编译为二进制文件，因此执行效率也很高。而 C# 代码之所以能够在 Mac 上运行，则离不开 <a href="http://www.mono-project.com/" target="_blank" rel="noopener">Mono</a>，这是一个开源的 .NET framework 跨平台软件，其具体实现原理我们今天不管，只需要知道安装了 Mono 之后，C# 就可以在 Mac 上编译运行起来。</p><p><img src="https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdy0adtaxuj20r308l0tg.jpg" alt></p><p>另外，虽然官方宣称他们重写了 iOS 和 Android 的所有 API，任何 Objective-C 和 Java 可以实现的， Xamarin 都可以实现，但据我所知并非如此，比如我上次在 <a href="http://pangxiangxiang.com/Xamarin.iOS-Binding-Project/" target="_blank" rel="noopener">Xamarin.iOS 集成第三方库</a> 一文中提到的集成第三方原生 SDK 的时候，在实际调用中听云 SDK 就报错了：</p><blockquote><p>[exception][03:03:21]The ObjectiveC class ‘_priv_NBSLensWebViewDelegate’ could not be registered, it does not seem to derive from any known ObjectiveC class (including NSObject).</p></blockquote><p>这个 bug 导致点击 WebView 应用会闪退，必现，我尝试了几种方法无论如何都无法解决，后来意识到这是听云 SDK 报错只好求助于官方，他们研究两天之后给出了答案：<br><img src="https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdxykymgx1j20kj0k840r.jpg" alt="听云官方最终的排查结果和解释"></p><h5 style="text-align:center;">听云官方最终的排查结果和解释</h5><br>这个解释与我在网上搜索的结果不谋而合，可见 Xamarin 确实没有实现 NSProxy 这个类。![我在网上搜索的结果](https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdxy2t2tfgj20is03ewfc.jpg)![GitHub 上面可以找到类似的问题](https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdxyj694tuj20ls0a7ta7.jpg)<h5 style="text-align:center;">我在网上搜索的结果</h5>背景知识介绍完毕，下面直接开始 Xamarin.iOS 的学习。<h3 id="二、开发-Xamarin-iOS-之前的准备工作"><a href="#二、开发-Xamarin-iOS-之前的准备工作" class="headerlink" title="二、开发 Xamarin.iOS 之前的准备工作"></a>二、开发 Xamarin.iOS 之前的准备工作</h3><p>首先是安装开发工具，这里官方提供了两种：Xamarin Studio 和 Visual Studio for Mac Preview 版，我选择安装后者，在 <a href="https://developer.xamarin.com/visual-studio-mac/" target="_blank" rel="noopener">下载地址</a> 下载到 Visual Studio 安装程序，直接双击打开安装即可。<br><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdx11w97ysj21tk13aadx.jpg" alt="Xamarin Studio 的界面"></p><h6 style="text-align:center;">Xamarin Studio 的界面</h6>![Visual Studio for Mac 的界面](http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdx13q2shoj228o1e0h3v.jpg)<h6 style="text-align:center;">Visual Studio for Mac 的界面</h6>启动安装程序，勾选同意协议，会出现 **Checking network connectivity** 界面，转半天之后，会给你一堆错误，这个符合微软一向的尿性。如下图所示，提示你这个没有安装那个目录缺少，总之就是安装失败，先去下载图中所需的软件才能安装 Visual Studio for Mac，很好。这是当年我在 Windows 上做软件开发时的标配环节了，没想到现在跑到 Mac 平台还能被微软追着虐，厉害了。![报错界面截图（一）](https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdxywqrfyvj20sg0ly79g.jpg)<h6 style="text-align:center;">报错界面截图（一）</h6>![报错界面截图（二）](https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdxywy3lyuj20sg0lyaf0.jpg)<h6 style="text-align:center;">报错界面截图（二）</h6>根据每个人电脑的情况，具体报错可能不太一样，或多或少，不过按照报错界面的链接和提示下载安装就行了，这里值得**注意**的是 **android-ndk** 文件并不能直接双击解压，需要在终端里执行两条命令才能正确解压，然后复制解压的内容到相应的目录，如果没有就创建。还有一点需要提示，下载安卓 SDK 的时候尽量只下载一定需要的，因为模拟器镜像文件实在太大了，我当时不知天高地厚把从 14 到 25 全都下载了，一共 130G 还要多的镜像文件，平均大概 4M/s 的速度下了一下午才差不多下完，请大家引以为戒。<blockquote><p>chmod a+x android-ndk-r10e-darwin-x86_64.bin</p><p>./android-ndk-r10e-darwin-x86_64.bin </p></blockquote><p><img src="https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdxzprmc4rj20mb0fm41j.jpg" alt></p><h6 style="text-align:center;">下载之后的文件列表</h6>![安卓 SDK&NDK 配置成功界面](https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdxzapi9tcj20qo0ji413.jpg)<h6 style="text-align:center;">安卓 JDK&SDK&NDK 配置成功界面</h6><p>原来不想把文章写得这样又臭又长，但是没办法，不用这么多图片和文字讲不清楚。事实上，我自己在这个过程就放弃了 2 次，第 3 次才下决心全部搞清楚。不过后来我发现一个简单的方法，因为我们只开发 Xamarin.iOS，所以安卓的 SDK 和 NDK 目录完全不用管，只需要安装 Xamarin.iOS ，然后下载 Visual Studio 的离线版安装包即可，完全不影响调用模拟器和进行真机调试，亲测有效。</p><h3 id="三、Xamarin-iOS-之-Hello-World"><a href="#三、Xamarin-iOS-之-Hello-World" class="headerlink" title="三、Xamarin.iOS 之 Hello World"></a>三、Xamarin.iOS 之 Hello World</h3><p>通过前面两节已经基本把 Xamarin 的来龙去脉和开发环境搞定了，下面我们动手来做个 Xamarin.iOS 的 上手程序。</p><p><img src="https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdy2plv58nj20pj0ka77e.jpg" alt></p><p>打开 Visual Studio， CMD + Shift + N 新建一个 iOS 的 Master-Detail 应用，点击<strong><em>下一步</em></strong>，输入应用名称；</p><p><img src="https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdy2t3fxukj20p10i6dib.jpg" alt="输入应用名称"></p><p>点击下一步，勾选相关选项，跟在 Xcode 里面新建 iOS 应用差不多；</p><p><img src="https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdy2tsz5cnj20p10i6abw.jpg" alt="勾选相关选项"></p><p>点击创建，可以看到新建完成的项目目录；</p><p><img src="https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdy2w7jk8gj214a0ikgsi.jpg" alt="新建的项目目录"></p><p>然后选择相应的模拟器，在点击左上角<strong>运行</strong>按钮，稍等片刻即可看到应用的运行界面；</p><p><img src="https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdy36ylzeoj20jt0legm2.jpg" alt="运行之后的应用界面"></p><p>这是一个类似 iOS 系统自带的联系人和闹钟 App 的界面，点击右上角加号可添加一个 item，点击左上角<strong>Edit</strong>可以删除一个 item，所以无论是从界面还是操作来看，与原生应用基本没有区别。</p><p><img src="https://ws1.sinaimg.cn/large/b5fd9ee1gy1fdy349pb7sj20pv0lbgnu.jpg" alt="应用操作示意"></p><h3 id="四、小结"><a href="#四、小结" class="headerlink" title="四、小结"></a>四、小结</h3><p>通过以上的内容，基本可以对 Xamarin 这个东西有个基本的了解，如果想要深入学习的话，目前来说只能去 Xamarin 官网的开发者中心了，基本全英文文档，而且开发过程中遇到的很多问题，你用百度搜索会发现中文的资料相当少，基本都是一个入门或者介绍，而且都比较老了。过去的一年 Xamarin 也算大发展了，完全打通了在 Mac 上开发的屏障，基本可以做到与原生开发类似的体验：比如在模拟器上运行，断点调试程序，连接真机测试，包括证书、设备、App ID和描述文件都跟 Xcode 差不多，做过 iOS 开发的人很容易上手，推送的话我厂的项目用的是极光推送，效果也还行。</p><p>想来想去，最大的差距大概就是开发体验了，做过 iOS 的人都应该知道，苹果给开发者提供的开发生态太完善了，尤其是在接触了安卓的小伙伴之后更觉得如此。关于 Xamarin 开发 iOS 应用中遇到的坑，最能描述的大概是历史书上的一句话：</p><blockquote><p>我们走了一些弯路。 </p></blockquote><p>虽然只有短短的几个字，但是学过历史的人都知道，这几个字包含了多少心酸和无奈。同样，现在做 Xamarin 的这一批人，他们所遇到的坑和折磨也不会少。</p><p>以上所说，都是我做 Xamarin.iOS 项目几个月来的心得体会，下面来做个关于 Xamarin.iOS 的总结吧。</p><ol><li>学习途径单一，基本纯英文文档，仅限官网； </li><li>使用第三方库步骤繁琐，报错无从查起，有的根本就无法转换；</li><li>开发工具也不稳定，iOS Designer 可用性太差，体验不够友好（相对 Xcode）；</li><li>控制台报错信息网上很少找到一样的，有也仅限官方论坛和 Stack Overflow 上少量问题，出错你都不知道找谁解决，只能摊手；</li><li>整个开发生态还很不完善，虽说 Xamarin 也发展了这么多年，但只能说还处在初级阶段；</li><li>国内使用 Xamarin 进行移动端开发的公司少之又少，不排除抱着少招人的心态，动员后端小伙伴搞这个，结果往往都是悲剧。</li></ol><p>最后，有一个常见的误区，有些人认为既然 Xamarin 可以跨平台那就只学 Xamarin 就可以开发 iOS 和安卓应用了，借用一位长者的话来说，Naive！跨平台不意味着你在编程语言这块打通了，但不意味着你可以不去学习其他平台的特性，所以仅仅指望 .NET 程序员们看几篇官方文档就能上手开发 iOS 应用，这是想多了。且不说 Xamarin.iOS 的方法基本就是按照格式仿写了 OC 的原生方法，iOS 系统的很多特性都不了解是写不出来高质量的程序的，甚至还得要求开发者掌握一些 OC 的语法，比如做 Binding 项目的时候，不懂两种语言和 OC 中静态库和动态库的特性，就无法完成绑定和转换，更别提调用了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生苦短，先学为敬 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 造作集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>写给iOS程序员的ionic入门教程</title>
+      <link href="/2017/03/16/2017-03-16-ionic-getting-started/"/>
+      <url>/2017/03/16/2017-03-16-ionic-getting-started/</url>
+      
+        <content type="html"><![CDATA[<p><img src="http://upload-images.jianshu.io/upload_images/1243365-09a841926c1c8498?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p><p>自从 iOS 开发和 Android 开发诞生以来，使用一套代码部署到两个平台，就成为很多开发者奋斗的目标。然而前几年由于各种因素，这种想法并为成为现实，起码没有一个普遍被开发者接受的解决方案。随着这几年移动平台硬件性能的快速提升，加之HTML5、CSS3、ES6的出现和流行，出现了一些比较优秀的以前端技术为基础的混合开发框架，ionic便是其中之一。</p><h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>学习一门技术，最好的方式就是去官网撸官方文档。ionic <a href="http://ionicframework.com/" target="_blank" rel="noopener">官网</a> 对自己的介绍如下：</p><blockquote><p>The top open source framework for building amazing mobile apps.<br>Ionic is the beautiful, free and open source mobile SDK for developing native and progressive web apps with ease.</p></blockquote><p>官方给自己定位很清楚，开源免费的移动平台开发框架。不过这个自封的「顶级」，会不会给人一种钦定的感觉？话说回来，ionic 作为一个纯粹基于前端技术的框架，写写页面和逻辑还行，一旦涉及到有关 Native 的一些操作，基本就只能沉默以对了。这时候便轮到 Cordova 华丽出场了。</p><h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p><a href="https://cordova.apache.org/" target="_blank" rel="noopener">Cordova</a> 与 ionic 一样，也是一个开源的移动开发框架，不过属于 Apache 旗下的开源项目。它的出现，使得开发者可以仅仅使用前端技术开发跨平台的移动项目。说到这你可能要问了，既然也是基于前端技术的混合开发框架，那它跟 ionic 有毛区别？</p><p>区别就在于，Cordova 完成了混合开发最重要的一环：打通了前端与 Native 层的各种交互。通过 Cordova 的各种 <a href="https://cordova.apache.org/plugins/?platforms=cordova-ios" target="_blank" rel="noopener">插件</a>，你可以像原生开发一样，调用各种系统功能，比如打电话、拍照、访问扬声器、定位、甚至使用 TouchID 等本来原生代码才可以调用的功能。而 ionic 做的工作，就是把本来需要用前端代码写的原生控件和方法，做了一个还不错的风格统一和逻辑封装。也即是说，Cordova 完成了与 Native 层的交互和通信，ionic 完成了移动端页面的布局和互动。不得不说，前端的小伙伴们真是太有福了，只管拿过来写就行了。下图是 Cordova 的架构。</p><p><img src="http://upload-images.jianshu.io/upload_images/1243365-06c42f47b918e1c1?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Cordova 的架构"></p><h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>通过前面铺垫的内容，我们终于可以真正进入到 ionic 的开发中来。首先，我们需要在 Mac 上安装 ionic，在终端输入如下命令：</p><blockquote><p>npm install -g cordova ionic</p></blockquote><p>其中，<strong>npm</strong> 全拼为 Node Package Manager，是 Node.js 的包管理工具，主要功能是管理 Node 各种包的安装、更新、卸载、升级等功能。所以执行这行命令之前我们需要先在 Node.js <a href="https://nodejs.org/en/" target="_blank" rel="noopener">官网</a> 下载最新稳定版（推荐）的安装包，安装到电脑上之后，就可以在终端执行上面的命令了。 <strong>-g</strong> 这个参数的意思是 globally，全局安装。Cordova、ionic 是需要安装的包。</p><p>另外，现在最新的 ionic 版本是2.x，跟1.x区别还是挺大的，所以一定要注意自己安装的版本。做完这些之后，我们就完成了开发 ionic 所需要做的准备工作。正所谓上手一门语言最快的的方法就是写个 Hello World，下面我们就来做一个 ionic 的 Hello World！</p><h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>打开终端，输入 </p><blockquote><p>ionic start –v2 HelloWorld sidemenu</p></blockquote><p>上面的命令为我们自动创建了一个 SideMenu 模板的应用框架，我们在此基础上进行开发即可。创建完成之后，cd 到 HelloWorld 文件夹目录下，运行 ionic serve，如果运行成功，终端会自动为我们打开浏览器运行刚才创建的程序。运行效果如下图所示:</p><p><img src="http://upload-images.jianshu.io/upload_images/1243365-84878a87aa911d6a?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ionic 的 SideMenu 应用模板"></p><p>从外观上看，整体风格与一代差距还是挺大的，总的来说是变得相对来说更加美观了一些。想当初我第一次看到运行在浏览器上的 ionic 应用，心想这什么玩意，这也能叫 APP ？尽管 V2 版本还是有很多不尽如人意的地方，但已经可以看见明显在进步了。从实现方式上来说，ionic V2 版本将 AngularJS V1 替换成了 AngularJS V2 版本，差别还是挺大的。</p><h2 id="五"><a href="#五" class="headerlink" title="五"></a>五</h2><p><img src="http://upload-images.jianshu.io/upload_images/1243365-0610f4d43f961816?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p><p>ionic 的构成总的来说分为三个部分：<a href="http://ionicframework.com/docs/v2/components/" target="_blank" rel="noopener">UI Components</a>、<a href="http://ionicframework.com/docs/v2/api/" target="_blank" rel="noopener">API</a>、<a href="http://ionicframework.com/docs/v2/native/" target="_blank" rel="noopener">Ionic Native</a>.</p><p>UI Components 是 ionic 官方出的高仿原生控件的 UI 组件库，V1 版本名称叫做 CSS Components，只是名称变了。API 是 JavaScript API，使用 JS 封装了很多在 iOS 开发中常用的方法。 Ionic Native 顾名思义是访问 Native 层时所需要的一些插件。</p><p>至此，ionic 差不多就入门了，想要进一步深入学习的话就去官方网站看文档吧。国内虽然有所谓的 ionic 中文网之类的论坛，但是翻译质量十分堪忧，而且经常滞后，不如不看。说到这里就要赞一下 ionic 官网文档做得非常全面而且详细，各种开发辅助手到擒来，对开发者可以说是肥肠友好了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生苦短，先学为敬 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 造作集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Xamarin.iOS 集成第三方库</title>
+      <link href="/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/"/>
+      <url>/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/</url>
+      
+        <content type="html"><![CDATA[<p>最近公司用 Xamarin 开发的项目里需要集成一个第三方 SDK，名字叫做听云，一个应用性能监控平台。听云提供的 SDK 是用 OC 写的，而 Xamarin 要用的话需要先转成它可以使用的形式，所以花了几天时间研究这个东西。坑很多，我先踏为敬。</p><h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>iOS 第三方库一般分为静态库和动态库，前者通常以 <strong>.a</strong> 为后缀，后者以 <strong>.framework</strong> 为后缀。两者的区别如下：</p><blockquote><p>静态库(<em>Static Library</em>) — 源代码编译形成目标文件的合集，本质上是源代码的实现所对应的二进制实现。配合上一起提供的 <strong>.h</strong> 文件,可以获取到静态库中暴露的属性和方法。</p></blockquote><blockquote><p>动态库(<em>Dynamic Framework</em>) — 相当于一个随时可调用包，比如 iOS SDK 的 UIKit 之类的系统库就是动态库。相比静态库来说，动态库不需要 <strong>.h</strong> 文件就可以直接调用，而且只需要加载一次，对程序的执行效率相对于静态库有所提高。</p></blockquote><p>动态库相比静态库有许多优点，可以控制加载时机，这意味着通过服务端下发动态库可以对 App 实现热更新，包括但不局限与修复 bug，同时也可以动态更新 App 界面布局和业务逻辑，也就意味着可以像前端一样，抛弃版本的概念，所有用户每次进入应用获取的都是最新版。</p><p>但遗憾的是，Apple 不允许第三方框架使用动态库，只有系统框架可以通过动态方式加载。不然广大开发者又何必费尽心思搞出各种 patch，各种混合开发框架又怎会大行其道，一声叹息啊。</p><h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>下面以一个最近做的例子，听云 SDK 的集成，来具体说明下如何将 OC 原生动态库转换成 Xamarin.iOS 能够使用的 dll 动态链接库。</p><p>下载下来的 SDK 目录如下所示：</p><p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmliqlrsvj21jw08cac9" alt></p><p>首先将图中用红框圈起来的文件 tingyunApp 名称改为 tingyunApp.a，然后需要用到 Sharpie 这个 Xamarin 官方提供的命令行工具，可以在官方网站下载安装。安装完成之后，在终端 cd 到 <em>Headers</em> 的上一级，键入下面的命令：</p><blockquote><p>sharpie bind –output=tingyunApp.iOS –namespace=tingyunApp.iOS –sdk=iphoneos10.2 /Users/xxpang/Desktop/tingyun/tingyunApp.framework/Versions/A/Headers/NBSAppAgent.h /Users/xxpang/Desktop/tingyun/tingyunApp.framework/Versions/A/Headers/NBSGCDOverrider.h </p></blockquote><p>如果路径没错的话，在终端可以看到如下界面：</p><p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmls2gk2yj213g0ug0zi" alt></p><p>然后在 Finder 用户文件夹下可以看到生成的 tingyunApp.iOS 文件夹，里面有刚才生成的 ApiDefinitions.cs 和 StructsAndEnums.cs 两个文件。</p><h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>至此，我们完成了将 OC 库 转为 C# 库的第一步。下面在 Xamarin Studio 里新建一个 Binding Library 项目，如下所示：</p><p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmlx5q7nwj21do0ncwhj" alt></p><p>新建的 Binding Library 项目目录结构如下：</p><p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmm5t6awrj216i0i8q6j" alt></p><h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>下一步就用到我们第一步里改名的文件：tingyunApp.a，在 <em>本机引用</em> 上右击 Add Native Reference，将 framework 中的 tingyunApp.a 添加到项目中，然后在添加的文件上右击属性，在 IDE 右侧出现的面板里填写需要用到的系统库，比如 Security.framework、CoreTelephony.framework 等，如果需要添加 libz.tbd 等类库的话，需要在 Linker Flags 后面加上相应描述，具体如下图所示：</p><p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmn6ocozmj21kw0v5qfq" alt></p><p>完成这些之后，下面需要进行的是将命令行生成的两个文件里面的内容，复制替换掉原来的内容，需要注意的是，namespace 名称需要跟项目名称保持一致。替换完成后，正常情况下编译运行是会报错的，这是做 Xamarin 应该有的基本觉悟了。当然，如果你编译通过了，说明你很幸运，恭喜。</p><h2 id="五"><a href="#五" class="headerlink" title="五"></a>五</h2><p>Sharpie 这个命令行工具的原理，是将 OC 的头文件以及对应的方法实现，一一映射成 C# 可以直接调用的方法，再结合 tingyunApp.a 文件生成 Xamarin 可以使用的类库，原理如下图所示。</p><p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmnsl0be4j21di0g2wgk" alt></p><p>上面说了，Sharpie 的作用是将原生库里的方法一一映射成 C# 的类和方法，类似的还有他们用 C# 重写了 iOS SDK 的所有方法。不过呢，说是一一映射，还是有一些不合适的转换，所以才会编译报错，接下来会是一个比较痛苦的过程。</p><p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmo4rd23tj21f00z2qcu" alt></p><p>如上图所示，在 ApiDefinition.h 文件中我们可以看到很多划红线的地方，这些有的不影响编译和运行，有的会影响，又不能简单粗暴地删除或者注释，因为他们都对应着原生库里面的方法，不处理又不能编译运行通过。</p><p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmo6qpuv2j21gk0yuwol" alt></p><p>如上图，在 Structs.h 文件中有一些 [Verify] 标签，这些标签是系统用来提示开发者需要确认的地方，修改完错误之后需要删掉。说到这里就得再说一个大坑了，官方提供了一个原生方法和 C# 方法转换方法的说明，欢迎点击 <a href="https://developer.xamarin.com/guides/cross-platform/macios/binding/binding-types-reference/" target="_blank" rel="noopener">Binding Types Reference</a> 查看学习。这就要求你既懂 OC 的语法，又要懂 C# 的语法，不然有些报错无法处理，话说回来，如果已经会 OC 了，为什么还要用这个坑如此多的东西。。</p><p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmof06zwqj20yo0b8ac5" alt></p><p>言归正传，修改完上面那些 bug，编译运行通过之后，我们的工作基本就完成了。之后打开 Finder 在项目文件夹的 bin -&gt; debug 目录下可以找到生成的 dll 文件，引入到需要的项目里就可以使用了。至此，OC 的 framework 转为 C# 的 dll 就完成了，祝你一切顺利！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生苦短，先学为敬 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 造作集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Xamarin.iOS 初步体验</title>
+      <link href="/2017/03/02/2017-03-03-a-small-bite-of-xamarin.iOS/"/>
+      <url>/2017/03/02/2017-03-03-a-small-bite-of-xamarin.iOS/</url>
+      
+        <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Xamarin.iOS</strong> 也写了一段时间了，文档看得头晕，Demo做了一些，发现这个东西还是不太靠谱。具体体现在以下几点：</p><blockquote><ol><li><em>iOS Designer</em> 使用很不方便，拖拽或者修改都不如 Xcode 自带的 StoryBoard 灵活，总觉得肉肉的，而且经常卡死，出现打不开的情况；</li><li><em>Xamarin Studio</em> 软件本身也有很多槽点，不说跟 Xcode 比了，可靠性总得有保障吧，然而真实情况是有时候打开一个工程需要加载半天；</li><li>iOS 开发过程中需要用到很多第三方库，这些库用 <em>C#</em> 是没法直接调用的，虽然官方给出了转换的方法，但操作极其繁琐，而且有的库貌似还不支持；<br><img src="http://upload-images.jianshu.io/upload_images/1243365-b716c7c34f185344.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Xamarin.iOS 使用原生SDK教程"></li><li>报错信息在网上搜索结果很少，大部分是官方博客或者论坛上的，链接到第三方网站的很少，在国外著名的技术问答社区 Stack Overflow 上搜索 <em>Xamarin.iOS</em> 结果也是少得可怜，只有2W多条，相比之下 iOS 则有将近50W条，所以如果遇到奇葩的报错会让人不知所措的。<br><img src="http://upload-images.jianshu.io/upload_images/1243365-4323b511db538ca4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Xamarin.iOS 在 Stack Overflow 上的搜索结果"><br><img src="http://upload-images.jianshu.io/upload_images/1243365-f23349285da763a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="iOS 在 Stack Overflow 上的搜索结果"></li><li>Xamarin 目前只有英文文档，这就意味着学习途径只有官网一条。在网上也不到中文文档，这也是在国内很少有人去学习的原因之一。话说 Vue.js 这两年势头很猛，与其官方中文文档的全面是有分不开的，而不是说真的比 AngularJS 高到哪里去；<br><img src="http://upload-images.jianshu.io/upload_images/1243365-73bb7a11a8382f0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Xamarin.iOS 官方文档目录"></li><li>安卓平台不是太清楚，但站在 iOS 开发的角度来说，苹果给开发者提供的开发环境包括整个生态实在是太完整了，让人完全没有理由转向其他途径。</li><li>除此之外，也有对微软的信心不足。微软推行的很多项目都是雷声大雨点小，自从微软收购 Xamarin 之后，这样的担心一直都在。</li><li>附一个我写的 Xamarin.iOS 入门上手 Demo，点 <a href="https://pan.baidu.com/s/1qY10Zd6" target="_blank" rel="noopener">这里</a> 下载，提取码 w3t9，在 Xamarin Studio 里可以直接运行。</li></ol></blockquote><h3 id="所以，如果没有十分充足的理由最好不要踏入这个坑。"><a href="#所以，如果没有十分充足的理由最好不要踏入这个坑。" class="headerlink" title="所以，如果没有十分充足的理由最好不要踏入这个坑。"></a><strong>所以，如果没有十分充足的理由最好不要踏入这个坑。</strong></h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生苦短，先学为敬 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 造作集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2016年技术路径</title>
+      <link href="/2017/03/01/2017-03-01-tech-path-of-2016/"/>
+      <url>/2017/03/01/2017-03-01-tech-path-of-2016/</url>
+      
+        <content type="html"><![CDATA[<h3 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人的命运啊，当然要靠自我奋斗，但有时有也要考虑历史的进程。在夜深人静的时候也会问自己，我一个 iOS 开发怎么就跑来写前端了？</p><h3 id="起"><a href="#起" class="headerlink" title="起"></a>起</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我作为一个 iOS 开发，在最近一年的时间里马不停蹄地学了 HTML、CSS、JavaScript、AngularJS ，然后在此基础上才有足够的知识储备去学习 <a href="http://ionicframework.com/" target="_blank" rel="noopener">Ionic</a> 这个基于前端技术的混合开发框架。做了半年之后又发现公司项目的原生部分是基于 <code>C#</code> 写的，当时真是有日了动物园的感觉。后来不那么忙，就索性把 <a href="https://www.xamarin.com/" target="_blank" rel="noopener">Xamarin</a> 这个混合开发解决方案也撸了一把 。当然，学习这个之前，还是先去写了几天 <em>C#</em> 作为知识储备。所以这过去的一年，我基本上就跟混合开发卯上了。</p><h3 id="承"><a href="#承" class="headerlink" title="承"></a>承</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前主流的混合开发解决方案我算是都有了解过，最有名的大概就是 <code>Facebook</code> 推出的 <a href="https://facebook.github.io/react-native/" target="_blank" rel="noopener">React Native</a> :<br><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fda3peashhj20o00jx41p" alt="使用 RN 的应用"></p><p>国内阿里推出的 <a href="https://weex-project.io/cn/" target="_blank" rel="noopener">Weex</a> ：<br><img src="http://ww1.sinaimg.cn/mw690/b5fd9ee1gy1fda3nx676fj20n50knacn" alt="Weex 使用的是 Vue"></p><p>豆瓣也推出了自己的混合开发解决方案 <a href="https://github.com/douban/rexxar-ios" target="_blank" rel="noopener">Rexxar</a> ：<br><img src="http://p1.bqimg.com/1949/6095e6e41bcd5448s.png" alt="Rexxar 执行过程"></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可能还有其他的解决方案，不过后面提到的三个， <code>RN</code> 、 <code>Weex</code> 、 <code>Rexxar</code> 原理都大同小异，在原生层的基础上嵌入 <code>UIWebView</code>，通过各种 <code>JavaScript</code> 的配合完成与原生层的交互。总的来说，是比较传统意义上的混合开发，以原生层为基础，在上面迭代开发。但是一开始说的两个，<code>Ionic</code> 和 <code>Xamarin</code> ，与上面提到的三个截然不同，属于两个极端。</p><h3 id="转"><a href="#转" class="headerlink" title="转"></a>转</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Ionic</code> 作为一个完全基于前端技术的移动端跨平台解决方案，开发者几乎完全不需要写任何原生代码，表示层、业务逻辑层以及数据持久化层都是通过 <code>HTML</code> 、<code>CSS</code> 、<code>AngularJS</code> 实现的，比较适合一些小型的、业务逻辑简单、对原生 API 依赖较少的项目。<br><img src="http://p1.bqimg.com/1949/e2c8b9e049401cf0s.png" alt="Ionic是一种标签语言"></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;混合开发最让人担忧的可能就是性能问题了，上面提到的三种比较传统的混合开发在性能上虽然也不能与原生相匹敌，但是换取了更灵活的业务模式、更快速的开发效率、更多的代码复用、更便捷的 <code>Bug</code> 修复方式。而 <code>Ionic</code> 作为一个完全的异类，用于小型项目时性能基本上是可以匹敌原生的，但是一代的 UI 跟原生差距略大了，好在他们现在发布了二代，界面的展示效果有了些提升，不过他们把 <code>AngularJS V1</code> 换成了 <code>V2</code>，而 <code>V2</code> 版本，讲道理来说，相当于把 <code>V1</code> 重写了。LOL。所以又加大了学习成本。不过，话说 <code>AngularJS V2</code> 版本长得更像 <code>React</code> 和 <code>TypeScript</code> 了。<br><img src="http://p1.bpimg.com/1949/776297f8ddde5770s.png" alt="AngularJS V1"><br><img src="http://p1.bpimg.com/1949/186f97acdbe16bf8s.png" alt="AngularJS V2"></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Xamarin</code>作为一个完全基于 <code>C#</code> 的移动端跨平台解决方案，通过 <code>Xamarin</code> 你可以开发 iOS、Android、WP应用，同时可以复用大部分的代码。如果需要用到很多原生的 API，这个框架也可以满足，因为它丧心病狂地用 C# 重写了 iOS SDK 和 Android SDK 的全部代码！而且是所有在用版本！所以我觉得它的目标是另起炉找，取代 iOS 和 Android 原生开发，而不是像传统混合开发那样依附于原生的基础上存在。另外， <code>Xamarin</code> 也可以用来开发 <a href="https://blog.xamarin.com/building-your-first-macos-app/" target="_blank" rel="noopener">Mac 应用</a> ，所以它不但适用于移动端，同样适用于桌面端。<br><img src="http://p1.bqimg.com/1949/c8f035ec9f9b68d8s.png" alt="Xamarin"></p><h3 id="合"><a href="#合" class="headerlink" title="合"></a>合</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当然，除了求助于混合开发，也有人把目光转向了热更新，比如微信。微信 iOS 团队负责人 <a href="https://github.com/bang590/" target="_blank" rel="noopener">bang</a> 开源了自己写的用于 iOS 的热更新方案 <a href="https://github.com/bang590/jspatch" target="_blank" rel="noopener">JSPatch</a> ，这个项目在 GitHub 上目前已经接近 9000 Star 了。<br><img src="http://i1.piimg.com/567571/bfc62e42ccaaf080.png" alt="JSPatch 核心功能简介"></p><blockquote><p>JSPatch 可以让你用 JavaScript 书写原生 iOS APP。只需在项目引入极小的引擎，就可以使用 JavaScript 调用任何 Objective-C 的原生接口，获得脚本语言的优势：为项目动态添加模块，或替换项目原生代码动态修复 bug。</p></blockquote><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;热更新是什么？它的概念类似于热插拔，让用户在不更新甚至不退出 App 的条件下，通过在后台更新代码达到修复 Bug 以及更新业务的目的。当然，这个也是通过 JS 完成的，不然也不叫 <code>JSPatch</code> 了。所以学好 JS 还是很有前途的，现在可能有几十种 JS 供你随便选择，要啥有啥，是不是很感动？</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生苦短，先学为敬 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 造作集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Sketch常用快捷键</title>
+      <link href="/2017/02/24/2017-02-24-sketch-shortcuts/"/>
+      <url>/2017/02/24/2017-02-24-sketch-shortcuts/</url>
+      
+        <content type="html"><![CDATA[<h4 id="1-使用Insert快速插入"><a href="#1-使用Insert快速插入" class="headerlink" title="1.使用Insert快速插入"></a>1.使用<em>Insert</em>快速插入</h4><p><img src="http://i1.piimg.com/567571/23bb85c2863029ed.png" alt></p><h4 id="2-不同情形下的缩放组合键"><a href="#2-不同情形下的缩放组合键" class="headerlink" title="2.不同情形下的缩放组合键"></a>2.不同情形下的缩放组合键</h4><ul><li>缩放到100%：CMD+0</li><li>查看<em>Artboard</em>中所有的<em>page</em>：CMD+1</li><li>缩放特定的对象：选择对象后按 CMD+2</li><li>选中要查看的图层，按住<em>CMD+3</em>可以快速聚焦到改图层</li></ul><h4 id="3-左右滚动"><a href="#3-左右滚动" class="headerlink" title="3.左右滚动"></a>3.左右滚动</h4><p> 在没有触控板的情况下，使用<em>Shift+滚轮</em>实现左右滚动</p><h4 id="4-隐藏-显示图层列表和检查器"><a href="#4-隐藏-显示图层列表和检查器" class="headerlink" title="4.隐藏/显示图层列表和检查器"></a>4.隐藏/显示<em>图层列表<em>和</em>检查器</em></h4><ul><li>CMD+option+1：隐藏/显示图层列表</li><li>CMD+option+2：隐藏/显示检查器</li><li>CMD+option+3：全部隐藏/显示</li></ul><h4 id="5-全屏模式（Presentation-Mode）"><a href="#5-全屏模式（Presentation-Mode）" class="headerlink" title="5.全屏模式（Presentation Mode）"></a>5.全屏模式（Presentation Mode）</h4><p>使用<em>CMD+.</em>可以进入全屏模式，将画布中的作品全屏展示</p><h4 id="6-标尺"><a href="#6-标尺" class="headerlink" title="6.标尺"></a>6.标尺</h4><p>使用<em>Ctrl+R</em>可以显示或隐藏标尺，在标尺上双击可以添加参考线，将参考线拖动到最左侧或者最右侧会将其删除</p><h4 id="7-移动对象"><a href="#7-移动对象" class="headerlink" title="7.移动对象"></a>7.<span id="inde">移动对象</span></h4><ul><li>按住<em>option</em>键可以查看对象之间的<em>margin</em>值</li><li>使用方向键可以移动选中的对象1px，如果同时按住<em>Shift</em>则可以每次移动10px</li></ul><h4 id="8-在移动对象时查看margin值"><a href="#8-在移动对象时查看margin值" class="headerlink" title="8.在移动对象时查看margin值"></a>8.在移动对象时查看<em>margin</em>值</h4><p>在移动某一个对象的时候，按住<em>option</em>即可查看对象的<em>margin</em>值</p><h4 id="9-改变对象的尺寸"><a href="#9-改变对象的尺寸" class="headerlink" title="9.改变对象的尺寸"></a>9.改变对象的尺寸</h4><p>使用<em>CMD+方向键</em>可以改变对象的尺寸1px，如果同时再按下<em>Shift</em>键可以改变10px</p><h4 id="10-为对象分组和命名"><a href="#10-为对象分组和命名" class="headerlink" title="10.为对象分组和命名"></a>10.为对象分组和命名</h4><p>当设计一个较大的项目时，给对象分组和命名会让文件目录结构更加清晰</p><ul><li>选中<em>Artboard</em>上的若干对象，按住<em>CMD+G</em>即可成组</li><li>在<em>图层列表</em>中选中对象，按住<em>CMD+R</em>即可给对象重命名</li></ul><h4 id="11-资源"><a href="#11-资源" class="headerlink" title="11.资源"></a>11.资源</h4><p>在<a href="https://www.sketchappsources.com/" target="_blank" rel="noopener">SketchAppSources</a>上可以找到很多有用的素材</p><h4 id="12-复制对象"><a href="#12-复制对象" class="headerlink" title="12.复制对象"></a>12.复制对象</h4><p>使用<em>CMD+D</em>可以一步到位完成对象的赋值，如果不希望复制的对象覆盖之前的对象，可以在偏好设置里面选中下图中框起来的选项。<br><img src="http://p1.bpimg.com/567571/5a8c219c7dd401cd.png" alt></p><h4 id="13-抓手工具"><a href="#13-抓手工具" class="headerlink" title="13.抓手工具"></a>13.抓手工具</h4><p>按住<em>空格</em>键可以拖拽来移动画布</p><h4 id="14-多选图层"><a href="#14-多选图层" class="headerlink" title="14.多选图层"></a>14.多选图层</h4><p>按住<em>Shift</em>键可以多选图层</p><h4 id="15-从中心绘制图层"><a href="#15-从中心绘制图层" class="headerlink" title="15.从中心绘制图层"></a>15.从中心绘制图层</h4><p>绘制图层的时候按住<em>option</em>键可以从图层中心而不是左上角开始绘制</p><h4 id="16-移动图层"><a href="#16-移动图层" class="headerlink" title="16.移动图层"></a>16.移动图层</h4><p>移动图层的时候按住<em>Shift</em>键可以严格按照水平或垂直方向移动图层而不会产生偏移</p><h4 id="17-选择图层"><a href="#17-选择图层" class="headerlink" title="17.选择图层"></a>17.选择图层</h4><p>单击组，整个组会被视为一个图层，双击才会进入组内选择具体的图层<br>当组过多时，可以按住<em>CMD</em>键直接选择某一个具体的图层，节约时间<br><em>Pick Layer</em>这个功能是用来选择覆盖在其他图层底下的图层</p><h4 id="18-锚点"><a href="#18-锚点" class="headerlink" title="18.锚点"></a>18.锚点</h4><p>跳转到<a href="#inde">移动对象</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人生苦短，先学为敬 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 造作集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>爱乐之城</title>
+      <link href="/2017/02/21/2017-02-21-la-la-land/"/>
+      <url>/2017/02/21/2017-02-21-la-la-land/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.loli.net/2019/08/04/tyA7MSgnqar6l5H.png" alt="La La Land"></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>爱乐之城</em> 借梦想的名义讲了个极度唯美的爱情故事。既然是爱情，便会有起承转合，有好的部分，也有不好的部分。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seb 和 Mia 两人第一次相遇，是在开场歌舞之后的高速公路上，Mia 挡住了 Seb 的路， Seb  长按这吵闹的喇叭责怪  Mia ，两人不欢而散。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第二次相遇，是圣诞夜的晚上，在 Seb 被刻薄的酒吧老板炒鱿鱼之后，Mia 受到音乐的感染，想要跟 Seb 认识，不过话没说完便被Seb粗鲁地擦肩而过。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第三次相遇，是在一个夏天的Party上，两人总算有了初次的交流， Seb 知道 Mia 是个演员，而 Mia 得之 Seb 是个弹钢琴的。转机在于晚上Party结束时， Mia 被一个编剧缠身，请 Seb 帮忙拿车钥匙才得以脱身。顺理成章，两人在夜晚的山顶上有了一次深入地交谈。在音乐和舞蹈的烘托中，两人的相遇如同山下 LA 五光十色的夜景，暧昧而又温馨。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第四次， Seb 故意溜进 Mia 工作的片场咖啡店，假装偶遇 Mia ，然后两人待了一整天，从早上到晚上，都对彼此的过去有了更加深入的了解。一个是对<em>Free Jazz</em>有着近乎偏执喜爱的落魄音乐家，而另一个是试镜屡屡碰壁的无名小演员。相同的是，两人都对自己的梦想有着无限的热情和勇气。不然不会一个坚持了六年而没什么进展却不放弃，一个水电费都交不上了还敢违背刻薄老板的意思。毫无悬念地，两人都被对方身上那种对于梦想的热忱和坚持所吸引，欲罢不能。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第五次，是两人相约看<em>无因的反抗</em>周一晚上。一边的 Seb 在电影院左等右等，另一边的 Mia 忍受着男朋友哥哥无聊的谈话，收到音乐的感召， Mia 决定抛弃身旁的男友，坚定地跑出餐厅，脸上带着解脱的笑容。电影院里的 Seb 终于等到姗姗来迟的 Mia ，那一刻， Mia 眼前的一切都那么美好，两人一边看着电影，一边十指相扣。接吻的瞬间，电影胶片烧了。 Mia 突然起意和 Seb 去<em>无因的反抗</em>拍摄地点之一的天文博物馆。于是这里我们看到导演对于热恋中的情侣感情最经典的诠释：博物馆里舒缓的歌声中，两人仿佛飞了起来，在浩瀚的宇宙里，闪耀的群星中，尽情地载歌载舞，是那么地无拘无束、自由自在。热恋中的人啊，总是恨不能融为一体。然而更多的是，当初在一起时有多么热爱，分开后便会有多么厌恶。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此后的两人，尽享热恋中的喜悦。不必说酒吧门口的恶作剧，也不必说和煦阳光下郎才女貌的两人，更不必说公交车上的相互拥吻，在这些面前，生活中的那些苟且仿佛都消失不见了，观众看到的，就是两个相互欣赏的灵魂，为梦想执着的感动。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好的部分到此结束了，毕竟人总是要生活在现实世界中的。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;迫于生活，也是为了对 Mia 负责， Seb 加入了 Keith 组建的乐队，有了稳定的工作，也有了不错的收入。虽然弹的都是自己不喜欢的音乐，但 Seb 妥协了。与此同时， Mia 在全力为自己的话剧准备着，。然而由于 Seb 的巡回演出，两人之间见面的次数越来越少，对方都在这期间发生着转变。终于在一天晚上，在 Seb 忙里偷闲回家做的晚餐上，两人关于这件事发生了激烈的争吵。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mia 认为 Seb 因为现实妥协了自己一直敢于坚持的梦想，不再是自己曾经喜欢的那个毫不在意世人想法的倔强的音乐家。 Seb 认为自己在做的事情也是为了 Mia 好，况且梦想有什么重要的呢，现在大家都喜欢他弹的音乐，该是时候成熟了。这让 Mia 失望透顶，眼前的男人已经不再是曾经那个敢于对世人说 Fuck Off 的 Seb 了，他变得开始在意别人的想法，而忘记了自己一直坚持的梦想。于是在 Seb 去取烤糊了的披萨的时候， Mia 摔门而出。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第二天晚上，便是 Mia 精心准备了很久的独角戏话剧开始上演。与此同时，另一边的 Seb 正被摄影师随意地指挥这摆出各种滑稽的姿势，仿佛影射着 Seb 被现实各种蹂躏的姿势。另一边，谢幕之后的 Mia 看到偌大的现场仅有数位观众，而且 Seb 也不在其中。舞台上 Mia 强忍住泪水，当回到后台听到门外路过的观众随意贬低着自己的表演的时候，再也忍不住的 Mia 绝望地哭了起来。而姗姗来迟的 Seb 在门口遇到了刚出来的 Mia ,尽管拼命地道歉，然而备受打击的 Mia 还是说出一切都结束了的话，回到了自己在内华达州的家乡，也放弃了坚持6年的梦想。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分手之后的 Seb 心灰意冷，也离开了乐队。然而世事难料，有一天在床上躺尸的他接到了一个选角导演秘书的电话，请 Mia 前去试镜。原来选角导演 Amy 那天晚上去看了 Mia 的话剧，并且印象深刻，于是在一部新电影开拍前想到了 Mia 。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;喜出望外的 Seb 驱车赶到内华达，使用长按喇叭的老方法找到了 Mia 的家，并说服 Mia 前去 LA 试镜。所幸的是，这一次结果遂了人意。从电影剧情来看 Mia 正是因为这一次试镜，才有了后来大红大紫的明星生涯。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;镜头来到五年后，一天晚上 Mia 和丈夫因为高速公路堵车，就地找寻地方吃晚饭。丈夫被酒吧的音乐所吸引，拉 Mia 进去。正所谓这世界上有那么多的酒吧，你偏偏走进了这一家。让 Mia 目瞪口呆的是墙上醒目的俱乐部名字： <code>Seb&#39;s</code> ，此时的 Mia 什么都明白了。然而她还是选择走了进去。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;落座之后，一场演出结束，此时的俱乐部老板 Seb 兴致勃勃地上台向观众介绍乐队成员。当目光扫到 Mia 时，整个人便顿住了几秒钟，现场前后的气氛截然相反。随后， Seb 坐在了钢琴前，昔日的回忆都化作音符在琴键上跳跃、翻转，构成了 Seb 想象中的另一个结局：当初的自己放弃了自己的梦想，转而全力支持 Mia 的梦想，两人在一起经历了结婚、生子、 Mia 成名等所有的事情，最后又回到了现在的俱乐部，只不过坐在 Mia 旁边的不再是现在的男人，而是自己。坐在台上弹奏钢琴的也不再是自己，而换成了别人.有得必有失。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一曲结束， Mia 起身立场，走出门口时深情地回眸凝视，刚好和此刻的 Seb 四目相对，两人相视一笑，那些年的欢乐和苦痛都化作了漫天的云彩，随风而去。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从彼此相互欣赏，到真心相爱，再到分道扬镳，所幸的是，最后两人都成就了自己的梦想。这大概是最好的结局了吧。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 谈笑风生又一年 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 影评集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

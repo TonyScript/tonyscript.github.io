@@ -1,0 +1,72 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { caseStudies, caseStudyDisclosure, getCaseStudyHref } from "../../data/caseStudies";
+import { experiments } from "../../data/site";
+---
+
+<BaseLayout
+  title="Work"
+  description="Tony Pang 的脱敏企业产品案例，以及与主业分开呈现的公开技术实验。"
+>
+  <header class="page-intro">
+    <div>
+      <p class="identity-line">Work / Product judgment index</p>
+      <h1>主业案例在前，公开实验在后。</h1>
+    </div>
+    <p class="lede">
+      企业产品案例用于呈现问题、约束与决策；公开仓库只作为独立实验，不再代替主业证据。
+    </p>
+  </header>
+
+  <section class="content-section" aria-labelledby="enterprise-title">
+    <div class="section-heading">
+      <h2 id="enterprise-title">Selected product work</h2>
+      <p>三个案例来自企业产品设计工作，经脱敏后重新组织为可公开阅读的判断记录。</p>
+    </div>
+    <ul class="index-list">
+      {caseStudies.map((study) => (
+        <li class="index-item">
+          <a class="index-link" href={getCaseStudyHref(study)}>{study.shortTitle} <span aria-hidden="true">↗</span></a>
+          <p class="index-description">{study.summary}</p>
+          <span class="index-meta">{study.status}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="boundary-title">
+    <div class="section-heading">
+      <h2 id="boundary-title">公开边界</h2>
+    </div>
+    <div class="prose">
+      <p>{caseStudyDisclosure}</p>
+      <p>案例只呈现可迁移的产品方法与决策结构，不提供内部文件、客户数据、商业信息、实施计划或未经确认的效果数字。</p>
+    </div>
+  </section>
+
+  <section class="content-section" aria-labelledby="public-title">
+    <div class="section-heading">
+      <h2 id="public-title">Experiments / Side projects</h2>
+      <p>早期公开练习，可检查源代码，但不代表当前主业方向或企业产品能力。</p>
+    </div>
+    <ul class="index-list">
+      {experiments.map((project) => (
+        <li class="index-item">
+          <a class="index-link" href={project.href}>{project.name} <span aria-hidden="true">↗</span></a>
+          <p class="index-description">{project.description}</p>
+          <span class="index-meta">{project.meta}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="evidence-title">
+    <div class="section-heading">
+      <h2 id="evidence-title">证据规则</h2>
+    </div>
+    <div class="prose">
+      <p>每个 Case Study 都说明背景、问题、约束、工作范围、关键决策、舍弃方案、证据类型与当前状态。没有经过确认的结果，就不写结果；无法公开，就明确边界。</p>
+      <a class="text-link" href="/contact/">讨论一个具体问题 →</a>
+    </div>
+  </section>
+</BaseLayout>
