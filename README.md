@@ -17,9 +17,9 @@ npm run check:site
 npm run preview
 ```
 
-The new site is built with Astro. Historical 2017 pages and their original URL paths are preserved under `public/` and copied unchanged into the production build.
+The new site is built with Astro. Historical 2017 source pages remain under `public/`; the production build extracts their article bodies and renders them inside the current site layout while preserving every original URL.
 
-Use the production preview when checking historical URLs. Astro's development server does not resolve copied legacy directory indexes in the same way as the final static build.
+Use the production preview when checking historical URLs. The final build also redirects obsolete archive, category, tag and friends indexes to their current destinations.
 
 ## Deployment
 

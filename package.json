@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro check && astro build && node scripts/modernize-legacy-articles.mjs",
     "preview": "astro preview",
     "check:site": "node scripts/check-site.mjs"
   },

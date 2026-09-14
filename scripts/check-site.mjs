@@ -62,6 +62,24 @@ for (const file of files.filter((path) => path.endsWith(".html"))) {
   }
 }
 
+const historicalArticleFiles = files.filter((file) => {
+  const path = relative(root.pathname, file).replaceAll("\\", "/");
+  return path.startsWith("2017/") && path.endsWith("/index.html");
+});
+
+if (historicalArticleFiles.length !== 10) {
+  failures.push(`expected 10 modernized historical articles, found ${historicalArticleFiles.length}`);
+}
+
+for (const file of historicalArticleFiles) {
+  const html = await readFile(file, "utf8");
+  const route = `/${relative(root.pathname, file).replaceAll("\\", "/")}`;
+  if (!html.includes('class="archive-article"')) failures.push(`${route} is not using the current article layout`);
+  if (/天空之城|hexo-theme-matery|busuanzi_container|pagead2\.googlesyndication/.test(html)) {
+    failures.push(`${route} still contains legacy site chrome or scripts`);
+  }
+}
+
 const required = [
   "index.html",
   "about/index.html",
