@@ -5,6 +5,7 @@ const root = new URL("../dist/", import.meta.url);
 const failures = [];
 let htmlCount = 0;
 let referenceCount = 0;
+let publishableTextCount = 0;
 
 async function walk(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -36,6 +37,16 @@ function candidatePaths(pathname) {
 }
 
 const files = await walk(root.pathname);
+const legacyPattern = /天空之城|hexo-theme-matery|busuanzi_container|pagead2\.googlesyndication|<generator[^>]+hexo\.io/i;
+
+for (const file of files.filter((path) => [".html", ".xml", ".json", ".txt"].includes(extname(path)))) {
+  publishableTextCount += 1;
+  const content = await readFile(file, "utf8");
+  if (legacyPattern.test(content)) {
+    failures.push(`/${relative(root.pathname, file).replaceAll("\\", "/")} still contains legacy site branding or runtime markers`);
+  }
+}
+
 for (const file of files.filter((path) => path.endsWith(".html"))) {
   htmlCount += 1;
   const html = await readFile(file, "utf8");
@@ -75,10 +86,14 @@ for (const file of historicalArticleFiles) {
   const html = await readFile(file, "utf8");
   const route = `/${relative(root.pathname, file).replaceAll("\\", "/")}`;
   if (!html.includes('class="archive-article"')) failures.push(`${route} is not using the current article layout`);
-  if (/天空之城|hexo-theme-matery|busuanzi_container|pagead2\.googlesyndication/.test(html)) {
+  if (legacyPattern.test(html)) {
     failures.push(`${route} still contains legacy site chrome or scripts`);
   }
 }
+
+const compatibilityPage = await readFile(join(root.pathname, "about/index-1.html"), "utf8");
+if (!compatibilityPage.includes("TonyScript")) failures.push("/about/index-1.html is not using the current site shell");
+if (await exists(join(root.pathname, "search.xml"))) failures.push("obsolete legacy /search.xml is still published");
 
 const required = [
   "index.html",
@@ -98,6 +113,7 @@ const required = [
   "robots.txt",
   "sitemap.xml",
   "rss.xml",
+  "atom.xml",
   "llms.txt",
   "2017/03/01/2017-03-01-tech-path-of-2016/index.html",
 ];
@@ -112,4 +128,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Site check passed: ${htmlCount} HTML files, ${referenceCount} internal references, ${required.length} required outputs.`);
+console.log(`Site check passed: ${htmlCount} HTML files, ${publishableTextCount} publishable text files, ${referenceCount} internal references, ${required.length} required outputs.`);

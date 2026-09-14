@@ -198,4 +198,25 @@ for (const redirect of redirectRoots) {
   }
 }
 
+const compatibilityRedirects = [
+  {
+    path: "about/index-1.html",
+    target: "/about/",
+    title: "About 页面已迁移",
+    message: "这个旧地址已经迁移到当前 About 页面。",
+  },
+];
+
+for (const redirect of compatibilityRedirects) {
+  const outputPath = join(distRoot.pathname, redirect.path);
+  const canonical = new URL(redirect.target, site.website).toString();
+  const article = { title: redirect.title, date: "2017-01-01" };
+  let html = updateHead(writingTemplate, article, redirect.message, canonical);
+  html = replaceMain(html, renderRedirectMain(redirect.title, redirect.message, redirect.target));
+  html = html.replace("</head>", `<meta http-equiv="refresh" content="0; url=${redirect.target}"><meta name="robots" content="noindex, follow"></head>`);
+  await writeFile(outputPath, html);
+  redirectCount += 1;
+  console.log(`Modernized compatibility page /${redirect.path} -> ${redirect.target}`);
+}
+
 console.log(`Modernized ${legacyArticles.length} historical articles and ${redirectCount} legacy index pages from ${relative(projectRoot.pathname, publicRoot.pathname)}.`);
