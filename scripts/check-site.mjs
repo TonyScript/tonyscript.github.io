@@ -37,6 +37,13 @@ function candidatePaths(pathname) {
 }
 
 const files = await walk(root.pathname);
+
+for (const legacyDir of ["libs", "medias", "css", "js"]) {
+  if (await exists(join(root.pathname, legacyDir))) {
+    failures.push(`legacy asset directory /${legacyDir}/ is still published`);
+  }
+}
+
 const legacyPattern = /天空之城|hexo-theme-matery|busuanzi_container|pagead2\.googlesyndication|<generator[^>]+hexo\.io/i;
 
 for (const file of files.filter((path) => [".html", ".xml", ".json", ".txt"].includes(extname(path)))) {
@@ -51,6 +58,9 @@ for (const file of files.filter((path) => path.endsWith(".html"))) {
   htmlCount += 1;
   const html = await readFile(file, "utf8");
   const route = `/${relative(root.pathname, file).replaceAll("\\", "/")}`;
+  if (/\bsrc="http:\/\//.test(html)) {
+    failures.push(`${route} still references an insecure http:// source`);
+  }
   const base = new URL(route, "https://tonyscript.github.io");
   const matches = html.matchAll(/(?:href|src)=["']([^"']+)["']/g);
   for (const match of matches) {
@@ -88,6 +98,9 @@ for (const file of historicalArticleFiles) {
   if (!html.includes('class="archive-article"')) failures.push(`${route} is not using the current article layout`);
   if (legacyPattern.test(html)) {
     failures.push(`${route} still contains legacy site chrome or scripts`);
+  }
+  if (/<img[^>]*src="https?:\/\//.test(html)) {
+    failures.push(`${route} still hotlinks an external image`);
   }
 }
 
