@@ -427,29 +427,29 @@
 <p>但遗憾的是，Apple 不允许第三方框架使用动态库，只有系统框架可以通过动态方式加载。不然广大开发者又何必费尽心思搞出各种 patch，各种混合开发框架又怎会大行其道，一声叹息啊。</p>
 <h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>下面以一个最近做的例子，听云 SDK 的集成，来具体说明下如何将 OC 原生动态库转换成 Xamarin.iOS 能够使用的 dll 动态链接库。</p>
 <p>下载下来的 SDK 目录如下所示：</p>
-<p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmliqlrsvj21jw08cac9" alt></p>
+<p><img src="/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/images/1.jpg" alt></p>
 <p>首先将图中用红框圈起来的文件 tingyunApp 名称改为 tingyunApp.a，然后需要用到 Sharpie 这个 Xamarin 官方提供的命令行工具，可以在官方网站下载安装。安装完成之后，在终端 cd 到 <em>Headers</em> 的上一级，键入下面的命令：</p>
 <blockquote>
 <p>sharpie bind –output=tingyunApp.iOS –namespace=tingyunApp.iOS –sdk=iphoneos10.2 /Users/xxpang/Desktop/tingyun/tingyunApp.framework/Versions/A/Headers/NBSAppAgent.h /Users/xxpang/Desktop/tingyun/tingyunApp.framework/Versions/A/Headers/NBSGCDOverrider.h </p>
 </blockquote>
 <p>如果路径没错的话，在终端可以看到如下界面：</p>
-<p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmls2gk2yj213g0ug0zi" alt></p>
+<p><img src="/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/images/2.jpg" alt></p>
 <p>然后在 Finder 用户文件夹下可以看到生成的 tingyunApp.iOS 文件夹，里面有刚才生成的 ApiDefinitions.cs 和 StructsAndEnums.cs 两个文件。</p>
 <h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>至此，我们完成了将 OC 库 转为 C# 库的第一步。下面在 Xamarin Studio 里新建一个 Binding Library 项目，如下所示：</p>
-<p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmlx5q7nwj21do0ncwhj" alt></p>
+<p><img src="/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/images/3.jpg" alt></p>
 <p>新建的 Binding Library 项目目录结构如下：</p>
-<p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmm5t6awrj216i0i8q6j" alt></p>
+<p><img src="/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/images/4.jpg" alt></p>
 <h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>下一步就用到我们第一步里改名的文件：tingyunApp.a，在 <em>本机引用</em> 上右击 Add Native Reference，将 framework 中的 tingyunApp.a 添加到项目中，然后在添加的文件上右击属性，在 IDE 右侧出现的面板里填写需要用到的系统库，比如 Security.framework、CoreTelephony.framework 等，如果需要添加 libz.tbd 等类库的话，需要在 Linker Flags 后面加上相应描述，具体如下图所示：</p>
-<p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmn6ocozmj21kw0v5qfq" alt></p>
+<p><img src="/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/images/5.jpg" alt></p>
 <p>完成这些之后，下面需要进行的是将命令行生成的两个文件里面的内容，复制替换掉原来的内容，需要注意的是，namespace 名称需要跟项目名称保持一致。替换完成后，正常情况下编译运行是会报错的，这是做 Xamarin 应该有的基本觉悟了。当然，如果你编译通过了，说明你很幸运，恭喜。</p>
 <h2 id="五"><a href="#五" class="headerlink" title="五"></a>五</h2><p>Sharpie 这个命令行工具的原理，是将 OC 的头文件以及对应的方法实现，一一映射成 C# 可以直接调用的方法，再结合 tingyunApp.a 文件生成 Xamarin 可以使用的类库，原理如下图所示。</p>
-<p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmnsl0be4j21di0g2wgk" alt></p>
+<p><img src="/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/images/6.jpg" alt></p>
 <p>上面说了，Sharpie 的作用是将原生库里的方法一一映射成 C# 的类和方法，类似的还有他们用 C# 重写了 iOS SDK 的所有方法。不过呢，说是一一映射，还是有一些不合适的转换，所以才会编译报错，接下来会是一个比较痛苦的过程。</p>
-<p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmo4rd23tj21f00z2qcu" alt></p>
+<p><img src="/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/images/7.jpg" alt></p>
 <p>如上图所示，在 ApiDefinition.h 文件中我们可以看到很多划红线的地方，这些有的不影响编译和运行，有的会影响，又不能简单粗暴地删除或者注释，因为他们都对应着原生库里面的方法，不处理又不能编译运行通过。</p>
-<p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmo6qpuv2j21gk0yuwol" alt></p>
+<p><img src="/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/images/8.jpg" alt></p>
 <p>如上图，在 Structs.h 文件中有一些 [Verify] 标签，这些标签是系统用来提示开发者需要确认的地方，修改完错误之后需要删掉。说到这里就得再说一个大坑了，官方提供了一个原生方法和 C# 方法转换方法的说明，欢迎点击 <a href="https://developer.xamarin.com/guides/cross-platform/macios/binding/binding-types-reference/" target="_blank" rel="noopener">Binding Types Reference</a> 查看学习。这就要求你既懂 OC 的语法，又要懂 C# 的语法，不然有些报错无法处理，话说回来，如果已经会 OC 了，为什么还要用这个坑如此多的东西。。</p>
-<p><img src="http://ww1.sinaimg.cn/large/b5fd9ee1gy1fdmof06zwqj20yo0b8ac5" alt></p>
+<p><img src="/2017/03/14/2017-03-14-Xamarin.iOS-Binding-Project/images/9.jpg" alt></p>
 <p>言归正传，修改完上面那些 bug，编译运行通过之后，我们的工作基本就完成了。之后打开 Finder 在项目文件夹的 bin -&gt; debug 目录下可以找到生成的 dll 文件，引入到需要的项目里就可以使用了。至此，OC 的 framework 转为 C# 的 dll 就完成了，祝你一切顺利！</p>
 
             </div>
