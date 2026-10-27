@@ -10,7 +10,7 @@
     "check:site": "node scripts/check-site.mjs"
   },
   "dependencies": {
-    "astro": "7.3.2"
+    "astro": "7.3.3"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
